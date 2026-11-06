@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/tb_cat_time">
+        <ListPreference
+            app:defaultValue="off"
+            app:entries="@array/tb_time_mode_entries"
+            app:entryValues="@array/tb_time_mode_values"
+            app:key="time_mode"
+            app:title="@string/tb_time_mode"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="24"
+            app:entries="@array/tb_time_format_entries"
+            app:entryValues="@array/tb_time_format_values"
+            app:key="time_format"
+            app:title="@string/tb_time_format"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="past"
+            app:entries="@array/tb_time_style_entries"
+            app:entryValues="@array/tb_time_style_values"
+            app:key="time_style"
+            app:title="@string/tb_time_style"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="wait"
+            app:entries="@array/tb_time_busy_entries"
+            app:entryValues="@array/tb_time_busy_values"
+            app:key="time_busy"
+            app:title="@string/tb_time_busy"
+            app:useSimpleSummaryProvider="true" />
+        <Preference
+            app:key="time_exact_alarm"
+            app:persistent="false"
+            app:title="@string/tb_exact" />
+        <Preference
+            app:key="time_test"
+            app:persistent="false"
+            app:title="@string/tb_time_test" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/tb_cat_battery">
+        <ListPreference
+            app:defaultValue="off"
+            app:entries="@array/tb_battery_mode_entries"
+            app:entryValues="@array/tb_battery_mode_values"
+            app:key="battery_mode"
+            app:title="@string/tb_battery_mode"
+            app:useSimpleSummaryProvider="true" />
+        <SeekBarPreference
+            android:max="50"
+            app:defaultValue="10"
+            app:key="battery_step"
+            app:min="1"
+            app:seekBarIncrement="1"
+            app:showSeekBarValue="true"
+            app:summary="@string/tb_battery_step_summary"
+            app:title="@string/tb_battery_step" />
+        <Preference
+            app:key="battery_step_exact"
+            app:persistent="false"
+            app:title="@string/tb_battery_step_exact" />
+        <Preference
+            app:key="battery_test"
+            app:persistent="false"
+            app:title="@string/tb_battery_test" />
+    </PreferenceCategory>
+</PreferenceScreen>

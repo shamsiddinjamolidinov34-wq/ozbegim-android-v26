@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tts_engine_label">O‘zbegim</string>
+    <string name="tts_engine_settings_title">O‘zbegim speech engine</string>
+    <string name="tts_btn_off">O‘zbegim speech engine: not the preferred engine. Press to make it the preferred engine</string>
+    <string name="tts_btn_on">O‘zbegim speech engine: it is the preferred engine. Press to switch back to the previous engine</string>
+    <string name="tts_dialog_title">Speech engine</string>
+    <string name="tts_need_backend">O‘zbegim does not synthesize voices itself: it uses the voice of another text-to-speech engine on your phone (for example RHVoice) and prepares the text with its own rules. No other text-to-speech engine was found on this phone. Install RHVoice or another engine first.</string>
+    <string name="tts_msg_already">O‘zbegim is already the preferred engine.</string>
+    <string name="tts_msg_done">Done. O‘zbegim is now the preferred engine.</string>
+    <string name="tts_msg_restored">The previous speech engine has been restored.</string>
+    <string name="tts_msg_auto_started">Opening text-to-speech settings. O‘zbegim will be selected as the preferred engine. Please do not touch the screen.</string>
+    <string name="tts_msg_failed">Could not select it automatically. The settings are open: choose O‘zbegim under Preferred engine and press OK on the warning.</string>
+    <string name="tts_msg_need_service">The O‘zbegim screen reader service is not turned on, so it cannot select the engine automatically. Text-to-speech settings will open: choose O‘zbegim under Preferred engine.</string>
+    <string name="tts_msg_open_failed">Could not open text-to-speech settings. Open Text-to-speech output in your phone settings yourself.</string>
+    <string name="tts_msg_pick_manually">The previous engine is unknown. Text-to-speech settings will open: choose the engine you want under Preferred engine.</string>
+    <string name="pref_tts_engine">O‘zbegim speech engine (for the system)</string>
+    <string name="pref_tts_engine_summary">Make O‘zbegim the phone\'s preferred text-to-speech engine and adjust it</string>
+    <string name="tts_act_intro">When O‘zbegim is the preferred text-to-speech engine, every app that speaks (TalkBack, e-book readers, navigation) sends its text to O‘zbegim. O‘zbegim prepares the text with its own Uzbek rules (Cyrillic, Latin and new Latin scripts, numbers, Roman numerals, phone numbers) and passes it to another engine installed on this phone, which produces the voice. Nothing is sent over the network.</string>
+    <string name="tts_act_status_on">Status: O‘zbegim is the phone\'s preferred engine. Voice engine: %1$s.</string>
+    <string name="tts_act_status_off">Status: the phone\'s preferred engine is now: %1$s. O‘zbegim is not selected yet.</string>
+    <string name="tts_act_unknown">unknown</string>
+    <string name="tts_act_backend_title">Voice engine behind O‘zbegim</string>
+    <string name="tts_act_backend_none">No other text-to-speech engine was found. Install RHVoice or another engine.</string>
+    <string name="tts_act_backend_none_short">not found</string>
+    <string name="tts_act_backend_auto">Choose the voice engine automatically</string>
+    <string name="tts_act_backend_choose">Voice engine: %1$s</string>
+    <string name="tts_act_backend_saved">Saved: %1$s</string>
+    <string name="tts_act_current_mark">%1$s (selected)</string>
+    <string name="tts_act_rules_on">O‘zbegim text rules for other apps: on. Press to turn off</string>
+    <string name="tts_act_rules_off">O‘zbegim text rules for other apps: off. Press to turn on</string>
+    <string name="tts_act_sample">Listen to a sample through the O‘zbegim engine</string>
+    <string name="tts_act_sample_failed">The O‘zbegim engine did not start or the Uzbek language was not found. Check the voice engine.</string>
+    <string name="tts_act_adb_title">Instant switching (optional)</string>
+    <string name="tts_act_adb_text">If you run this command once from a computer, the button works instantly without opening settings:</string>
+    <string name="tts_act_adb_granted">Permission granted: the button works instantly.</string>
+    <string name="tts_act_adb_copy">Copy the ADB command</string>
+    <string name="tts_act_adb_copied">Copied</string>
+</resources>

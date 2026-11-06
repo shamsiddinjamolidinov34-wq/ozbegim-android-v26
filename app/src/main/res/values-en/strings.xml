@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">O‘zbegim</string>
+    <string name="service_description">Reads aloud what is on the screen. Swipe to move between items, double-tap to activate.</string>
+    <string name="main_status_on">Service status: on.</string>
+    <string name="main_status_off">Service status: off. Use the first button below to open Accessibility settings and turn on O‘zbegim.</string>
+    <string name="main_warning">Warning: if TalkBack is on, both will speak at the same time. Test on a spare device. To stop: hold both volume keys for three seconds.</string>
+    <string name="btn_enable">Open Accessibility settings</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_test">Test voice</string>
+    <string name="btn_health">System check</string>
+    <string name="btn_log">Error log</string>
+    <string name="btn_voices">Voices</string>
+    <string name="btn_gestures">Gestures</string>
+    <string name="btn_tutorial">Practice lessons</string>
+    <string name="test_not_running">Turn on the O‘zbegim service first.</string>
+    <string name="test_phrase">O‘zbegim is working. Test text: Settings, WhatsApp, Wi-Fi.</string>
+    <string name="role_button">button</string>
+    <string name="role_edit">edit field</string>
+    <string name="role_password">password field</string>
+    <string name="role_checkbox">check box</string>
+    <string name="role_switch">switch</string>
+    <string name="role_radio">radio button</string>
+    <string name="role_image">image</string>
+    <string name="role_list">list</string>
+    <string name="role_heading">heading</string>
+    <string name="role_link">link</string>
+    <string name="role_seekbar">slider</string>
+    <string name="role_spinner">drop-down list</string>
+    <string name="unlabeled">unlabeled</string>
+    <string name="state_checked">checked</string>
+    <string name="state_unchecked">not checked</string>
+    <string name="state_on">on</string>
+    <string name="state_off">off</string>
+    <string name="state_disabled">disabled</string>
+    <string name="state_selected">selected</string>
+    <string name="state_not_selected">not selected</string>
+    <string name="state_expanded">expanded</string>
+    <string name="state_collapsed">collapsed</string>
+    <string name="state_percent">%1$d percent</string>
+    <string name="state_position">%1$d of %2$d</string>
+    <string name="mode_elements">Elements</string>
+    <string name="mode_headings">Headings</string>
+    <string name="mode_controls">Controls</string>
+    <string name="mode_links">Links</string>
+    <string name="mode_characters">Characters</string>
+    <string name="mode_words">Words</string>
+    <string name="mode_lines">Lines</string>
+    <string name="mode_paragraphs">Paragraphs</string>
+    <string name="msg_service_on">O‘zbegim on</string>
+    <string name="msg_safe_mode">Safe mode: extra features are off</string>
+    <string name="msg_suspended">O‘zbegim paused</string>
+    <string name="msg_resumed">O‘zbegim resumed</string>
+    <string name="msg_no_window">No window found</string>
+    <string name="msg_first_item">First item</string>
+    <string name="msg_last_item">Last item</string>
+    <string name="msg_curtain_on">Screen curtain on</string>
+    <string name="msg_curtain_off">Screen curtain off</string>
+    <string name="msg_marked">Problem marked. The last thirty seconds were written to the log</string>
+    <string name="msg_status_time">Time %1$s</string>
+    <string name="msg_status_battery">Battery %1$s percent</string>
+    <string name="msg_charging">charging</string>
+    <string name="msg_private_notification">Private message received. Triple-tap with two fingers to read it</string>
+    <string name="msg_private_none">No private message</string>
+    <string name="msg_bridge_none">No adapted word yet</string>
+    <string name="msg_bridge_item">Read as %1$s. Original: %2$s</string>
+    <string name="msg_deleted">deleted %1$s</string>
+    <string name="msg_hidden_char">character</string>
+    <string name="msg_call_done">Done</string>
+    <string name="msg_call_not_found">Call button not found</string>
+    <string name="msg_no_view_id">This element has no identifier</string>
+    <string name="msg_nothing_spoken">Nothing has been spoken yet</string>
+    <string name="msg_copied">Copied</string>
+    <string name="msg_no_word">No word to add to the dictionary</string>
+    <string name="msg_saved">Saved</string>
+    <string name="btn_apply_import">Import</string>
+    <string name="backup_confirm_title">Import settings?</string>
+    <string name="backup_confirm_message">The file contains %1$d settings, %2$d dictionary entries, %3$d labels and %4$d app profiles. Sections present in the file will replace your current data. Import only files you trust.</string>
+    <string name="msg_too_large">The text is too large: keep it under 200,000 characters.</string>
+    <string name="msg_save_failed">Could not save.</string>
+    <string name="msg_ai_not_ready">Online features are off or no key is set. Open Settings.</string>
+    <string name="msg_ai_sensitive">This action is disabled in private apps.</string>
+    <string name="msg_ai_working">Please wait.</string>
+    <string name="msg_ai_failed">No answer received. Check the internet and the key.</string>
+    <string name="msg_ai_busy">The previous request is still running.</string>
+    <string name="msg_ai_needs_api30">This action works on Android 11 and newer.</string>
+    <string name="msg_ai_screenshot_failed">Could not take a screenshot.</string>
+    <string name="msg_nothing_to_translate">Nothing to translate.</string>
+    <string name="msg_azure_key_bad">The Microsoft voice key was rejected. Switched to the local voice.</string>
+
+    <string name="mode_fields">Text fields</string>
+    <string name="mode_rate">Speech rate</string>
+    <string name="msg_rate_set">Speech rate: %1$d percent</string>
+    <string name="msg_no_focus">Nothing is focused</string>
+    <string name="msg_action_failed">Action failed</string>
+    <string name="msg_no_actions">This item has no extra actions</string>
+    <string name="msg_menu_failed">The menu could not be opened</string>
+    <string name="msg_no_edit">No text field found</string>
+    <string name="msg_selected_all">Selected all</string>
+    <string name="msg_cut_done">Cut</string>
+    <string name="msg_pasted">Pasted</string>
+    <string name="msg_one_window">No other window</string>
+    <string name="msg_search_not_found">“%1$s” not found</string>
+    <string name="menu_global_title">O‘zbegim menu</string>
+    <string name="menu_actions_title">Item actions</string>
+    <string name="btn_close">Close</string>
+    <string name="search_title">Search the screen</string>
+    <string name="search_hint">Text to find</string>
+    <string name="search_go">Search</string>
+
+    <string name="pref_cat_contact">Contact</string>
+    <string name="btn_contact">Contact and feedback</string>
+    <string name="contact_title">Contact and feedback</string>
+    <string name="contact_intro">Write to us with a question, a suggestion or a bug report. The Report a bug button adds the app and phone version to the email for you. You can review the email before sending it.</string>
+    <string name="contact_email_line">Email: %1$s</string>
+    <string name="contact_telegram_line">Telegram: @%1$s</string>
+    <string name="contact_btn_mail">Write an email</string>
+    <string name="contact_btn_bug">Report a bug (with version details)</string>
+    <string name="contact_btn_copy_mail">Copy the email address</string>
+    <string name="contact_btn_telegram">Write on Telegram</string>
+    <string name="contact_btn_copy_telegram">Copy the Telegram name</string>
+    <string name="contact_btn_log">Open the error log</string>
+    <string name="contact_mail_subject">O‘zbegim %1$s: feedback</string>
+    <string name="contact_bug_subject">O‘zbegim %1$s: bug report</string>
+    <string name="contact_bug_body">Describe the problem here: what you did, what happened, what you expected.\n\n---\nApp: %1$s\nAndroid: %2$s\nDevice: %3$s\nLanguage: %4$s\nService: %5$s</string>
+    <string name="contact_on">on</string>
+    <string name="contact_off">off</string>
+    <string name="contact_no_mail">No email app found. The address was copied.</string>
+    <string name="contact_no_telegram">Telegram could not be opened. The name was copied.</string>
+    <string name="log_mail_subject">O‘zbegim: error log</string>
+
+    <!-- 0.6.0: tafsilotlar, tezlashtirish, avtomatik tarjima, ikki barmoq, Rim raqamlari -->
+    <string name="mode_verbosity">Details</string>
+    <string name="menu_details_title">Details</string>
+    <string name="menu_details_item">Details: %1$s</string>
+    <string name="details_level_row">Details level: %1$s (change)</string>
+    <string name="details_open_settings">Open details settings</string>
+    <string name="details_low">low</string>
+    <string name="details_medium">medium</string>
+    <string name="details_high">high</string>
+    <string name="details_custom">custom</string>
+    <string name="msg_details_level">Details: %1$s</string>
+    <string name="msg_detail_state">%1$s: %2$s</string>
+    <string name="menu_system_title">System actions</string>
+    <string name="menu_links_title">Available links</string>
+    <string name="msg_no_links">No links found.</string>
+    <string name="menu_auto_tr">Automatic translation: %1$s</string>
+    <string name="msg_auto_tr_on">Automatic translation is on. Text in other languages will be translated to Uzbek and read.</string>
+    <string name="msg_auto_tr_on_not_uz">Automatic translation is on. It works when the text language is Uzbek.</string>
+    <string name="msg_auto_tr_off">Automatic translation is off.</string>
+    <string name="msg_auto_tr_need_key">Automatic translation needs an AI key. Opening the key screen.</string>
+    <string name="msg_auto_tr_failed">The translation service did not respond. The original text is read for now.</string>
+    <string name="auto_tr_consent_title">Automatic translation sends on-screen text (except private apps, passwords and verification codes) to the AI service you chose. Turn on online features?</string>
+    <string name="auto_tr_consent_yes">Yes, turn on</string>
+    <string name="auto_tr_consent_no">No</string>
+    <string name="hint_activate">double tap to activate</string>
+    <string name="hint_edit">double tap to edit</string>
+    <string name="hint_long_press">double tap and hold to long press</string>
+    <string name="speed_normal">normal</string>
+    <string name="speed_fast">fast</string>
+    <string name="speed_turbo">fastest</string>
+    <string name="msg_speed_set">Response speed: %1$s</string>
+    <string name="details_title">Details</string>
+    <string name="details_cat_preset">Level</string>
+    <string name="details_cat_speak">What is spoken</string>
+    <string name="details_cat_volume">Volume</string>
+    <string name="pref_details_open">Details</string>
+    <string name="pref_details_open_summary">Button and image type, list position, hints, speech when the volume changes</string>
+    <string name="det_type_btn">Speak button and image type</string>
+    <string name="det_type_btn_summary">When off, buttons and images are read by name only.</string>
+    <string name="det_type">Speak other element types</string>
+    <string name="det_type_summary">Lists, headings, links, sliders and so on. Edit fields, password fields and switches are always announced.</string>
+    <string name="det_position">Speak list and grid position</string>
+    <string name="det_position_summary">For example: \"3 of 10\".</string>
+    <string name="det_hints">Speak usage hints</string>
+    <string name="det_hints_summary">For example: \"double tap to activate\".</string>
+    <string name="det_order">Description order</string>
+    <string name="det_window_titles">Speak window titles</string>
+    <string name="det_window_titles_summary">The name of a new window or screen is spoken when it opens.</string>
+    <string name="det_screen_off">Speak when the screen is off</string>
+    <string name="det_screen_off_summary">When off, notifications and automatic messages are not read while the screen is off.</string>
+    <string name="det_volume_keep">Keep reading when the volume changes</string>
+    <string name="det_volume_keep_summary">Pressing the volume keys does not stop the current speech or move focus to the volume panel.</string>
+    <string name="pref_cat_speed">Speed up</string>
+    <string name="pref_speed">Response speed</string>
+    <string name="pref_speed_summary">Reduces slowness when moving and responding. \"Fast\" is the default. \"Fastest\" shortens waits further, but some unlabeled rows are read less completely.</string>
+    <string name="pref_auto_translate">Automatic translation (to Uzbek)</string>
+    <string name="pref_auto_translate_summary">When the text language is Uzbek (the voice pack or the phone language is Uzbek), text in other languages is detected, translated to Uzbek and read. Needs online features and an AI key.</string>
+    <string name="pref_translate_script">Translation script</string>
+    <string name="pref_two_finger">Pass two-finger swipes to the app</string>
+    <string name="pref_two_finger_summary">Needed to unlock the lock screen with two fingers. If set to always, an accidental pinch may shrink the screen in some apps (for example Telegram).</string>
+    <string name="btn_details">Details</string>
+    <string name="auto_tr_btn_on">Automatic translation: on. Press to turn off</string>
+    <string name="auto_tr_btn_off">Automatic translation: off. Press to turn on</string>
+    <string name="auto_tr_dialog_title">Automatic translation</string>
+    <string name="auto_tr_need_key">Automatic translation needs an AI key (Gemini, ChatGPT, Claude or another). Open the key screen?</string>
+    <string name="auto_tr_open_ai">Open</string>
+    <string name="auto_tr_consent_message">When automatic translation is on, on-screen text (except private apps, password fields and verification codes) is sent to the AI service you chose. Online features are turned on too. Continue?</string>
+    <string name="pref_value_summary">Now: %1$d percent. Tap to type an exact number or adjust by 1 percent</string>
+    <string name="pref_rate_step">Rate and pitch step for gestures</string>
+    <string name="number_dialog_hint">Value from %1$d to %2$d percent. Type an exact number or adjust by 1 or 10 percent with the buttons.</string>
+    <string name="number_dialog_value">%1$d percent</string>
+    <string name="number_dialog_minus">Decrease by %1$d percent</string>
+    <string name="number_dialog_plus">Increase by %1$d percent</string>
+    <string name="number_dialog_test">Listen</string>
+    <string name="number_dialog_default">Default value: %1$d percent</string>
+    <string name="number_dialog_save">Save</string>
+    <string name="number_dialog_cancel">Cancel</string>
+    <string name="msg_pitch_set">Voice pitch: %1$d percent</string>
+    <string name="msg_no_text">No text</string>
+    <string name="msg_text_start">Start of text</string>
+    <string name="msg_text_end">End of text</string>
+    <string name="menu_reading_title">Choose reading control</string>
+    <string name="menu_reading_current">%1$s, current</string>
+    <string-array name="rate_step_entries">
+        <item>1 percent</item>
+        <item>2 percent</item>
+        <item>5 percent</item>
+        <item>10 percent (default)</item>
+        <item>20 percent</item>
+    </string-array>
+
+    <!-- Sliders, emoji and stickers, menu customization -->
+    <string name="hint_adjust">swipe up or down to adjust the value</string>
+    <string name="details_cat_emoji">Emoji and stickers</string>
+    <string name="det_emoji">Read emoji</string>
+    <string name="det_emoji_summary">When on, emoji are read by their Uzbek names. When off, emoji are not spoken.</string>
+    <string name="det_stickers">Read stickers</string>
+    <string name="det_stickers_summary">When on, the sticker description is read. When off, only the word \u201csticker\u201d is spoken.</string>
+    <string name="sticker_word">sticker</string>
+    <string name="emoji_word">emoji</string>
+    <string name="pref_menu_editor">Customize the O\'zbegim menu</string>
+    <string name="pref_menu_editor_summary">Add or remove items in the menu</string>
+    <string name="menu_editor_title">Customize the O\'zbegim menu</string>
+    <string name="menu_editor_intro">Choose the items shown in the O\'zbegim menu (swipe down, then right). Checked items appear in the menu; unchecked items do not.</string>
+    <string name="menu_editor_reset">Restore the default list</string>
+    <string name="menu_settings_title">O\'zbegim settings sections</string>
+
+    <!-- 0.9.4: phone numbers and yielding to another screen reader -->
+    <string name="details_cat_numbers">Numbers</string>
+    <string name="det_phone">Read phone numbers in groups</string>
+    <string name="det_phone_summary">When on, an Uzbek phone number is read as \"+998. 94. 773. 99. 10.\": a pause after each group, and each group read as a number. When off, the number is read in the usual way.</string>
+
+    <!-- 0.9.10 (v25): fan qisqartmalarini o'qish yoki o'qimaslik -->
+    <string name="details_cat_science">Science abbreviations</string>
+    <string name="det_sci_units">Read units of measure</string>
+    <string name="det_sci_units_summary">When on, abbreviations of length, weight, volume, time and temperature are read as Uzbek words: “5 kg” is read “besh kilogramm”, “20 °C” is read “yigirma daraja”. When off, the abbreviation is not spoken; only the number is read.</string>
+    <string name="det_sci_physics">Read physics abbreviations</string>
+    <string name="det_sci_physics_summary">When on, physical units are read as words: “220 V” is read “ikki yuz yigirma volt”, “50 Hz” is read “ellik gers”, also N, J, W, A, Pa. When off, the abbreviation is not spoken.</string>
+    <string name="det_sci_math">Read mathematical symbols</string>
+    <string name="det_sci_math_summary">When on, symbols are read as words: “2+3=5” is read “ikki plyus uch teng besh”, also ×, ÷, √, π, ≤, ≥, x², sin, cos and Greek letters. When off, the symbols are not spoken.</string>
+    <string name="det_sci_info">Read computer science abbreviations</string>
+    <string name="det_sci_info_summary">When on, abbreviations such as “250 MB”, “100 Mbit/s” and “1080 px” are read as Uzbek words (“ikki yuz ellik megabayt”). When off, the abbreviation is not spoken.</string>
+    <string name="pref_cat_other_reader">Other screen readers</string>
+    <string name="pref_yield_other">Step aside when another screen reader starts</string>
+    <string name="pref_yield_other_summary">When on, if another screen reader (such as TalkBack) starts, O\'zbegim goes into standby (it stops reading and releases gestures) and tells you. When the other screen reader is turned off, O\'zbegim starts again by itself.</string>
+    <string name="msg_other_reader_started">Another screen reader has started, so I stopped reading the screen</string>
+    <string name="msg_other_reader_stopped">I started reading the screen because the other screen reader was turned off</string>
+
+    <!-- 0.9.6 (v20): interfeysning qolgan qismi va yangi matnlar -->
+    <string name="btn_tts_settings">Open speech synthesis settings</string>
+    <string name="btn_battery">Open battery settings</string>
+    <string name="btn_install_voice">Install voice data</string>
+    <string name="btn_share_log">Share the log</string>
+    <string name="btn_clear_log">Clear the log</string>
+    <string name="pref_cat_speech">Speech</string>
+    <string name="pref_cat_scripts">Language and script</string>
+    <string name="pref_cat_privacy">Privacy</string>
+    <string name="pref_rate">Speech rate (percent)</string>
+    <string name="pref_pitch">Voice pitch (percent)</string>
+    <string name="pref_script">Cyrillic script</string>
+    <string name="pref_new_latin">Updated Latin: letters Ş Ç Ö Ğ (read as sh, ch, o‘, g‘)</string>
+    <string name="pref_apostrophe">Apostrophe type (sent to the speech engine)</string>
+    <string name="pref_bridge">Language bridge: read English and Russian words the Uzbek way</string>
+    <string name="pref_private">Do not read private notifications without headphones</string>
+    <string name="pref_private_summary">Messages with verification codes are not read on the speaker.</string>
+    <string-array name="bridge_entries">
+        <item>Adapt (read the Uzbek way)</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="script_entries">
+        <item>Automatic: converts to Latin if the engine cannot read Cyrillic</item>
+        <item>Always convert to Latin</item>
+        <item>Leave unchanged</item>
+    </string-array>
+    <string-array name="newlatin_entries">
+        <item>Automatic: leaves Turkish text alone</item>
+        <item>Always read as Uzbek</item>
+        <item>Leave unchanged</item>
+    </string-array>
+    <string-array name="apostrophe_entries">
+        <item>Plain apostrophe</item>
+        <item>Turned comma</item>
+    </string-array>
+    <string name="msg_apps_failed">The apps menu could not be opened</string>
+    <string name="health_ok">Good</string>
+    <string name="health_problem">Problem</string>
+    <string name="health_service_on">The O‘zbegim service is on.</string>
+    <string name="health_service_off">The O‘zbegim service is off.</string>
+    <string name="health_no_net_ok">The app does not request network permission: data does not leave the device.</string>
+    <string name="health_no_net_bad">The app requests network permission. This contradicts requirement 11.2 of the monograph.</string>
+    <string name="health_battery_ok">Exempt from battery saving restrictions.</string>
+    <string name="health_battery_bad">Battery saving mode may stop the service. Use the button below to open the settings.</string>
+    <string name="health_tts_engine">Speech engine: %1$s.</string>
+    <string name="health_tts_lang_ok">A voice for Uzbek is available.</string>
+    <string name="health_tts_lang_missing">Voice data for Uzbek is missing. Install the voice data or choose another engine such as RHVoice.</string>
+    <string name="health_tts_lang_unsupported">The selected engine does not support Uzbek. Choose another engine such as RHVoice.</string>
+    <string name="health_tts_failed">The speech engine did not start.</string>
+    <string name="health_rhvoice_yes">RHVoice is installed.</string>
+    <string name="health_rhvoice_no">RHVoice is not installed. It provides an offline Uzbek voice and can be installed from F-Droid or Google Play.</string>
+    <string name="health_latency_none">Latency has not been measured yet. Move through a few items and check again.</string>
+    <string name="health_latency">Latency: average %1$d, p95 %2$d milliseconds, %3$d measurements. Goal: p95 not above 150.</string>
+    <string name="health_crashes">Crashes in the last ten minutes: %1$d.</string>
+    <string name="log_title">Error log</string>
+    <string name="log_empty">The log is empty.</string>
+    <string name="log_privacy">The report does not contain screen text: only event types and times.</string>
+    <string name="log_latency_header">Latency: p50 %1$d, p95 %2$d milliseconds, %3$d measurements.</string>
+    <string name="log_silence_no_audio">silence: the speech engine did not respond</string>
+    <string name="log_silence_recovered">speech recovered automatically</string>
+    <string name="log_tts_init_failed">the speech engine did not start</string>
+    <string name="log_tts_lang_missing">no voice found for the selected language</string>
+    <string name="log_tts_engine_switched">the speech engine was restarted or switched</string>
+    <string name="log_tts_fallback_signal">a fallback signal was given instead of speech</string>
+    <string name="log_tts_engine_error">the speech engine returned an error</string>
+    <string name="log_latency_budget">latency budget exceeded: %1$s milliseconds</string>
+    <string name="log_focus_node_failed">error while describing an element</string>
+    <string name="log_bridge_failed">the language bridge failed, the original text was read</string>
+    <string name="log_crash_uncaught">the app stopped unexpectedly</string>
+    <string name="log_user_marked">the user marked a problem</string>
+    <string name="log_safe_mode">safe mode was turned on</string>
+    <string name="log_audio_focus_lost">audio focus was lost</string>
+    <string name="log_unknown">unknown event</string>
+    <string name="btn_dictionary">Pronunciation dictionary</string>
+    <string name="btn_labels">Custom labels</string>
+    <string name="btn_profiles">App profiles</string>
+    <string name="btn_backup">Export and import settings</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_install_rhvoice">Install RHVoice</string>
+    <string name="btn_open_rhvoice">Open the RHVoice app</string>
+    <string name="btn_default_voice">Return to the default voice</string>
+    <string name="btn_reset_gestures">Restore gestures to the defaults</string>
+    <string name="btn_export">Export (share)</string>
+    <string name="btn_import">Import (choose a file)</string>
+    <string name="btn_understood">Got it</string>
+    <string name="btn_practice">Practice button</string>
+    <string name="help_dictionary">Each line: word=pronunciation (for example: settings=setings). Per app: package|word=pronunciation. A line starting with # is a comment. A word that was read wrongly can also be added from the menu: open the menu (tap once with three fingers, or swipe down then right) and choose “Add a word to the pronunciation dictionary”.</string>
+    <string name="help_labels">Each line: full_id=label (for example: com.app:id/send=Send). If you focus an unlabeled element and swipe left, then down, its identifier is added here.</string>
+    <string name="help_profiles">Each line: package=verbosity:short;echo:off;bridge:off;notify:off;chat:on;sensitive:on. verbosity: short, normal or full. The rest: on or off. sensitive:on is for private apps (bank, payments): the black box is not recorded, chat mode and copying are turned off.</string>
+    <string name="voices_intro">Uzbek voices are installed through RHVoice: Islom, Dilnavoz and Sevinch. Install RHVoice first, download the Uzbek voice inside it, then come back here and choose the voice. Voice packs of other speech engines installed on the phone can also be used: choose an engine below. The list is built from the voices the engine provides.</string>
+    <string name="voices_license">License: the three RHVoice voices are distributed under CC BY-NC-SA 4.0, that is, for non-commercial use only. For this reason they are not included in the app.</string>
+    <string name="voices_none">No voice found. Install RHVoice or a voice pack of another engine, or check the speech synthesis settings.</string>
+    <string name="voice_listen">Listen: %1$s</string>
+    <string name="voice_choose">Choose: %1$s</string>
+    <string name="voice_saved">Voice saved</string>
+    <string name="voice_sample">Salom! Bu ovoz namunasi: shahar, choy, Ўзбекистон, Özbekiston, 2026-yil.</string>
+    <string name="rhvoice_missing">RHVoice is not installed.</string>
+    <string name="gestures_intro">Choose an action for each gesture. If the profile is changed, personal changes are cleared.</string>
+    <string name="gesture_profile">Gesture profile</string>
+    <string name="profile_talkback">TalkBack-like</string>
+    <string name="profile_voiceover">VoiceOver-like</string>
+    <string name="pref_engine">Speech engine</string>
+    <string name="pref_voices">Choose a voice (Islom, Dilnavoz, Sevinch and downloaded voice packs)</string>
+    <string name="pref_verbosity">Details level</string>
+    <string name="pref_echo_mode">Announcement of typed text</string>
+    <string name="pref_mic">Speech while the microphone is on</string>
+    <string name="pref_earcons">Sound cues (tick, edge, window)</string>
+    <string name="pref_gestures">Customize gestures</string>
+    <string name="pref_cat_gestures">Controls</string>
+    <string name="lesson_exit">First, learn the way out. Press and hold both volume buttons for three seconds: O‘zbegim stops. Do it again and it continues. Find the Got it button and double-tap it.</string>
+    <string name="lesson_1">Exercise 1. Swipe right with one finger on the screen.</string>
+    <string name="lesson_2">Exercise 2. Swipe left.</string>
+    <string name="lesson_3">Exercise 3. In one movement swipe up, then down: the reading control changes.</string>
+    <string name="lesson_4">Exercise 4. Tap once with two fingers: speech stops.</string>
+    <string name="lesson_5">Exercise 5. Tap once with three fingers: the O‘zbegim menu opens. To close it, find the Close button and double-tap it.</string>
+    <string name="lesson_6">Exercise 6. Find the Practice button and double-tap it.</string>
+    <string name="lesson_ok">Correct.</string>
+    <string name="lesson_done">Well done! The exercises are finished.</string>
+    <string name="backup_intro">Settings, gestures, the pronunciation dictionary, custom labels and app profiles are saved in a single file. To move to another device, import this file.</string>
+    <string name="backup_imported">Imported</string>
+    <string name="backup_failed">The file could not be read or its version does not match</string>
+    <string name="health_device">Device: Android %1$s, API %2$d, %3$s.</string>
+    <string name="health_return_talkback">If there is a problem: press and hold both volume buttons for three seconds, or turn on TalkBack in Accessibility settings.</string>
+    <string-array name="engine_entries">
+        <item>Automatic: system engine, RHVoice if there is no Uzbek</item>
+        <item>RHVoice</item>
+        <item>System engine only</item>
+        <item>Microsoft Azure: Madina, Sardor (online, needs internet and a key)</item>
+        <item>My chosen engine (set on the Voices screen: a downloaded voice pack)</item>
+    </string-array>
+    <string-array name="verbosity_entries">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="echo_entries">
+        <item>Letters</item>
+        <item>Words</item>
+        <item>Letters and words</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="mic_entries">
+        <item>Automatic messages stop, the ones you tap are spoken quietly</item>
+        <item>Everything is spoken quietly</item>
+        <item>Continues unchanged</item>
+    </string-array>
+    <string name="log_slow_handler">Slow handling: %1$s (%2$s), %3$s ms</string>
+    <string name="pref_cat_online">Online features (optional)</string>
+    <string name="pref_online">Turn on online features</string>
+    <string name="pref_online_summary">For Microsoft voices, translation and AI descriptions. Off by default: nothing is sent to the network until you turn it on.</string>
+    <string name="pref_azure_key">Microsoft Azure Speech key</string>
+    <string name="pref_azure_region">Azure Speech region (for example, westeurope)</string>
+    <string name="pref_azure_voice">Microsoft voice</string>
+    <string name="pref_azure_quality">Microsoft voice quality</string>
+    <string name="pref_ai_key">Claude (Anthropic) API key</string>
+    <string name="pref_ai_model">Claude model (for translation and descriptions)</string>
+    <string name="pref_translate_to">Target language</string>
+    <string name="pref_secret_empty">No key entered</string>
+    <string name="pref_secret_saved">Key saved (encrypted)</string>
+    <string name="online_consent_title">Turn on online features?</string>
+    <string name="online_consent_message">If you turn it on: when a Microsoft voice is chosen, the text being spoken is sent to the Microsoft Azure server. When you perform the translate or screen description gesture, the focused text or the screen image is sent to the server of the chosen AI service (Gemini, ChatGPT, Claude or another service you specify). Nothing is sent in banking and other private apps, nor for passwords and codes. Keys are stored encrypted on the device. If the network drops, the voice returns to the local engine.</string>
+    <string name="btn_online_accept">I agree, turn on</string>
+    <string name="azure_voices_intro">Microsoft voices (online): need the internet and an Azure Speech key (Settings, Online features). Quality: 48 kHz. If the network drops, the voice switches to the local engine automatically.</string>
+    <string name="azure_voice_saved">Microsoft voice chosen: %1$s</string>
+    <string name="btn_back_to_local">Return to the local voice</string>
+    <string name="local_voice_restored">Local voice chosen</string>
+    <string name="health_online_off">Online features are off: data does not leave the device.</string>
+    <string name="health_online_on">Online features are on: text or an image is sent to an outside service only when you choose.</string>
+    <string name="health_azure_key_yes">A Microsoft Azure key has been entered.</string>
+    <string name="health_azure_key_no">No Microsoft Azure key has been entered.</string>
+    <string name="health_ai_key_yes">An AI key has been entered.</string>
+    <string name="health_ai_key_no">No AI key has been entered.</string>
+    <string name="log_online_failed">The Microsoft online voice could not speak (%1$s); switched to the local voice.</string>
+    <string name="log_ai_failed">The online request failed (%1$s).</string>
+    <string-array name="azure_voice_entries">
+        <item>Madina (Uzbek, female)</item>
+        <item>Sardor (Uzbek, male)</item>
+        <item>Svetlana (Russian, female)</item>
+        <item>Dmitry (Russian, male)</item>
+        <item>Jenny (English, female)</item>
+        <item>Guy (English, male)</item>
+    </string-array>
+    <string-array name="azure_quality_entries">
+        <item>48 kHz, 192 kbit/s (high quality, recommended)</item>
+        <item>48 kHz, 96 kbit/s (less traffic)</item>
+    </string-array>
+    <string-array name="translate_from_entries">
+        <item>Automatic</item>
+        <item>Uzbek</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Turkish</item>
+        <item>Arabic</item>
+        <item>Persian</item>
+        <item>Tajik</item>
+        <item>Kazakh</item>
+        <item>Kyrgyz</item>
+        <item>Turkmen</item>
+        <item>Chinese</item>
+        <item>Korean</item>
+        <item>Japanese</item>
+        <item>German</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Italian</item>
+    </string-array>
+    <string-array name="translate_entries">
+        <item>Uzbek</item>
+        <item>Uzbek (Cyrillic)</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Turkish</item>
+        <item>Arabic</item>
+        <item>Persian</item>
+        <item>Tajik</item>
+        <item>Kazakh</item>
+        <item>Kyrgyz</item>
+        <item>Turkmen</item>
+        <item>Chinese</item>
+        <item>Korean</item>
+        <item>Japanese</item>
+        <item>German</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Italian</item>
+    </string-array>
+    <string-array name="typing_entries">
+        <item>Standard: a letter is typed on double tap</item>
+        <item>Touch typing: a letter is typed when the finger lifts</item>
+    </string-array>
+    <string name="btn_ai">AI and online features</string>
+    <string name="ai_settings_title">AI and online features</string>
+    <string name="pref_ai_open">AI and online features (Gemini, ChatGPT, Claude, Microsoft voice)</string>
+    <string name="pref_ai_open_summary">Enter keys and turn on online features</string>
+    <string name="pref_ai_provider">AI service</string>
+    <string name="pref_cat_ai_keys">AI keys</string>
+    <string name="pref_cat_azure">Microsoft voice (Azure Speech)</string>
+    <string name="pref_gemini_key">Gemini (Google) key</string>
+    <string name="pref_gemini_model">Gemini model</string>
+    <string name="pref_openai_key">ChatGPT (OpenAI) key</string>
+    <string name="pref_openai_model">ChatGPT model</string>
+    <string name="pref_custom_url">Other service address (https, for example: https://openrouter.ai/api/v1)</string>
+    <string name="pref_custom_key">Other service key</string>
+    <string name="pref_custom_model">Other service model</string>
+    <string-array name="ai_provider_entries">
+        <item>Automatic (the first one with a key entered)</item>
+        <item>Claude (Anthropic)</item>
+        <item>Gemini (Google)</item>
+        <item>ChatGPT (OpenAI)</item>
+        <item>Other (OpenAI-compatible service)</item>
+    </string-array>
+    <string name="pref_cat_translate">Translation</string>
+    <string name="pref_translate_from">Source language</string>
+    <string name="pref_translate_info_title">About translation</string>
+    <string name="pref_translate_info">If the source language is “Automatic”, the service detects the text language itself. The target language is Uzbek by default. Translation is done through an online service: turn on online features and enter an AI key. Gesture: double tap and hold with two fingers, or “Translate” in the O‘zbegim menu.</string>
+    <string name="pref_typing">Keyboard mode</string>
+    <string name="health_multifinger_ok">Two, three and four finger gestures are supported.</string>
+    <string name="health_multifinger_no">This Android version has no two, three or four finger gestures (Android 10 or newer is required). One finger gestures work.</string>
+    <string-array name="det_order_entries">
+        <item>Name, type, state</item>
+        <item>Type, name, state</item>
+        <item>State, name, type</item>
+    </string-array>
+    <string-array name="speed_entries">
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Fastest</item>
+    </string-array>
+    <string-array name="translate_script_entries">
+        <item>Uzbek Latin (current)</item>
+        <item>Uzbek Cyrillic</item>
+        <item>New alphabet (Ş Ç Ö Ğ)</item>
+    </string-array>
+    <string-array name="two_finger_entries">
+        <item>Only on the lock screen (recommended)</item>
+        <item>Always</item>
+        <item>Off</item>
+    </string-array>
+    <string name="menu_reorder_item">Change the menu order</string>
+    <string name="menu_reorder_pick_title">Menu order. Choose the item to move</string>
+    <string name="menu_reorder_row">%1$d. %2$s</string>
+    <string name="menu_reorder_current">%1$s (current position)</string>
+    <string name="menu_reorder_add">Add an item to the menu</string>
+    <string name="menu_reorder_remove">Remove the item from the menu</string>
+    <string name="menu_reorder_drop_title">%1$s is now in position %2$d. Choose the new position</string>
+    <string name="menu_reorder_moved">%1$s moved to position %2$d</string>
+    <string name="menu_reorder_removed">%1$s removed from the menu</string>
+    <string name="menu_reorder_last_item">At least one item must stay in the menu</string>
+    <string name="menu_add_title">Choose the item to add to the menu</string>
+    <string name="menu_add_done">%1$s added to the menu, position %2$d</string>
+    <string name="menu_add_none">There are no items left to add</string>
+    <string name="menu_editor_order_hint">To change the order: open the O‘zbegim menu (swipe down, then right) and choose the last item, or long-press any item. Items can also be removed and added there.</string>
+    <string name="voices_engine_now">Engine of the voice list: %1$s</string>
+    <string name="voices_engines_intro">Other speech engines installed on the phone (downloaded voice packs). If you choose one, its voices appear below; when you choose a voice, O‘zbegim speaks with that pack. The text is still prepared by O‘zbegim’s own rules.</string>
+    <string name="engine_choose">Choose engine: %1$s</string>
+    <string name="voices_show_all">Show voices in all languages</string>
+    <string name="voices_show_uz">Show only Uzbek voices</string>
+    <string name="voice_reads_intro">Which script can the chosen voice pack read? With a pack that reads Cyrillic and Latin equally, Cyrillic text is left unchanged; with a pack that reads only Latin, Cyrillic text is converted to Latin. In both cases numbers, Roman numerals, phone numbers and new Latin letters are read by O‘zbegim’s own rules. To test, first press “Listen”.</string>
+    <string name="voice_reads_auto">Voice script: automatic (depends on the engine)</string>
+    <string name="voice_reads_latin">Voice script: reads Latin only</string>
+    <string name="voice_reads_both">Voice script: reads Latin and Cyrillic</string>
+    <string name="pref_voice_reads">Script the voice pack can read</string>
+    <string-array name="voice_reads_entries">
+        <item>Automatic: by engine (RHVoice reads both, others Latin)</item>
+        <item>Latin only: Cyrillic is converted to Latin</item>
+        <item>Latin and Cyrillic: Cyrillic is left unchanged</item>
+    </string-array>
+    <string name="det_sticker_short">Read stickers briefly</string>
+    <string name="det_sticker_short_summary">When on, only the word “sticker” and the first emoji are spoken, not the full description. Works when “Read stickers” is on.</string>
+    <string name="act_click">Tap</string>
+    <string name="act_long_click">Long press</string>
+    <string name="act_scroll_forward">Scroll forward</string>
+    <string name="act_scroll_backward">Scroll backward</string>
+    <string name="act_value_up">Increase value</string>
+    <string name="act_value_down">Decrease value</string>
+    <string name="act_expand">Expand</string>
+    <string name="act_collapse">Collapse</string>
+    <string name="act_dismiss">Dismiss</string>
+    <string name="act_copy">Copy</string>
+    <string name="act_cut">Cut</string>
+    <string name="act_paste">Paste</string>
+    <string name="act_context_click">Context menu</string>
+    <string name="act_show_on_screen">Show on screen</string>
+    <string name="act_scroll_up">Scroll up</string>
+    <string name="act_scroll_down">Scroll down</string>
+    <string name="act_scroll_left">Scroll left</string>
+    <string name="act_scroll_right">Scroll right</string>
+    <string name="quirk_xiaomi">Xiaomi, Redmi, POCO: set the app’s battery mode to “No restrictions” and allow auto-start, otherwise the system may stop the service.</string>
+    <string name="quirk_huawei">Huawei and Honor: switch the app to manual management (auto-launch and background activity turned on). If there are no Google services, install RHVoice for an Uzbek voice.</string>
+    <string name="quirk_oppo">OPPO, Realme, OnePlus: turn off battery optimization and allow auto-start.</string>
+    <string name="quirk_vivo">vivo, iQOO: allow background activity and turn off the high power consumption restriction.</string>
+    <string name="quirk_samsung">Samsung: in the battery settings do not add O‘zbegim to the list of sleeping apps. Samsung’s own screen reader is called Voice Assistant.</string>
+    <string name="quirk_tecno">Tecno, Infinix, itel: allow auto-start in the phone manager and turn off the battery restriction.</string>
+    <string name="ga_none">Nothing</string>
+    <string name="ga_next">Next item (by the selected reading control)</string>
+    <string name="ga_prev">Previous item (by the selected reading control)</string>
+    <string name="ga_next_item">Next item (regardless of mode)</string>
+    <string name="ga_prev_item">Previous item (regardless of mode)</string>
+    <string name="ga_mode_next">Next mode</string>
+    <string name="ga_mode_prev">Previous mode</string>
+    <string name="ga_first_item">Go to the first item</string>
+    <string name="ga_jump_last">Go to the last item</string>
+    <string name="ga_next_window">Go to the next window</string>
+    <string name="ga_prev_window">Go to the previous window</string>
+    <string name="ga_activate">Activate (tap)</string>
+    <string name="ga_long_press">Long press</string>
+    <string name="ga_value_up">Increase slider value</string>
+    <string name="ga_value_down">Decrease slider value</string>
+    <string name="ga_back">Back</string>
+    <string name="ga_home">Home screen</string>
+    <string name="ga_recents">Recent apps</string>
+    <string name="ga_open_apps">Open the apps menu</string>
+    <string name="ga_notifications">Notifications</string>
+    <string name="ga_quick_settings">Quick settings</string>
+    <string name="ga_lock_screen">Lock the screen</string>
+    <string name="ga_screenshot">Take a screenshot</string>
+    <string name="ga_power_dialog">Power menu</string>
+    <string name="ga_split_screen">Split the screen</string>
+    <string name="ga_media_play_pause">Media: play or pause</string>
+    <string name="ga_scroll_fwd">Scroll down</string>
+    <string name="ga_scroll_back">Scroll up</string>
+    <string name="ga_scroll_left">Scroll left</string>
+    <string name="ga_scroll_right">Scroll right</string>
+    <string name="ga_screen_swipe_up">Swipe the screen up (unlock)</string>
+    <string name="ga_screen_swipe_down">Swipe the screen down</string>
+    <string name="ga_screen_swipe_left">Swipe the screen left</string>
+    <string name="ga_screen_swipe_right">Swipe the screen right</string>
+    <string name="ga_select_all">Select all</string>
+    <string name="ga_copy_text">Copy text</string>
+    <string name="ga_cut_text">Cut text</string>
+    <string name="ga_paste_text">Paste text</string>
+    <string name="ga_stop_speech">Stop speech</string>
+    <string name="ga_speed_up">Speed up speech</string>
+    <string name="ga_speed_down">Slow down speech</string>
+    <string name="ga_read_from_top">Read continuously from the top</string>
+    <string name="ga_read_from_next">Read continuously from the next item</string>
+    <string name="ga_repeat_last">Repeat the last spoken text</string>
+    <string name="ga_copy_last">Copy the last spoken text</string>
+    <string name="ga_save_audio">Save the last read text as MP3</string>
+    <string name="ga_status">Time and battery</string>
+    <string name="ga_curtain">Screen curtain</string>
+    <string name="ga_global_menu">O‘zbegim menu</string>
+    <string name="ga_actions_menu">Item actions menu</string>
+    <string name="ga_screen_search">Search the screen</string>
+    <string name="ga_translate">Translate (the focused text)</string>
+    <string name="ga_auto_translate">Turn automatic translation on or off</string>
+    <string name="ga_describe_screen">Describe the screen with AI</string>
+    <string name="ga_describe_image">Describe an image</string>
+    <string name="ga_links_menu">Go to available links</string>
+    <string name="ga_explain_bridge">What the word originally was</string>
+    <string name="ga_add_word">Add a word to the pronunciation dictionary</string>
+    <string name="ga_add_label">Add a label to an item</string>
+    <string name="ga_call_answer">Answer the call</string>
+    <string name="ga_call_end">End the call</string>
+    <string name="ga_call_speaker">Turn the speaker on or off</string>
+    <string name="ga_read_private">Read a private message</string>
+    <string name="ga_mark_problem">Mark a problem</string>
+    <string name="ga_practice">Gesture practice</string>
+    <string name="ga_open_settings">O‘zbegim settings</string>
+    <string name="ga_tts_settings">Text-to-speech settings</string>
+    <string name="ga_system_actions">System actions</string>
+    <string name="ga_details_menu">Details menu</string>
+    <string name="ga_speed_mode">Switch the response speed mode</string>
+    <string name="ga_suspend">Pause or resume</string>
+    <string name="ga_settings_menu">O‘zbegim settings sections (list)</string>
+    <string name="ga_open_voices">Voice settings</string>
+    <string name="ga_open_gestures">Customize gestures</string>
+    <string name="ga_open_details">Details settings</string>
+    <string name="ga_open_ai">AI and online features settings</string>
+    <string name="ga_open_backup">Export and import settings</string>
+    <string name="ga_open_health">System check</string>
+    <string name="ga_open_log">Error log</string>
+    <string name="ga_open_menu_editor">Customize the O‘zbegim menu</string>
+    <string name="ga_next_char">Next character</string>
+    <string name="ga_prev_char">Previous character</string>
+    <string name="ga_next_word">Next word</string>
+    <string name="ga_prev_word">Previous word</string>
+    <string name="ga_next_line">Next line (sentence)</string>
+    <string name="ga_prev_line">Previous line (sentence)</string>
+    <string name="ga_next_para">Next paragraph</string>
+    <string name="ga_prev_para">Previous paragraph</string>
+    <string name="ga_spell_focused">Spell the focused text</string>
+    <string name="ga_spell_last">Spell the last spoken text</string>
+    <string name="ga_reading_menu">Choose reading control menu</string>
+    <string name="ga_pitch_up">Raise the voice pitch</string>
+    <string name="ga_pitch_down">Lower the voice pitch</string>
+    <string name="gi_swipe_right">One finger: swipe right</string>
+    <string name="gi_swipe_left">One finger: swipe left</string>
+    <string name="gi_swipe_up">One finger: swipe up</string>
+    <string name="gi_swipe_down">One finger: swipe down</string>
+    <string name="gi_swipe_up_and_left">Up, then left</string>
+    <string name="gi_swipe_up_and_right">Up, then right</string>
+    <string name="gi_swipe_up_and_down">Up, then down</string>
+    <string name="gi_swipe_down_and_left">Down, then left</string>
+    <string name="gi_swipe_down_and_right">Down, then right</string>
+    <string name="gi_swipe_down_and_up">Down, then up</string>
+    <string name="gi_swipe_left_and_up">Left, then up</string>
+    <string name="gi_swipe_left_and_down">Left, then down</string>
+    <string name="gi_swipe_left_and_right">Left, then right</string>
+    <string name="gi_swipe_right_and_up">Right, then up</string>
+    <string name="gi_swipe_right_and_down">Right, then down</string>
+    <string name="gi_swipe_right_and_left">Right, then left</string>
+    <string name="gi_2_finger_single_tap">Two fingers: tap once</string>
+    <string name="gi_2_finger_double_tap">Two fingers: double tap</string>
+    <string name="gi_2_finger_triple_tap">Two fingers: triple tap</string>
+    <string name="gi_2_finger_double_tap_and_hold">Two fingers: double tap and hold</string>
+    <string name="gi_2_finger_swipe_up">Two fingers: swipe up</string>
+    <string name="gi_2_finger_swipe_down">Two fingers: swipe down</string>
+    <string name="gi_2_finger_swipe_left">Two fingers: swipe left</string>
+    <string name="gi_2_finger_swipe_right">Two fingers: swipe right</string>
+    <string name="gi_3_finger_single_tap">Three fingers: tap once</string>
+    <string name="gi_3_finger_double_tap">Three fingers: double tap</string>
+    <string name="gi_3_finger_triple_tap">Three fingers: triple tap</string>
+    <string name="gi_3_finger_single_tap_and_hold">Three fingers: tap once and hold</string>
+    <string name="gi_3_finger_double_tap_and_hold">Three fingers: double tap and hold</string>
+    <string name="gi_3_finger_swipe_up">Three fingers: swipe up</string>
+    <string name="gi_3_finger_swipe_down">Three fingers: swipe down</string>
+    <string name="gi_3_finger_swipe_left">Three fingers: swipe left</string>
+    <string name="gi_3_finger_swipe_right">Three fingers: swipe right</string>
+    <string name="gi_4_finger_single_tap">Four fingers: tap once</string>
+    <string name="gi_4_finger_double_tap">Four fingers: double tap</string>
+    <string name="gi_4_finger_triple_tap">Four fingers: triple tap</string>
+    <string name="gi_4_finger_swipe_up">Four fingers: swipe up</string>
+    <string name="gi_4_finger_swipe_down">Four fingers: swipe down</string>
+    <string name="gi_4_finger_swipe_left">Four fingers: swipe left</string>
+    <string name="gi_4_finger_swipe_right">Four fingers: swipe right</string>
+    <string name="details_time_battery">Time and battery</string>
+    <string name="details_time_battery_summary">Announce the time every 30 or 60 minutes and the battery level</string>
+    <string name="tb_title">Time and battery</string>
+    <string name="tb_cat_time">Time announcement</string>
+    <string name="tb_time_mode">Announce the time automatically</string>
+    <string-array name="tb_time_mode_entries">
+        <item>Off</item>
+        <item>Every 30 minutes</item>
+        <item>Every 60 minutes</item>
+    </string-array>
+    <string name="tb_time_format">Time format</string>
+    <string-array name="tb_time_format_entries">
+        <item>24-hour</item>
+        <item>12-hour</item>
+    </string-array>
+    <string name="tb_time_style">Time reading style</string>
+    <string-array name="tb_time_style_entries">
+        <item>First example: “Time eleven, thirty minutes past eleven”</item>
+        <item>Second example: “Time eleven, eleven thirty”</item>
+    </string-array>
+    <string name="tb_time_busy">If text is being read at the time of the announcement</string>
+    <string-array name="tb_time_busy_entries">
+        <item>Wait for the reading to finish, then announce</item>
+        <item>Stop reading and announce immediately</item>
+    </string-array>
+    <string name="tb_exact">Permission to announce at the exact time</string>
+    <string name="tb_exact_on">Granted: the announcement is made at the exact time</string>
+    <string name="tb_exact_off">Not granted: while the screen is off the announcement may be slightly late. Tap to grant permission</string>
+    <string name="tb_time_test">Announce the time now</string>
+    <string name="tb_cat_battery">Battery announcement</string>
+    <string name="tb_battery_mode">Announce the battery level automatically</string>
+    <string-array name="tb_battery_mode_entries">
+        <item>Off</item>
+        <item>Every 10 percent change</item>
+        <item>At a percentage step I set</item>
+    </string-array>
+    <string name="tb_battery_step">Percentage step (slider)</string>
+    <string name="tb_battery_step_summary">Announced when the charge changes by this many percent. Setting a step turns the battery announcement on automatically.</string>
+    <string name="tb_battery_step_exact">Type the exact percentage step</string>
+    <string name="tb_battery_step_exact_summary">Current step: %1$d percent. Tap to type an exact number</string>
+    <string name="tb_battery_test">Announce the battery status now</string>
+    <string name="tb_say_12">%1$s, %2$s</string>
+    <string name="tb_say_past">Time %1$s, %3$s minutes past %2$s</string>
+    <string name="tb_say_digital">Time %1$s, %2$s</string>
+    <string name="tb_say_part">%1$s, %2$s</string>
+    <string name="tb_battery_custom_on">Battery announcement on: every %1$d percent</string>
+    <string name="tb_part_night">At night</string>
+    <string name="tb_part_dawn">At dawn</string>
+    <string name="tb_part_morning">In the morning</string>
+    <string name="tb_part_day">During the day</string>
+    <string name="tb_part_evening">In the evening</string>
+    <string name="msg_audio_none">There is no read text to save</string>
+    <string name="msg_audio_sensitive">Text read in a private app does not leave the device, so it was not saved</string>
+    <string name="msg_audio_need_online">Saving to MP3 works only with Microsoft voices. In the Voices settings choose Madina or Sardor and turn on online features</string>
+    <string name="msg_audio_saving">Preparing the MP3</string>
+    <string name="msg_audio_saved">MP3 saved. File name: %1$s. Folder: %2$s</string>
+    <string name="msg_audio_truncated">The text is long, so only the first %1$d characters were saved.</string>
+    <string name="msg_audio_auth">The MP3 was not saved: the Azure key was rejected</string>
+    <string name="msg_audio_failed">The MP3 was not saved. Check the internet and try again</string>
+    <string name="details_cat_input">Tapping and navigation</string>
+    <string name="pref_double_tap">Who performs the double tap</string>
+    <string-array name="double_tap_entries">
+        <item>O‘zbegim performs it (recommended)</item>
+        <item>The Android system performs it</item>
+    </string-array>
+    <string name="pref_skip_unlabeled">Skip unlabeled buttons in messaging apps</string>
+    <string name="pref_skip_unlabeled_summary">In apps like Telegram, it does not stop on invisible buttons that have no text, description or label inside</string>
+    <string name="secrets_unavailable">The device’s secure key storage (Android Keystore) is not working, so the key was not saved. Keys are never stored as plain text. Restart the device and try again, or use another device.</string>
+    <string name="health_keystore_ok">Key storage (Android Keystore) is working</string>
+    <string name="health_keystore_bad">Key storage (Android Keystore) is not working: API keys will not be saved. Restart the device or try on another device</string>
+    <string name="details_cat_language">Text language</string>
+    <string name="det_lang">Text language</string>
+    <string name="det_lang_about">About text language</string>
+    <string name="det_lang_summary">For numbers, dates, amounts, science abbreviations and emoji to be read in Uzbek, the text language must be Uzbek. Automatic: the language of the selected voice pack, or the system language if no voice is selected. Text in any other language is left unchanged and the voice engine reads it itself.</string>
+    <string-array name="det_lang_entries">
+        <item>Automatic (voice pack or system language)</item>
+        <item>System language</item>
+        <item>Always Uzbek</item>
+        <item>Other language (the voice engine reads it)</item>
+    </string-array>
+</resources>

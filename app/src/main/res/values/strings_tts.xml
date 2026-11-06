@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tizim nutq dvigateli (tts/OzbegimTtsService): Android sozlamalarida "Afzal ko'rilgan mexanizm" ro'yxatida chiqadi -->
+    <string name="tts_engine_label">O‘zbegim</string>
+    <string name="tts_engine_settings_title">O‘zbegim ovoz dvigateli</string>
+    <string name="tts_btn_off">O‘zbegim ovoz dvigateli: afzal ko\'rilgan mexanizm emas. Afzal ko\'rilgan mexanizm qilish uchun bosing</string>
+    <string name="tts_btn_on">O‘zbegim ovoz dvigateli: afzal ko\'rilgan mexanizm. Oldingi mexanizmga qaytarish uchun bosing</string>
+    <string name="tts_dialog_title">Ovoz dvigateli</string>
+    <string name="tts_need_backend">O‘zbegim ovozni o\'zi sintez qilmaydi: u telefondagi boshqa nutq dvigateli (masalan, RHVoice) ovozidan foydalanadi va matnni o\'z qoidalari bo\'yicha tayyorlab beradi. Hozir telefonda boshqa nutq dvigateli topilmadi. Avval RHVoice yoki boshqa nutq dvigatelini o\'rnating.</string>
+    <string name="tts_msg_already">O‘zbegim allaqachon afzal ko\'rilgan mexanizm.</string>
+    <string name="tts_msg_done">Tayyor. O‘zbegim endi afzal ko\'rilgan mexanizm.</string>
+    <string name="tts_msg_restored">Oldingi nutq mexanizmi qaytarildi.</string>
+    <string name="tts_msg_auto_started">Nutq sintezi sozlamalari ochilmoqda. O‘zbegim afzal ko\'rilgan mexanizm qilib tanlanadi. Iltimos, ekranga tegmay turing.</string>
+    <string name="tts_msg_failed">Avtomatik tanlab bo\'lmadi. Sozlamalar ochiq turibdi: «Afzal ko\'rilgan mexanizm» bandidan O‘zbegimni tanlang va ogohlantirishda OK ni bosing.</string>
+    <string name="tts_msg_need_service">O‘zbegim ekran o\'quvchi xizmati yoqilmagan, shuning uchun avtomatik tanlab bo\'lmaydi. Nutq sintezi sozlamalari ochiladi: «Afzal ko\'rilgan mexanizm» bandidan O‘zbegimni tanlang.</string>
+    <string name="tts_msg_open_failed">Nutq sintezi sozlamalarini ochib bo\'lmadi. Telefon sozlamalaridan «Matnni nutqqa aylantirish» bo\'limini o\'zingiz oching.</string>
+    <string name="tts_msg_pick_manually">Oldingi mexanizm noma\'lum. Nutq sintezi sozlamalari ochiladi: «Afzal ko\'rilgan mexanizm» bandidan o\'zingizga kerakligini tanlang.</string>
+    <string name="pref_tts_engine">O‘zbegim ovoz dvigateli (tizim uchun)</string>
+    <string name="pref_tts_engine_summary">O‘zbegimni telefonning afzal ko\'rilgan nutq mexanizmi qilish va sozlash</string>
+    <string name="tts_act_intro">O‘zbegim afzal ko\'rilgan nutq mexanizmi bo\'lsa, ovoz chiqaradigan barcha ilova (TalkBack, kitob o\'quvchilar, navigatsiya) matnni O‘zbegimga beradi. O‘zbegim matnni o\'zining o\'zbekcha qoidalari bilan tayyorlaydi (kirill, lotin va yangi lotin yozuvlari, raqamlar, Rim raqamlari, telefon raqamlari) va telefonda o\'rnatilgan boshqa dvigatelga beradi, ovozni shu dvigatel chiqaradi. Tarmoqqa hech narsa yuborilmaydi.</string>
+    <string name="tts_act_status_on">Holat: O‘zbegim telefonning afzal ko\'rilgan mexanizmi. Ovoz beruvchi dvigatel: %1$s.</string>
+    <string name="tts_act_status_off">Holat: telefonning afzal ko\'rilgan mexanizmi hozir: %1$s. O‘zbegim hozircha tanlanmagan.</string>
+    <string name="tts_act_unknown">noma\'lum</string>
+    <string name="tts_act_backend_title">O‘zbegim ortidagi ovoz beruvchi dvigatel</string>
+    <string name="tts_act_backend_none">Boshqa nutq dvigateli topilmadi. RHVoice yoki boshqa dvigatelni o\'rnating.</string>
+    <string name="tts_act_backend_none_short">topilmadi</string>
+    <string name="tts_act_backend_auto">Ovoz beruvchi dvigatelni avtomatik tanlash</string>
+    <string name="tts_act_backend_choose">Ovoz beruvchi dvigatel: %1$s</string>
+    <string name="tts_act_backend_saved">Saqlandi: %1$s</string>
+    <string name="tts_act_current_mark">%1$s (tanlangan)</string>
+    <string name="tts_act_rules_on">Boshqa ilovalar uchun O‘zbegim matn qoidalari: yoqilgan. O\'chirish uchun bosing</string>
+    <string name="tts_act_rules_off">Boshqa ilovalar uchun O‘zbegim matn qoidalari: o\'chirilgan. Yoqish uchun bosing</string>
+    <string name="tts_act_sample">O‘zbegim dvigateli orqali namunani eshitish</string>
+    <string name="tts_act_sample_failed">O‘zbegim dvigateli ishga tushmadi yoki o\'zbek tili topilmadi. Ovoz beruvchi dvigatelni tekshiring.</string>
+    <string name="tts_act_adb_title">Bir zumda yoqish (ixtiyoriy)</string>
+    <string name="tts_act_adb_text">Kompyuterdan bir marta shu buyruqni bajarsangiz, tugma sozlamalarni ochmasdan, bir zumda ishlaydi:</string>
+    <string name="tts_act_adb_granted">Ruxsat berilgan: tugma bir zumda ishlaydi.</string>
+    <string name="tts_act_adb_copy">ADB buyrug\'ini nusxalash</string>
+    <string name="tts_act_adb_copied">Nusxalandi</string>
+
+    <!-- Namuna matnlar (tizim sozlamalaridagi "Namunani tinglash"): ovoz tilida, shuning uchun tarjima qilinmaydi -->
+    <string name="tts_sample_uz" translatable="false">Salom! Bu O‘zbegim ovoz dvigatelining namunasi. Bugun havo juda yaxshi.</string>
+    <string name="tts_sample_ru" translatable="false">Здравствуйте! Это пример синтеза речи.</string>
+    <string name="tts_sample_en" translatable="false">This is an example of speech synthesis.</string>
+</resources>

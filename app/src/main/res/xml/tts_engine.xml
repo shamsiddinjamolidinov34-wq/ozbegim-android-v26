@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tizim nutq dvigateli (OzbegimTtsService) tavsifi. settingsActivity: tizim sozlamalarida dvigatel yonidagi sozlamalar tugmasi shuni ochadi. -->
+<tts-engine xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="uz.ekranoquvchi.mvp.ui.TtsEngineActivity" />

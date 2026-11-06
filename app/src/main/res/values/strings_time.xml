@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tafsilotlar ichidagi kirish punkti -->
+    <string name="details_time_battery">Vaqt va batareya</string>
+    <string name="details_time_battery_summary">Soatni har 30 yoki 60 daqiqada aytish va batareya quvvati e\'loni</string>
+
+    <!-- Vaqt va batareya ekrani -->
+    <string name="tb_title">Vaqt va batareya</string>
+    <string name="tb_cat_time">Vaqt e\'loni</string>
+    <string name="tb_time_mode">Vaqtni avtomatik aytish</string>
+    <string-array name="tb_time_mode_entries">
+        <item>O\'chiq</item>
+        <item>Har 30 daqiqada</item>
+        <item>Har 60 daqiqada</item>
+    </string-array>
+    <string-array name="tb_time_mode_values">
+        <item>off</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string name="tb_time_format">Vaqt formati</string>
+    <string-array name="tb_time_format_entries">
+        <item>24 soatlik</item>
+        <item>12 soatlik</item>
+    </string-array>
+    <string-array name="tb_time_format_values">
+        <item>24</item>
+        <item>12</item>
+    </string-array>
+    <string name="tb_time_style">Soatni o\'qish uslubi</string>
+    <string-array name="tb_time_style_entries">
+        <item>Birinchi misol: Soat o\'n bir, soat o\'n birdan o\'ttiz daqiqa o\'tdi</item>
+        <item>Ikkinchi misol: Soat o\'n bir, soat o\'n bir o\'ttiz</item>
+    </string-array>
+    <string-array name="tb_time_style_values">
+        <item>past</item>
+        <item>digital</item>
+    </string-array>
+    <string name="tb_time_busy">E\'lon vaqtida matn o\'qilayotgan bo\'lsa</string>
+    <string-array name="tb_time_busy_entries">
+        <item>O\'qish tugashini kutib, keyin aytish</item>
+        <item>O\'qishni to\'xtatib, darhol aytish</item>
+    </string-array>
+    <string-array name="tb_time_busy_values">
+        <item>wait</item>
+        <item>interrupt</item>
+    </string-array>
+    <string name="tb_exact">Aniq vaqtda aytish ruxsati</string>
+    <string name="tb_exact_on">Berilgan: e\'lon aniq vaqtida aytiladi</string>
+    <string name="tb_exact_off">Berilmagan: ekran o\'chiq paytida e\'lon biroz kechikishi mumkin. Ruxsat berish uchun bosing</string>
+    <string name="tb_time_test">Vaqtni hozir aytish</string>
+
+    <string name="tb_cat_battery">Batareya e\'loni</string>
+    <string name="tb_battery_mode">Batareya quvvatini avtomatik aytish</string>
+    <string-array name="tb_battery_mode_entries">
+        <item>O\'chiq</item>
+        <item>Har 10 foiz o\'zgarganda</item>
+        <item>O\'zim belgilagan foiz qadamida</item>
+    </string-array>
+    <string-array name="tb_battery_mode_values">
+        <item>off</item>
+        <item>step10</item>
+        <item>custom</item>
+    </string-array>
+    <string name="tb_battery_step">Foiz qadami (surgich)</string>
+    <string name="tb_battery_step_summary">Quvvat shuncha foizga o\'zgarganda aytiladi. Qadamni belgilasangiz, batareya e\'loni avtomatik yoqiladi.</string>
+    <string name="tb_battery_step_exact">Foiz qadamini aniq yozish</string>
+    <string name="tb_battery_step_exact_summary">Hozirgi qadam: %1$d foiz. Aniq son yozish uchun bosing</string>
+    <string name="tb_battery_test">Batareya holatini hozir aytish</string>
+
+    <!-- Aytiladigan matnlar -->
+    <string name="tb_say_12">%1$s soat %2$s</string>
+    <string name="tb_say_past">Soat %1$s, soat %2$s %3$s daqiqa o\'tdi</string>
+    <string name="tb_say_digital">Soat %1$s, soat %2$s</string>
+    <string name="tb_say_part">%1$s, %2$s</string>
+    <string name="tb_battery_custom_on">Batareya e\'loni yoqildi: har %1$d foizda</string>
+    <string name="tb_part_night">Tunda</string>
+    <string name="tb_part_dawn">Tongda</string>
+    <string name="tb_part_morning">Ertalab</string>
+    <string name="tb_part_day">Kunduz</string>
+    <string name="tb_part_evening">Kechqurun</string>
+
+    <!-- Oxirgi o'qilganni MP3 qilib saqlash -->
+    <string name="msg_audio_none">Saqlash uchun o\'qilgan matn yo\'q</string>
+    <string name="msg_audio_sensitive">Maxfiy ilovada o\'qilgan matn tarmoqqa chiqmaydi, shuning uchun saqlanmadi</string>
+    <string name="msg_audio_need_online">MP3 ga saqlash faqat Microsoft ovozlarida ishlaydi. Ovozlar sozlamalarida Madina yoki Sardorni tanlang va onlayn imkoniyatlarni yoqing</string>
+    <string name="msg_audio_saving">MP3 tayyorlanmoqda</string>
+    <string name="msg_audio_saved">MP3 saqlandi. Fayl nomi: %1$s. Papka: %2$s</string>
+    <string name="msg_audio_truncated">Matn uzun bo\'lgani uchun faqat boshidagi %1$d belgi saqlandi.</string>
+    <string name="msg_audio_auth">MP3 saqlanmadi: Azure kaliti rad etildi</string>
+    <string name="msg_audio_failed">MP3 saqlanmadi. Internetni tekshiring va qayta urinib ko\'ring</string>
+
+    <!-- Tafsilotlar: bosish va navigatsiya -->
+    <string name="details_cat_input">Bosish va navigatsiya</string>
+    <string name="pref_double_tap">Ikki marta bosishni kim bajaradi</string>
+    <string-array name="double_tap_entries">
+        <item>O\'zbegim bajaradi (tavsiya etiladi)</item>
+        <item>Android tizimi bajaradi</item>
+    </string-array>
+    <string-array name="double_tap_values">
+        <item>service</item>
+        <item>system</item>
+    </string-array>
+    <string name="pref_skip_unlabeled">Xabarlashuv ilovalarida yorliqsiz tugmalarni o\'tkazib yuborish</string>
+    <string name="pref_skip_unlabeled_summary">Telegram kabi ilovalarda matni, tavsifi va ichida yorlig\'i yo\'q ko\'rinmas tugmalarda to\'xtalmaydi</string>
+
+    <!-- Kalit xotirasi (Android Keystore) -->
+    <string name="secrets_unavailable">Qurilmaning xavfsiz kalit xotirasi (Android Keystore) ishlamayapti, shuning uchun kalit saqlanmadi. Kalitlar hech qachon ochiq matnda saqlanmaydi. Qurilmani qayta ishga tushirib qayta urinib ko\'ring yoki boshqa qurilmadan foydalaning.</string>
+    <string name="health_keystore_ok">Kalitlar xotirasi (Android Keystore) ishlayapti</string>
+    <string name="health_keystore_bad">Kalitlar xotirasi (Android Keystore) ishlamayapti: API kalitlari saqlanmaydi. Qurilmani qayta ishga tushiring yoki boshqa qurilmada urinib ko\'ring</string>
+</resources>

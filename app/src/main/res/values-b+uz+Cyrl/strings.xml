@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ўзбегим</string>
+    <string name="service_description">Экранда нима борлигини овоз билан ўқиб беради. Элементлар орасида сирпаниб юрилади, икки марта босиб фаоллаштирилади.</string>
+    <string name="main_status_on">Хизмат ҳолати: ёқилган.</string>
+    <string name="main_status_off">Хизмат ҳолати: ўчирилган. Пастдаги биринчи тугма орқали Махсус имкониятлар созламаларини очинг ва Экран Ўқувчини ёқинг.</string>
+    <string name="main_warning">Диққат: TalkBack ёқилган бўлса, иккала дастур бир вақтда гапиради. Синовни захира қурилмада ўтказинг. Тўхтатиш: иккала овоз тугмасини уч сония босиб туринг.</string>
+    <string name="btn_enable">Махсус имкониятлар созламаларини очиш</string>
+    <string name="btn_settings">Созламалар</string>
+    <string name="btn_test">Овозни синаш</string>
+    <string name="btn_health">Тизим текшируви</string>
+    <string name="btn_log">Хатолар журнали</string>
+    <string name="btn_voices">Овозлар</string>
+    <string name="btn_gestures">Ишоралар</string>
+    <string name="btn_tutorial">Ўқув машқлари</string>
+    <string name="test_not_running">Аввал Ўзбегим хизматини ёқинг.</string>
+    <string name="test_phrase">Экран ўқувчи ишлаяпти. Синов матни: Settings, WhatsApp, Wi-Fi, Настройки, Сообщения. Ўзбекча, O\'zbekcha, Özbekçe: şahar, çoy, ğoya.</string>
+    <string name="role_button">тугма</string>
+    <string name="role_edit">таҳрирлаш майдони</string>
+    <string name="role_password">парол майдони</string>
+    <string name="role_checkbox">белги катаги</string>
+    <string name="role_switch">ўтказгич</string>
+    <string name="role_radio">танлов тугмаси</string>
+    <string name="role_image">расм</string>
+    <string name="role_list">рўйхат</string>
+    <string name="role_heading">сарлавҳа</string>
+    <string name="role_link">ҳавола</string>
+    <string name="role_seekbar">слайдер</string>
+    <string name="role_spinner">очиладиган рўйхат</string>
+    <string name="unlabeled">ёрлиқсиз</string>
+    <string name="state_checked">белгиланган</string>
+    <string name="state_unchecked">белгиланмаган</string>
+    <string name="state_on">ёқилган</string>
+    <string name="state_off">ўчирилган</string>
+    <string name="state_disabled">фаол эмас</string>
+    <string name="state_selected">танланган</string>
+    <string name="state_not_selected">танланмаган</string>
+    <string name="state_expanded">очилган</string>
+    <string name="state_collapsed">йиғилган</string>
+    <string name="state_percent">%1$d фоиз</string>
+    <string name="state_position">%2$d тадан %1$d</string>
+    <string name="mode_elements">Элементлар</string>
+    <string name="mode_headings">Сарлавҳалар</string>
+    <string name="mode_controls">Бошқарув элементлари</string>
+    <string name="mode_links">Ҳаволалар</string>
+    <string name="mode_characters">Ҳарфлар</string>
+    <string name="mode_words">Сўзлар</string>
+    <string name="mode_lines">Қаторлар</string>
+    <string name="mode_paragraphs">Хатбошилар</string>
+    <string name="msg_service_on">Экран ўқувчи ёқилди</string>
+    <string name="msg_safe_mode">Хавфсиз режим: қўшимча функциялар ўчирилган</string>
+    <string name="msg_suspended">Экран ўқувчи тўхтатилди</string>
+    <string name="msg_resumed">Экран ўқувчи давом этмоқда</string>
+    <string name="msg_no_window">Ойна топилмади</string>
+    <string name="msg_first_item">Биринчи элемент</string>
+    <string name="msg_last_item">Охирги элемент</string>
+    <string name="msg_curtain_on">Экран пардаси ёқилди</string>
+    <string name="msg_curtain_off">Экран пардаси ўчирилди</string>
+    <string name="msg_marked">Муаммо белгиланди. Охирги ўттиз сония журналга ёзилди</string>
+    <string name="msg_status_time">Соат %1$s</string>
+    <string name="msg_status_battery">Батарея %1$s фоиз</string>
+    <string name="msg_charging">қувватланмоқда</string>
+    <string name="msg_private_notification">Махфий хабар келди. Ўқиш учун икки бармоқ билан уч марта босинг</string>
+    <string name="msg_private_none">Махфий хабар йўқ</string>
+    <string name="msg_bridge_none">Ҳозирча мослаштирилган сўз йўқ</string>
+    <string name="msg_bridge_item">%1$s деб ўқилди. Асли: %2$s</string>
+    <string name="msg_deleted">ўчирилди %1$s</string>
+    <string name="msg_hidden_char">белги</string>
+    <string name="msg_call_done">Бажарилди</string>
+    <string name="msg_call_not_found">Қўнғироқ тугмаси топилмади</string>
+    <string name="msg_no_view_id">Бу элементнинг идентификатори йўқ</string>
+    <string name="msg_nothing_spoken">Ҳозирча ҳеч нарса айтилмаган</string>
+    <string name="msg_copied">Нусхаланди</string>
+    <string name="msg_no_word">Луғатга қўшиладиган сўз топилмади</string>
+    <string name="msg_saved">Сақланди</string>
+    <string name="btn_apply_import">Импорт қилиш</string>
+    <string name="backup_confirm_title">Созламалар импорт қилинсинми?</string>
+    <string name="backup_confirm_message">Файлдан %1$d та созлама, %2$d та луғат қатори, %3$d та ёрлиқ ва %4$d та илова профили ўқилади. Файлда бор бўлимлар ҳозирги маълумотларни алмаштиради. Фақат ўзингиз ишонган файлдан импорт қилинг.</string>
+    <string name="msg_too_large">Матн жуда катта: 200 000 белгидан ошмасин.</string>
+    <string name="msg_save_failed">Сақлаб бўлмади.</string>
+
+    <!-- 0.6.0: tafsilotlar, tezlashtirish, avtomatik tarjima, ikki barmoq, Rim raqamlari -->
+    <string name="mode_verbosity">Тафсилотлар</string>
+    <string name="menu_details_title">Тафсилотлар</string>
+    <string name="menu_details_item">Тафсилотлар: %1$s</string>
+    <string name="details_level_row">Тафсилот даражаси: %1$s (алмаштириш)</string>
+    <string name="details_open_settings">Тафсилотлар созламаларини очиш</string>
+    <string name="details_low">паст</string>
+    <string name="details_medium">ўрта</string>
+    <string name="details_high">юқори</string>
+    <string name="details_custom">махсус</string>
+    <string name="msg_details_level">Тафсилотлар: %1$s</string>
+    <string name="msg_detail_state">%1$s: %2$s</string>
+    <string name="menu_system_title">Тизим амаллари</string>
+    <string name="menu_links_title">Мавжуд ҳаволалар</string>
+    <string name="msg_no_links">Ҳавола топилмади.</string>
+    <string name="menu_auto_tr">Автоматик таржима: %1$s</string>
+    <string name="msg_auto_tr_on">Автоматик таржима ёқилди. Энди ўзбекча бўлмаган матнлар ўзбекчага таржима қилиниб ўқилади.</string>
+    <string name="msg_auto_tr_on_not_uz">Автоматик таржима ёқилди. У матн тили ўзбекча бўлганда ишлайди.</string>
+    <string name="msg_auto_tr_off">Автоматик таржима ўчирилди.</string>
+    <string name="msg_auto_tr_need_key">Автоматик таржима учун сунъий интеллект калити керак. Калит киритиш экрани очилмоқда.</string>
+    <string name="msg_auto_tr_failed">Таржима хизмати жавоб бермади. Ҳозирча асл матн ўқилади.</string>
+    <string name="auto_tr_consent_title">Автоматик таржима экрандаги матнларни (махфий иловалар, пароллар ва тасдиқлаш кодларидан ташқари) сиз танлаган сунъий интеллект хизматига юборади. Онлайн имкониятлар ёқилсинми?</string>
+    <string name="auto_tr_consent_yes">Ҳа, ёқиш</string>
+    <string name="auto_tr_consent_no">Йўқ</string>
+    <string name="hint_activate">фаоллаштириш учун икки марта босинг</string>
+    <string name="hint_edit">таҳрирлаш учун икки марта босинг</string>
+    <string name="hint_long_press">узоқ босиш учун икки марта босиб ушлаб туринг</string>
+    <string name="speed_normal">оддий</string>
+    <string name="speed_fast">тезкор</string>
+    <string name="speed_turbo">энг тезкор</string>
+    <string name="msg_speed_set">Жавоб тезлиги: %1$s</string>
+    <string name="details_title">Тафсилотлар</string>
+    <string name="details_cat_preset">Даража</string>
+    <string name="details_cat_speak">Нималар айтилади</string>
+    <string name="details_cat_volume">Овоз баландлиги</string>
+    <string name="pref_details_open">Тафсилотлар</string>
+    <string name="pref_details_open_summary">Тугма ва расм тури, рўйхат ўрни, кўрсатмалар, овоз баландлиги ўзгарганда ўқиш</string>
+    <string name="det_type_btn">Тугма ва расм турини айтиш</string>
+    <string name="det_type_btn_summary">Ўчиқ бўлса, тугма ва расм фақат номи билан ўқилади: «Орқага», «Орқага, тугма» эмас.</string>
+    <string name="det_type">Бошқа элемент турларини айтиш</string>
+    <string name="det_type_summary">Рўйхат, сарлавҳа, ҳавола, слайдер ва ҳ.к. Таҳрирлаш майдони, парол майдони ва ўтказгич тури доим айтилади.</string>
+    <string name="det_position">Рўйхат ва жадвалдаги ўрнини айтиш</string>
+    <string name="det_position_summary">Масалан: «10 тадан 3».</string>
+    <string name="det_hints">Фойдаланиш кўрсатмалари</string>
+    <string name="det_hints_summary">Масалан: «фаоллаштириш учун икки марта босинг».</string>
+    <string name="det_order">Тавсиф тартиби</string>
+    <string name="det_window_titles">Ойна сарлавҳаларини айтиш</string>
+    <string name="det_window_titles_summary">Янги ойна ёки экран очилганда унинг номи айтилади.</string>
+    <string name="det_screen_off">Экран ўчиқ бўлганда ҳам гапириш</string>
+    <string name="det_screen_off_summary">Ўчирилса, экран ўчиқ пайтида билдиришнома ва автоматик хабарлар ўқилмайди.</string>
+    <string name="det_volume_keep">Овоз баландлиги ўзгарганда ўқишни тўхтатмаслик</string>
+    <string name="det_volume_keep_summary">Овоз тугмалари босилганда ҳозирги ўқиш тўхтамайди ва фокус овоз панелига ўтмайди.</string>
+    <string name="pref_cat_speed">Тезлаштириш</string>
+    <string name="pref_speed">Жавоб тезлиги</string>
+    <string name="pref_speed_summary">Ҳаракатланиш ва жавоб беришдаги секинликни камайтиради. «Тезкор» стандарт. «Энг тезкор» кутишларни яна қисқартиради, лекин ёрлиғи йўқ баъзи қаторларнинг ички матнлари камроқ ўқилади.</string>
+    <string name="pref_auto_translate">Автоматик таржима (ўзбекчага)</string>
+    <string name="pref_auto_translate_summary">Матн тили ўзбекча бўлса (овоз пакети ёки телефон тили ўзбекча), бошқа тилдаги матнлар тилни ўзи аниқлаб, ўзбекчага таржима қилинади ва ўқилади. Онлайн хизмат ва сунъий интеллект калити керак.</string>
+    <string name="pref_translate_script">Таржима ёзуви</string>
+    <string name="pref_two_finger">Икки бармоқли суришни иловага ўтказиш</string>
+    <string name="pref_two_finger_summary">Қулф экранини икки бармоқ билан очиш учун керак. «Доим» танланса, баъзи иловаларда (масалан, Телеграм) тасодифий чимчилаш экран ва тугмаларни кичрайтириб юбориши мумкин.</string>
+    <string name="btn_details">Тафсилотлар</string>
+    <string name="auto_tr_btn_on">Автоматик таржима: ёқилган. Ўчириш учун босинг</string>
+    <string name="auto_tr_btn_off">Автоматик таржима: ўчирилган. Ёқиш учун босинг</string>
+    <string name="auto_tr_dialog_title">Автоматик таржима</string>
+    <string name="auto_tr_need_key">Автоматик таржима учун сунъий интеллект (Гемини, ЧатГПТ, Клауде ёки бошқа) калити керак. Калит киритиш экранини очамизми?</string>
+    <string name="auto_tr_open_ai">Очиш</string>
+    <string name="auto_tr_consent_message">Автоматик таржима ёқилганда экрандаги матнлар (махфий деб белгиланган иловалар, парол майдонлари ва тасдиқлаш кодларидан ташқари) сиз танлаган сунъий интеллект хизматига юборилади. Онлайн имкониятлар ҳам ёқилади. Давом этасизми?</string>
+    <string name="pref_value_summary">Ҳозир: %1$d фоиз. Босинг: аниқ сон ёзиш ёки 1 фоиздан ўзгартириш</string>
+    <string name="pref_rate_step">Ишора билан тезлик ва тон қадами</string>
+    <string name="number_dialog_hint">Қиймат %1$d дан %2$d гача (фоиз). Аниқ сонни ёзинг ёки тугмалар билан 1 ёки 10 фоиздан ўзгартиринг.</string>
+    <string name="number_dialog_value">%1$d фоиз</string>
+    <string name="number_dialog_minus">%1$d фоизга камайтириш</string>
+    <string name="number_dialog_plus">%1$d фоизга ошириш</string>
+    <string name="number_dialog_test">Эшитиб кўриш</string>
+    <string name="number_dialog_default">Стандарт қиймат: %1$d фоиз</string>
+    <string name="number_dialog_save">Сақлаш</string>
+    <string name="number_dialog_cancel">Бекор қилиш</string>
+    <string name="msg_pitch_set">Овоз тони: %1$d фоиз</string>
+    <string name="msg_no_text">Матн йўқ</string>
+    <string name="msg_text_start">Матн боши</string>
+    <string name="msg_text_end">Матн охири</string>
+    <string name="menu_reading_title">Ўқиш бошқарувини танланг</string>
+    <string name="menu_reading_current">%1$s, ҳозирги</string>
+    <string-array name="rate_step_entries">
+        <item>1 фоиз</item>
+        <item>2 фоиз</item>
+        <item>5 фоиз</item>
+        <item>10 фоиз (стандарт)</item>
+        <item>20 фоиз</item>
+    </string-array>
+
+    <!-- Слайдер, эмодзи ва стикерлар, меню созлаш -->
+    <string name="hint_adjust">қийматни ўзгартириш учун юқорига ёки пастга суринг</string>
+    <string name="details_cat_emoji">Эмодзи ва стикерлар</string>
+    <string name="det_emoji">Эмодзиларни ўқиш</string>
+    <string name="det_emoji_summary">Ёқилган бўлса, эмодзилар ўзбекча номи билан ўқилади. Ўчирилган бўлса, эмодзилар айтилмайди.</string>
+    <string name="det_stickers">Стикерларни ўқиш</string>
+    <string name="det_stickers_summary">Ёқилган бўлса, стикернинг тавсифи ўқилади. Ўчирилган бўлса, фақат «стикер» сўзи айтилади.</string>
+    <string name="sticker_word">стикер</string>
+    <string name="emoji_word">эмодзи</string>
+    <string name="pref_menu_editor">Ўзбегим менюсини созлаш</string>
+    <string name="pref_menu_editor_summary">Менюдаги бандларни қўшиш ёки олиб ташлаш</string>
+    <string name="menu_editor_title">Ўзбегим менюсини созлаш</string>
+    <string name="menu_editor_intro">Ўзбегим менюсида (пастга, сўнг ўнгга суриш) кўринадиган бандларни танланг. Белгиланган бандлар менюда чиқади, белгиси олиб ташланганлари чиқмайди.</string>
+    <string name="menu_editor_reset">Стандарт рўйхатга қайтариш</string>
+    <string name="menu_settings_title">Ўзбегим созламалари бўлимлари</string>
+
+    <!-- 0.9.4: телефон рақамлари ва бошқа экран ўқувчи билан келишув -->
+    <string name="details_cat_numbers">Рақамлар</string>
+    <string name="det_phone">Телефон рақамларини гуруҳ-гуруҳ ўқиш</string>
+    <string name="det_phone_summary">Ёқилган бўлса, Ўзбекистон телефон рақами «+998. 94. 773. 99. 10.» кўринишида ўқилади: ҳар гуруҳдан кейин тўхтаб, гуруҳлар сон сифатида. Ўчирилган бўлса, рақам оддий тартибда ўқилади.</string>
+
+    <!-- 0.9.10 (v25): fan qisqartmalarini o'qish yoki o'qimaslik -->
+    <string name="details_cat_science">Фан қисқартмалари</string>
+    <string name="det_sci_units">Ўлчов бирликларини ўқиш</string>
+    <string name="det_sci_units_summary">Ёқилган бўлса, узунлик, оғирлик, ҳажм, вақт ва ҳарорат қисқартмалари сўз билан ўқилади: «5 kg» - «беш килограмм», «20 °C» - «йигирма даража». Ўчирилган бўлса, қисқартма айтилмайди, фақат сон ўқилади.</string>
+    <string name="det_sci_physics">Физика қисқартмаларини ўқиш</string>
+    <string name="det_sci_physics_summary">Ёқилган бўлса, физик бирликлар сўз билан ўқилади: «220 V» - «икки юз йигирма вольт», «50 Hz» - «эллик герц», шунингдек N, J, W, A, Pa. Ўчирилган бўлса, қисқартма айтилмайди.</string>
+    <string name="det_sci_math">Математик белгиларни ўқиш</string>
+    <string name="det_sci_math_summary">Ёқилган бўлса, белгилар сўз билан ўқилади: «2+3=5» - «икки плюс уч тенг беш», шунингдек ×, ÷, √, π, ≤, ≥, x², sin, cos ва юнон ҳарфлари. Ўчирилган бўлса, белгилар айтилмайди.</string>
+    <string name="det_sci_info">Информатика қисқартмаларини ўқиш</string>
+    <string name="det_sci_info_summary">Ёқилган бўлса, «250 MB» - «икки юз эллик мегабайт», «100 Mbit/s», «1080 px» каби қисқартмалар сўз билан ўқилади. Ўчирилган бўлса, қисқартма айтилмайди.</string>
+    <string name="pref_cat_other_reader">Бошқа экран ўқувчилар</string>
+    <string name="pref_yield_other">Бошқа экран ўқувчи ёқилса, ўзим тўхташ</string>
+    <string name="pref_yield_other_summary">Ёқилган бўлса, TalkBack каби бошқа экран ўқувчи ишга тушганда Ўзбегим кутиш режимига ўтади (ўқимайди, ишораларни ушламайди) ва хабар беради. Бошқа экран ўқувчи ўчирилганда ўзи қайта бошлайди.</string>
+    <string name="msg_other_reader_started">Бошқа экран ўқувчи ишни бошлади, мен экранни ўқишни тўхтатдим</string>
+    <string name="msg_other_reader_stopped">Мен экранни ўқишни бошладим, бошқа экран ўқувчи дастур ўчирилганлиги учун</string>
+
+    <!-- 0.9.6 (v20): interfeysning qolgan qismi va yangi matnlar -->
+    <string name="btn_tts_settings">Нутқ синтези созламаларини очиш</string>
+    <string name="btn_battery">Батарея созламаларини очиш</string>
+    <string name="btn_install_voice">Овоз маълумотларини ўрнатиш</string>
+    <string name="btn_share_log">Журнални улашиш</string>
+    <string name="btn_clear_log">Журнални тозалаш</string>
+    <string name="pref_cat_speech">Нутқ</string>
+    <string name="pref_cat_scripts">Тил ва ёзув</string>
+    <string name="pref_cat_privacy">Махфийлик</string>
+    <string name="pref_rate">Нутқ тезлиги (фоиз)</string>
+    <string name="pref_pitch">Овоз тони (фоиз)</string>
+    <string name="pref_script">Кирилл ёзуви</string>
+    <string name="pref_new_latin">Янгиланган лотин: Ş Ç Ö Ğ ҳарфлари (ш, ч, ў, ғ деб ўқилади)</string>
+    <string name="pref_apostrophe">Апостроф тури (нутқ двигателига юборилади)</string>
+    <string name="pref_bridge">Тил кўприги: инглизча ва русча сўзларни ўзбекча ўқиш</string>
+    <string name="pref_private">Махфий билдиришномаларни қулоқчинсиз ўқимаслик</string>
+    <string name="pref_private_summary">Тасдиқлаш коди бор хабарлар карнайда ўқилмайди.</string>
+    <string-array name="bridge_entries">
+        <item>Мослаштириш (ўзбекча ўқиш)</item>
+        <item>Ўчирилган</item>
+    </string-array>
+    <string-array name="script_entries">
+        <item>Автоматик: двигател кириллни ўқий олмаса, лотинга ўтказади</item>
+        <item>Доим лотинга ўтказиш</item>
+        <item>Ўзгартирмаслик</item>
+    </string-array>
+    <string-array name="newlatin_entries">
+        <item>Автоматик: туркча матнга тегмайди</item>
+        <item>Доим ўзбекча ўқиш</item>
+        <item>Ўзгартирмаслик</item>
+    </string-array>
+    <string-array name="apostrophe_entries">
+        <item>Оддий апостроф</item>
+        <item>Бурилган вергул</item>
+    </string-array>
+    <string name="msg_apps_failed">Иловалар менюси очилмади</string>
+    <string name="health_ok">Яхши</string>
+    <string name="health_problem">Муаммо</string>
+    <string name="health_service_on">Ўзбегим хизмати ёқилган.</string>
+    <string name="health_service_off">Ўзбегим хизмати ёқилмаган.</string>
+    <string name="health_no_net_ok">Дастур тармоқ рухсатини сўрамайди: маълумот қурилмадан чиқмайди.</string>
+    <string name="health_no_net_bad">Дастур тармоқ рухсатини сўраган. Бу монографиянинг 11.2 талабига зид.</string>
+    <string name="health_battery_ok">Батарея тежаш чекловидан озод қилинган.</string>
+    <string name="health_battery_bad">Батарея тежаш режими хизматни тўхтатиб қўйиши мумкин. Пастдаги тугма билан созламаларни очинг.</string>
+    <string name="health_tts_engine">Нутқ двигатели: %1$s.</string>
+    <string name="health_tts_lang_ok">Ўзбек тили учун овоз мавжуд.</string>
+    <string name="health_tts_lang_missing">Ўзбек тили учун овоз маълумоти йўқ. Овоз маълумотларини ўрнатинг ёки RHVoice каби бошқа двигателни танланг.</string>
+    <string name="health_tts_lang_unsupported">Танланган двигател ўзбек тилини қўлламайди. RHVoice каби бошқа двигателни танланг.</string>
+    <string name="health_tts_failed">Нутқ двигатели ишга тушмади.</string>
+    <string name="health_rhvoice_yes">RHVoice ўрнатилган.</string>
+    <string name="health_rhvoice_no">RHVoice ўрнатилмаган. У офлайн ўзбек овозини беради ва F-Droid ёки Google Play\'дан ўрнатилади.</string>
+    <string name="health_latency_none">Кечикиш ҳали ўлчанмаган. Бир неча элемент бўйлаб юринг ва қайта текширинг.</string>
+    <string name="health_latency">Кечикиш: ўртача %1$d, p95 %2$d миллисекунд, %3$d ўлчов. Мақсад: p95 150 дан ошмасин.</string>
+    <string name="health_crashes">Сўнгги ўн дақиқадаги қулашлар сони: %1$d.</string>
+    <string name="log_title">Хатолар журнали</string>
+    <string name="log_empty">Журнал бўш.</string>
+    <string name="log_privacy">Ҳисобот экран матнини ўз ичига олмайди: фақат ҳодиса турлари ва вақтлар.</string>
+    <string name="log_latency_header">Кечикиш: p50 %1$d, p95 %2$d миллисекунд, %3$d ўлчов.</string>
+    <string name="log_silence_no_audio">жимлик: нутқ двигатели жавоб бермади</string>
+    <string name="log_silence_recovered">нутқ автоматик тикланди</string>
+    <string name="log_tts_init_failed">нутқ двигатели ишга тушмади</string>
+    <string name="log_tts_lang_missing">танланган тил учун овоз топилмади</string>
+    <string name="log_tts_engine_switched">нутқ двигатели қайта ишга туширилди ёки алмаштирилди</string>
+    <string name="log_tts_fallback_signal">нутқ ўрнига захира сигнал берилди</string>
+    <string name="log_tts_engine_error">нутқ двигатели хато қайтарди</string>
+    <string name="log_latency_budget">кечикиш бюджети ошди: %1$s миллисекунд</string>
+    <string name="log_focus_node_failed">элемент тавсифида хато</string>
+    <string name="log_bridge_failed">тил кўприги хато берди, асл матн ўқилди</string>
+    <string name="log_crash_uncaught">дастур кутилмаганда тўхтади</string>
+    <string name="log_user_marked">фойдаланувчи муаммо белгилади</string>
+    <string name="log_safe_mode">хавфсиз режим ёқилди</string>
+    <string name="log_audio_focus_lost">аудио фокус йўқотилди</string>
+    <string name="log_unknown">номаълум ҳодиса</string>
+    <string name="btn_dictionary">Талаффуз луғати</string>
+    <string name="btn_labels">Махсус ёрлиқлар</string>
+    <string name="btn_profiles">Илова профиллари</string>
+    <string name="btn_backup">Созламаларни экспорт ва импорт</string>
+    <string name="btn_save">Сақлаш</string>
+    <string name="btn_install_rhvoice">RHVoice\'ни ўрнатиш</string>
+    <string name="btn_open_rhvoice">RHVoice иловасини очиш</string>
+    <string name="btn_default_voice">Стандарт овозга қайтиш</string>
+    <string name="btn_reset_gestures">Ишораларни асл ҳолатга қайтариш</string>
+    <string name="btn_export">Экспорт қилиш (улашиш)</string>
+    <string name="btn_import">Импорт қилиш (файл танлаш)</string>
+    <string name="btn_understood">Тушундим</string>
+    <string name="btn_practice">Машқ тугмаси</string>
+    <string name="help_dictionary">Ҳар қаторда: сўз=талаффуз (масалан: settings=setings). Илова бўйича: пакет|сўз=талаффуз. # билан бошланган қатор изоҳ. Нотўғри ўқилган сўзни меню орқали ҳам қўшиш мумкин: менюни очинг (уч бармоқ билан бир марта босинг ёки пастга, сўнг ўнгга суринг) ва «Сўзни талаффуз луғатига қўшиш»ни танланг.</string>
+    <string name="help_labels">Ҳар қаторда: тўлиқ_ид=ёрлиқ (масалан: com.ilova:id/send=Юбориш). Ёрлиғи йўқ элементга фокус қўйиб, чапга сўнг пастга сурилса, унинг идентификатори шу ерга қўшилади.</string>
+    <string name="help_profiles">Ҳар қаторда: пакет=verbosity:short;echo:off;bridge:off;notify:off;chat:on;sensitive:on. verbosity: short, normal ёки full. Қолганлари: on ёки off. sensitive:on махфий илова (банк, тўлов) учун: қора қути ёзилмайди, суҳбат режими ва нусхалаш ўчади.</string>
+    <string name="voices_intro">Ўзбек овозлари RHVoice орқали ўрнатилади: Islom, Dilnavoz ва Sevinch. Аввал RHVoice\'ни ўрнатинг, унинг ичида ўзбек тили овозини юклаб олинг, сўнг шу ерга қайтиб овозни танланг. Телефонда ўрнатилган бошқа нутқ двигателларининг овоз пакетларидан ҳам фойдаланиш мумкин: пастдан двигателни танланг. Рўйхат двигател берган овозлардан тузилади.</string>
+    <string name="voices_license">Литсензия: RHVoice\'нинг учала овози CC BY-NC-SA 4.0 шартида тарқатилади, яъни фақат нотижорат мақсадда. Шу сабаб улар иловага қўшилмаган.</string>
+    <string name="voices_none">Овоз топилмади. RHVoice ёки бошқа двигателнинг овоз пакетини ўрнатинг ёки нутқ синтези созламаларини текширинг.</string>
+    <string name="voice_listen">Тинглаш: %1$s</string>
+    <string name="voice_choose">Танлаш: %1$s</string>
+    <string name="voice_saved">Овоз сақланди</string>
+    <string name="voice_sample">Salom! Bu ovoz namunasi: shahar, choy, Ўзбекистон, Özbekiston, 2026-yil.</string>
+    <string name="rhvoice_missing">RHVoice ўрнатилмаган.</string>
+    <string name="gestures_intro">Ҳар бир ишора учун амални танланг. Профил алмаштирилса, шахсий ўзгартиришлар тозаланади.</string>
+    <string name="gesture_profile">Ишора профили</string>
+    <string name="profile_talkback">TalkBack-мос</string>
+    <string name="profile_voiceover">ВоикеОвер-мос</string>
+    <string name="pref_engine">Нутқ двигатели</string>
+    <string name="pref_voices">Овоз танлаш (Islom, Dilnavoz, Sevinch ва юклаб олинган овоз пакетлари)</string>
+    <string name="pref_verbosity">Тафсилот даражаси</string>
+    <string name="pref_echo_mode">Ёзилган матн эълони</string>
+    <string name="pref_mic">Микрофон очиқ бўлганда нутқ</string>
+    <string name="pref_earcons">Товуш сигналлари (тик, чегара, ойна)</string>
+    <string name="pref_gestures">Ишораларни созлаш</string>
+    <string name="pref_cat_gestures">Бошқарув</string>
+    <string name="lesson_exit">Энг аввал чиқиш йўлини билиб олинг. Иккала овоз тугмасини уч сония босиб туринг: Ўзбегим тўхтайди. Қайтадан шундай қилсангиз, давом этади. Тушундим тугмасини топинг ва икки марта босинг.</string>
+    <string name="lesson_1">1-машқ. Экранда бир бармоқ билан ўнгга суринг.</string>
+    <string name="lesson_2">2-машқ. Чапга суринг.</string>
+    <string name="lesson_3">3-машқ. Бир ҳаракат билан юқорига, сўнг пастга суринг: ўқиш бошқаруви алмашади.</string>
+    <string name="lesson_4">4-машқ. Икки бармоқ билан бир марта босинг: нутқ тўхтайди.</string>
+    <string name="lesson_5">5-машқ. Уч бармоқ билан бир марта босинг: Ўзбегим менюси очилади. Уни ёпиш учун Ёпиш тугмасини топинг ва икки марта босинг.</string>
+    <string name="lesson_6">6-машқ. Машқ тугмасини топинг ва икки марта босинг.</string>
+    <string name="lesson_ok">Тўғри.</string>
+    <string name="lesson_done">Баракалла! Машқлар тугади.</string>
+    <string name="backup_intro">Созламалар, ишоралар, талаффуз луғати, махсус ёрлиқлар ва илова профиллари битта файлга сақланади. Бошқа қурилмага ўтказиш учун шу файлни импорт қилинг.</string>
+    <string name="backup_imported">Импорт қилинди</string>
+    <string name="backup_failed">Файл ўқилмади ёки версияси мос эмас</string>
+    <string name="health_device">Қурилма: Android %1$s, API %2$d, %3$s.</string>
+    <string name="health_return_talkback">Муаммо бўлса: иккала овоз тугмасини уч сония босиб туринг, ёки Махсус имкониятлар созламаларида TalkBack\'ни ёқинг.</string>
+    <string-array name="engine_entries">
+        <item>Автоматик: тизим двигатели, ўзбек тили бўлмаса RHVoice</item>
+        <item>RHVoice</item>
+        <item>Фақат тизим двигатели</item>
+        <item>Microsoft Azure: Мадина, Сардор (онлайн, интернет ва калит керак)</item>
+        <item>Мен танлаган двигател (Овозлар экранида: юклаб олинган овоз пакети)</item>
+    </string-array>
+    <string-array name="verbosity_entries">
+        <item>Паст</item>
+        <item>Ўрта</item>
+        <item>Юқори</item>
+        <item>Махсус</item>
+    </string-array>
+    <string-array name="echo_entries">
+        <item>Ҳарфлар</item>
+        <item>Сўзлар</item>
+        <item>Ҳарфлар ва сўзлар</item>
+        <item>Ўчирилган</item>
+    </string-array>
+    <string-array name="mic_entries">
+        <item>Автоматик хабарлар ўчади, босганларингиз паст овозда</item>
+        <item>Ҳаммаси паст овозда</item>
+        <item>Ўзгаришсиз давом этади</item>
+    </string-array>
+    <string name="log_slow_handler">Секин ишлов: %1$s (%2$s), %3$s мс</string>
+    <string name="pref_cat_online">Онлайн имкониятлар (ихтиёрий)</string>
+    <string name="pref_online">Онлайн имкониятларни ёқиш</string>
+    <string name="pref_online_summary">Microsoft овозлари, таржима ва сунъий интеллект тавсифи учун. Стандартда ўчиқ: ёқмагунингизча тармоққа ҳеч нарса юборилмайди.</string>
+    <string name="pref_azure_key">Microsoft Azure Speech калити</string>
+    <string name="pref_azure_region">Azure Speech минтақаси (масалан, westeurope)</string>
+    <string name="pref_azure_voice">Microsoft овози</string>
+    <string name="pref_azure_quality">Microsoft овози сифати</string>
+    <string name="pref_ai_key">Claude (Anthropic) API калити</string>
+    <string name="pref_ai_model">Claude модели (таржима ва тавсиф учун)</string>
+    <string name="pref_translate_to">Мақсад тил</string>
+    <string name="pref_secret_empty">Калит киритилмаган</string>
+    <string name="pref_secret_saved">Калит сақланган (шифрланган ҳолда)</string>
+    <string name="online_consent_title">Онлайн имкониятларни ёқасизми?</string>
+    <string name="online_consent_message">Ёқсангиз: Microsoft овози танланганда айтиладиган матн Microsoft Azure серверига юборилади. Таржима ёки экран тавсифи ишорасини бажарсангиз, фокусдаги матн ёки экран расми танланган сунъий интеллект хизмати серверига (Gemini, ChatGPT, Claude ёки сиз кўрсатган бошқа хизмат) юборилади. Банк ва бошқа махфий иловаларда, шунингдек парол ва кодлар учун ҳеч нарса юборилмайди. Калитлар қурилмада шифрлаб сақланади. Тармоқ узилса, овоз маҳаллий двигателга қайтади.</string>
+    <string name="btn_online_accept">Розиман, ёқиш</string>
+    <string name="azure_voices_intro">Microsoft овозлари (онлайн): интернет ва Azure Speech калити керак (Созламалар, Онлайн имкониятлар). Сифат: 48 kHz. Тармоқ узилса, овоз автоматик маҳаллий двигателга ўтади.</string>
+    <string name="azure_voice_saved">Microsoft овози танланди: %1$s</string>
+    <string name="btn_back_to_local">Маҳаллий овозга қайтиш</string>
+    <string name="local_voice_restored">Маҳаллий овоз танланди</string>
+    <string name="msg_ai_not_ready">Онлайн имкониятлар ёқилмаган ёки калит киритилмаган. Созламаларни очинг.</string>
+    <string name="msg_ai_sensitive">Махфий иловада бу амал ўчирилган.</string>
+    <string name="msg_ai_working">Илтимос, кутинг.</string>
+    <string name="msg_ai_failed">Жавоб олинмади. Интернет ва калитни текширинг.</string>
+    <string name="msg_ai_busy">Олдинги сўров ҳали тугамади.</string>
+    <string name="msg_ai_needs_api30">Бу амал Android 11 ва ундан янги тизимда ишлайди.</string>
+    <string name="msg_ai_screenshot_failed">Экран расмини олиб бўлмади.</string>
+    <string name="msg_nothing_to_translate">Таржима қилинадиган матн йўқ.</string>
+    <string name="msg_azure_key_bad">Microsoft овоз калити қабул қилинмади. Маҳаллий овозга ўтилди.</string>
+    <string name="health_online_off">Онлайн имкониятлар ўчиқ: маълумот қурилмадан чиқмайди.</string>
+    <string name="health_online_on">Онлайн имкониятлар ёқилган: фақат сиз танлаганингизда матн ёки расм ташқи хизматга юборилади.</string>
+    <string name="health_azure_key_yes">Microsoft Azure калити киритилган.</string>
+    <string name="health_azure_key_no">Microsoft Azure калити киритилмаган.</string>
+    <string name="health_ai_key_yes">Сунъий интеллект калити киритилган.</string>
+    <string name="health_ai_key_no">Сунъий интеллект калити киритилмаган.</string>
+    <string name="log_online_failed">Microsoft онлайн овози айтолмади (%1$s); маҳаллий овозга ўтилди.</string>
+    <string name="log_ai_failed">Онлайн сўров бажарилмади (%1$s).</string>
+    <string-array name="azure_voice_entries">
+        <item>Мадина (ўзбек, аёл)</item>
+        <item>Сардор (ўзбек, эркак)</item>
+        <item>Светлана (рус, аёл)</item>
+        <item>Дмитрий (рус, эркак)</item>
+        <item>Jenny (инглиз, аёл)</item>
+        <item>Guy (инглиз, эркак)</item>
+    </string-array>
+    <string-array name="azure_quality_entries">
+        <item>48 kHz, 192 kbit/s (юқори сифат, тавсия)</item>
+        <item>48 kHz, 96 kbit/s (кам трафик)</item>
+    </string-array>
+    <string-array name="translate_from_entries">
+        <item>Автоматик</item>
+        <item>Ўзбекча</item>
+        <item>Русча</item>
+        <item>Инглизча</item>
+        <item>Туркча</item>
+        <item>Арабча</item>
+        <item>Форсча</item>
+        <item>Тожикча</item>
+        <item>Қозоқча</item>
+        <item>Қирғизча</item>
+        <item>Туркманча</item>
+        <item>Хитойча</item>
+        <item>Корейсча</item>
+        <item>Японча</item>
+        <item>Немисча</item>
+        <item>Французча</item>
+        <item>Испанча</item>
+        <item>Итальянча</item>
+    </string-array>
+    <string-array name="translate_entries">
+        <item>Ўзбекча</item>
+        <item>Ўзбекча (кирилл)</item>
+        <item>Русча</item>
+        <item>Инглизча</item>
+        <item>Туркча</item>
+        <item>Арабча</item>
+        <item>Форсча</item>
+        <item>Тожикча</item>
+        <item>Қозоқча</item>
+        <item>Қирғизча</item>
+        <item>Туркманча</item>
+        <item>Хитойча</item>
+        <item>Корейсча</item>
+        <item>Японча</item>
+        <item>Немисча</item>
+        <item>Французча</item>
+        <item>Испанча</item>
+        <item>Итальянча</item>
+    </string-array>
+    <string-array name="typing_entries">
+        <item>Стандарт: ҳарф икки марта босилганда ёзилади</item>
+        <item>Тегиниб ёзиш: бармоқ кўтарилганда ҳарф ёзилади</item>
+    </string-array>
+    <string name="btn_ai">Сунъий интеллект ва онлайн имкониятлар</string>
+    <string name="ai_settings_title">Сунъий интеллект ва онлайн имкониятлар</string>
+    <string name="pref_ai_open">Сунъий интеллект ва онлайн имкониятлар (Gemini, ChatGPT, Claude, Microsoft овози)</string>
+    <string name="pref_ai_open_summary">Калитларни киритинг ва онлайн имкониятларни ёқинг</string>
+    <string name="pref_ai_provider">Сунъий интеллект хизмати</string>
+    <string name="pref_cat_ai_keys">Сунъий интеллект калитлари</string>
+    <string name="pref_cat_azure">Microsoft овози (Azure Speech)</string>
+    <string name="pref_gemini_key">Gemini (Google) калити</string>
+    <string name="pref_gemini_model">Gemini модели</string>
+    <string name="pref_openai_key">ChatGPT (OpenAI) калити</string>
+    <string name="pref_openai_model">ChatGPT модели</string>
+    <string name="pref_custom_url">Бошқа хизмат манзили (https, масалан: https://openrouter.ai/api/v1)</string>
+    <string name="pref_custom_key">Бошқа хизмат калити</string>
+    <string name="pref_custom_model">Бошқа хизмат модели</string>
+    <string-array name="ai_provider_entries">
+        <item>Автоматик (калити киритилган биринчиси)</item>
+        <item>Claude (Anthropic)</item>
+        <item>Gemini (Google)</item>
+        <item>ChatGPT (OpenAI)</item>
+        <item>Бошқа (OpenAI билан мос хизмат)</item>
+    </string-array>
+    <string name="pref_cat_translate">Таржима</string>
+    <string name="pref_translate_from">Манба тили</string>
+    <string name="pref_translate_info_title">Таржима ҳақида</string>
+    <string name="pref_translate_info">Манба тили «Автоматик» бўлса, матн тилини хизмат ўзи аниқлайди. Мақсад тил стандартда ўзбекча. Таржима онлайн хизмат орқали бажарилади: онлайн имкониятларни ёқинг ва сунъий интеллект калитини киритинг. Ишора: икки бармоқ билан икки марта босиб ушлаб туриш, ёки Ўзбегим менюсидан «Таржима қилиш».</string>
+    <string name="pref_typing">Клавиатура режими</string>
+    <string name="mode_fields">Матн майдонлари</string>
+    <string name="mode_rate">Нутқ тезлиги</string>
+    <string name="msg_rate_set">Нутқ тезлиги: %1$d фоиз</string>
+    <string name="msg_no_focus">Фокусда элемент йўқ</string>
+    <string name="msg_action_failed">Амал бажарилмади</string>
+    <string name="msg_no_actions">Бу элементда қўшимча амаллар йўқ</string>
+    <string name="msg_menu_failed">Менюни очиб бўлмади</string>
+    <string name="msg_no_edit">Матн майдони топилмади</string>
+    <string name="msg_selected_all">Ҳаммаси танланди</string>
+    <string name="msg_cut_done">Кесилди</string>
+    <string name="msg_pasted">Қўйилди</string>
+    <string name="msg_one_window">Бошқа ойна йўқ</string>
+    <string name="msg_search_not_found">«%1$s» топилмади</string>
+    <string name="menu_global_title">Ўзбегим менюси</string>
+    <string name="menu_actions_title">Элемент амаллари</string>
+    <string name="btn_close">Ёпиш</string>
+    <string name="search_title">Экранда қидириш</string>
+    <string name="search_hint">Қидириладиган матн</string>
+    <string name="search_go">Қидириш</string>
+    <string name="health_multifinger_ok">Икки, уч ва тўрт бармоқли ишоралар қўллаб-қувватланади.</string>
+    <string name="health_multifinger_no">Бу Android версиясида икки, уч ва тўрт бармоқли ишоралар йўқ (Android 10 ва ундан янгиси керак). Бир бармоқли ишоралар ишлайди.</string>
+    <string name="pref_cat_contact">Алоқа</string>
+    <string name="btn_contact">Алоқа ва мурожаат</string>
+    <string name="contact_title">Алоқа ва мурожаат</string>
+    <string name="contact_intro">Савол, таклиф ёки хато ҳақида ёзинг. «Хато ҳақида хат ёзиш» тугмаси хатга илова ва телефон версиясини ўзи қўшади. Хатни юборишдан олдин кўрасиз.</string>
+    <string name="contact_email_line">Электрон почта: %1$s</string>
+    <string name="contact_telegram_line">Telegram: @%1$s</string>
+    <string name="contact_btn_mail">Хат ёзиш</string>
+    <string name="contact_btn_bug">Хато ҳақида хат ёзиш (версия маълумоти билан)</string>
+    <string name="contact_btn_copy_mail">Электрон почта манзилини нусхалаш</string>
+    <string name="contact_btn_telegram">Телеграмда ёзиш</string>
+    <string name="contact_btn_copy_telegram">Telegram номини нусхалаш</string>
+    <string name="contact_btn_log">Хатолар журналини очиш</string>
+    <string name="contact_mail_subject">Ўзбегим %1$s: мурожаат</string>
+    <string name="contact_bug_subject">Ўзбегим %1$s: хато ҳақида</string>
+    <string name="contact_bug_body">Хатони шу ерга ёзинг: нима қилдингиз, нима бўлди, нима кутгандингиз.\n\n---\nИлова: %1$s\nAndroid: %2$s\nҚурилма: %3$s\nТил: %4$s\nХизмат: %5$s</string>
+    <string name="contact_on">ёқилган</string>
+    <string name="contact_off">ўчирилган</string>
+    <string name="contact_no_mail">Почта иловаси топилмади. Манзил нусхаланди.</string>
+    <string name="contact_no_telegram">Telegram очилмади. Ном нусхаланди.</string>
+    <string name="log_mail_subject">Ўзбегим: хатолар журнали</string>
+    <string-array name="det_order_entries">
+        <item>Ном, тур, ҳолат</item>
+        <item>Тур, ном, ҳолат</item>
+        <item>Ҳолат, ном, тур</item>
+    </string-array>
+    <string-array name="speed_entries">
+        <item>Оддий</item>
+        <item>Тезкор</item>
+        <item>Энг тезкор</item>
+    </string-array>
+    <string-array name="translate_script_entries">
+        <item>Ўзбек лотин (ҳозирги)</item>
+        <item>Ўзбек кирилл</item>
+        <item>Янги алифбо (Ş Ç Ö Ğ)</item>
+    </string-array>
+    <string-array name="two_finger_entries">
+        <item>Фақат қулф экранида (тавсия)</item>
+        <item>Доим</item>
+        <item>Ўчиқ</item>
+    </string-array>
+    <string name="menu_reorder_item">Меню тартибини ўзгартириш</string>
+    <string name="menu_reorder_pick_title">Меню тартиби. Кўчириладиган бандни танланг</string>
+    <string name="menu_reorder_row">%1$d. %2$s</string>
+    <string name="menu_reorder_current">%1$s (ҳозирги ўрни)</string>
+    <string name="menu_reorder_add">Менюга банд қўшиш</string>
+    <string name="menu_reorder_remove">Бандни менюдан олиб ташлаш</string>
+    <string name="menu_reorder_drop_title">%1$s ҳозир %2$d-ўринда. Янги ўринни танланг</string>
+    <string name="menu_reorder_moved">%1$s: %2$d-ўринга кўчирилди</string>
+    <string name="menu_reorder_removed">%1$s менюдан олиб ташланди</string>
+    <string name="menu_reorder_last_item">Менюда камида битта банд қолиши керак</string>
+    <string name="menu_add_title">Менюга қўшиладиган бандни танланг</string>
+    <string name="menu_add_done">%1$s менюга қўшилди, %2$d-ўринда</string>
+    <string name="menu_add_none">Қўшиладиган банд қолмади</string>
+    <string name="menu_editor_order_hint">Тартибни ўзгартириш: Ўзбегим менюсини очинг (пастга, сўнг ўнгга суриш) ва охирги бандни танланг, ёки исталган бандни узоқ босинг. Бандни олиб ташлаш ва қўшиш ҳам шу ерда мумкин.</string>
+    <string name="voices_engine_now">Овозлар рўйхати двигатели: %1$s</string>
+    <string name="voices_engines_intro">Телефонда ўрнатилган бошқа нутқ двигателлари (юклаб олинган овоз пакетлари). Бирини танласангиз, унинг овозлари пастда чиқади; овозни танласангиз, Ўзбегим шу пакет билан гапиради. Матн барибир Ўзбегимнинг ўз қоидалари бўйича тайёрланади.</string>
+    <string name="engine_choose">Двигателни танлаш: %1$s</string>
+    <string name="voices_show_all">Ҳамма тиллардаги овозларни кўрсатиш</string>
+    <string name="voices_show_uz">Фақат ўзбек овозларини кўрсатиш</string>
+    <string name="voice_reads_intro">Танланган овоз пакети қайси ёзувни ўқий олади? Кирилл ва лотинни бирдек ўқийдиган пакетда кирилл матн ўзгармайди; фақат лотинни ўқийдиган пакетда кирилл матн лотинга ўтказилади. Иккала ҳолатда ҳам рақамлар, Рим рақамлари, телефон рақамлари ва янги лотин ҳарфлари Ўзбегимнинг ўз қоидалари бўйича ўқилади. Синаш учун аввал «Тинглаш»ни босинг.</string>
+    <string name="voice_reads_auto">Овоз ёзуви: автоматик (двигателга қараб)</string>
+    <string name="voice_reads_latin">Овоз ёзуви: фақат лотинни ўқийди</string>
+    <string name="voice_reads_both">Овоз ёзуви: лотин ва кириллни ўқийди</string>
+    <string name="pref_voice_reads">Овоз пакети ўқий оладиган ёзув</string>
+    <string-array name="voice_reads_entries">
+        <item>Автоматик: двигателга қараб (RHVoice иккаласини, бошқалар лотинни)</item>
+        <item>Фақат лотин: кирилл лотинга ўтказилади</item>
+        <item>Лотин ва кирилл: кирилл ўзгармайди</item>
+    </string-array>
+    <string name="det_sticker_short">Стикерни қисқа ўқиш</string>
+    <string name="det_sticker_short_summary">Ёқилган бўлса, стикернинг фақат «стикер» сўзи ва биринчи эможиси айтилади, тўлиқ тавсифи айтилмайди. «Стикерларни ўқиш» ёқиқ бўлганда ишлайди.</string>
+    <string name="act_click">Босиш</string>
+    <string name="act_long_click">Узоқ босиш</string>
+    <string name="act_scroll_forward">Олдинга айлантириш</string>
+    <string name="act_scroll_backward">Орқага айлантириш</string>
+    <string name="act_value_up">Қийматни ошириш</string>
+    <string name="act_value_down">Қийматни камайтириш</string>
+    <string name="act_expand">Очиш</string>
+    <string name="act_collapse">Йиғиш</string>
+    <string name="act_dismiss">Ёпиш</string>
+    <string name="act_copy">Нусхалаш</string>
+    <string name="act_cut">Кесиш</string>
+    <string name="act_paste">Қўйиш</string>
+    <string name="act_context_click">Контекст менюси</string>
+    <string name="act_show_on_screen">Экранда кўрсатиш</string>
+    <string name="act_scroll_up">Юқорига айлантириш</string>
+    <string name="act_scroll_down">Пастга айлантириш</string>
+    <string name="act_scroll_left">Чапга айлантириш</string>
+    <string name="act_scroll_right">Ўнгга айлантириш</string>
+    <string name="quirk_xiaomi">Xiaomi, Redmi, POCO: илованинг батарея режимини «Чекловсиз» қилинг ва авто-ишга туширишга рухсат беринг, акс ҳолда тизим хизматни тўхтатиб қўйиши мумкин.</string>
+    <string name="quirk_huawei">Huawei ва Honor: иловани қўлда бошқаришга ўтказинг (авто-ишга тушириш ва фонда ишлаш ёқилган бўлсин). Google хизматлари бўлмаса, ўзбек овози учун RHVoice ўрнатинг.</string>
+    <string name="quirk_oppo">OPPO, Realme, OnePlus: батарея оптимизатсиясини ўчиринг ва авто-ишга туширишга рухсат беринг.</string>
+    <string name="quirk_vivo">vivo, iQOO: фонда ишлашга рухсат беринг ва юқори қувват сарфи чекловини ўчиринг.</string>
+    <string name="quirk_samsung">Samsung: батарея созламаларида Ўзбегимни ухлаётган иловалар рўйхатига қўшманг. Самсунгнинг ўз экран ўқувчиси Voice Assistant деб аталади.</string>
+    <string name="quirk_tecno">Tecno, Infinix, itel: телефон менежерида авто-ишга туширишга рухсат беринг ва батарея чекловини ўчиринг.</string>
+    <string name="ga_none">Ҳеч нарса</string>
+    <string name="ga_next">Кейинги элемент (танланган ўқиш бошқаруви бўйича)</string>
+    <string name="ga_prev">Олдинги элемент (танланган ўқиш бошқаруви бўйича)</string>
+    <string name="ga_next_item">Кейинги элемент (режимдан қатъи назар)</string>
+    <string name="ga_prev_item">Олдинги элемент (режимдан қатъи назар)</string>
+    <string name="ga_mode_next">Кейинги режим</string>
+    <string name="ga_mode_prev">Олдинги режим</string>
+    <string name="ga_first_item">Биринчи элементга ўтиш</string>
+    <string name="ga_jump_last">Охирги элементга ўтиш</string>
+    <string name="ga_next_window">Кейинги ойнага ўтиш</string>
+    <string name="ga_prev_window">Олдинги ойнага ўтиш</string>
+    <string name="ga_activate">Фаоллаштириш (босиш)</string>
+    <string name="ga_long_press">Узоқ босиш</string>
+    <string name="ga_value_up">Слайдер қийматини ошириш</string>
+    <string name="ga_value_down">Слайдер қийматини камайтириш</string>
+    <string name="ga_back">Орқага</string>
+    <string name="ga_home">Бош экран</string>
+    <string name="ga_recents">Сўнгги иловалар</string>
+    <string name="ga_open_apps">Иловалар менюсини очиш</string>
+    <string name="ga_notifications">Билдиришномалар</string>
+    <string name="ga_quick_settings">Тезкор созламалар</string>
+    <string name="ga_lock_screen">Экранни қулфлаш</string>
+    <string name="ga_screenshot">Экран расмини олиш</string>
+    <string name="ga_power_dialog">Ўчириш менюси</string>
+    <string name="ga_split_screen">Экранни иккига бўлиш</string>
+    <string name="ga_media_play_pause">Медиа: ижро этиш ёки тўхтатиш</string>
+    <string name="ga_scroll_fwd">Пастга айлантириш</string>
+    <string name="ga_scroll_back">Юқорига айлантириш</string>
+    <string name="ga_scroll_left">Чапга айлантириш</string>
+    <string name="ga_scroll_right">Ўнгга айлантириш</string>
+    <string name="ga_screen_swipe_up">Экранни юқорига суриш (қулфни очиш)</string>
+    <string name="ga_screen_swipe_down">Экранни пастга суриш</string>
+    <string name="ga_screen_swipe_left">Экранни чапга суриш</string>
+    <string name="ga_screen_swipe_right">Экранни ўнгга суриш</string>
+    <string name="ga_select_all">Ҳаммасини танлаш</string>
+    <string name="ga_copy_text">Матнни нусхалаш</string>
+    <string name="ga_cut_text">Матнни кесиш</string>
+    <string name="ga_paste_text">Матнни қўйиш</string>
+    <string name="ga_stop_speech">Нутқни тўхтатиш</string>
+    <string name="ga_speed_up">Нутқни тезлаштириш</string>
+    <string name="ga_speed_down">Нутқни секинлаштириш</string>
+    <string name="ga_read_from_top">Бошидан узлуксиз ўқиш</string>
+    <string name="ga_read_from_next">Кейингисидан узлуксиз ўқиш</string>
+    <string name="ga_repeat_last">Охирги айтилганни такрорлаш</string>
+    <string name="ga_copy_last">Охирги айтилганни нусхалаш</string>
+    <string name="ga_save_audio">Охирги ўқилганни MP3 қилиб сақлаш</string>
+    <string name="ga_status">Соат ва батарея</string>
+    <string name="ga_curtain">Экран пардаси</string>
+    <string name="ga_global_menu">Ўзбегим менюси</string>
+    <string name="ga_actions_menu">Элемент амаллари менюси</string>
+    <string name="ga_screen_search">Экранда қидириш</string>
+    <string name="ga_translate">Таржима қилиш (фокусдаги матнни)</string>
+    <string name="ga_auto_translate">Автоматик таржимани ёқиш ёки ўчириш</string>
+    <string name="ga_describe_screen">Экранни сунъий интеллект билан тасвирлаш</string>
+    <string name="ga_describe_image">Расмга тавсиф бериш</string>
+    <string name="ga_links_menu">Мавжуд ҳаволаларга ўтиш</string>
+    <string name="ga_explain_bridge">Сўз асли қандай эди</string>
+    <string name="ga_add_word">Сўзни талаффуз луғатига қўшиш</string>
+    <string name="ga_add_label">Элементга ёрлиқ қўшиш</string>
+    <string name="ga_call_answer">Қўнғироққа жавоб бериш</string>
+    <string name="ga_call_end">Қўнғироқни тугатиш</string>
+    <string name="ga_call_speaker">Карнайни ёқиш ёки ўчириш</string>
+    <string name="ga_read_private">Махфий хабарни ўқиш</string>
+    <string name="ga_mark_problem">Муаммо белгиси</string>
+    <string name="ga_practice">Ишоралар машқи</string>
+    <string name="ga_open_settings">Ўзбегим созламалари</string>
+    <string name="ga_tts_settings">Матнни нутққа айлантириш созламалари</string>
+    <string name="ga_system_actions">Тизим амаллари</string>
+    <string name="ga_details_menu">Тафсилотлар менюси</string>
+    <string name="ga_speed_mode">Жавоб тезлиги режимини алмаштириш</string>
+    <string name="ga_suspend">Тўхтатиш ёки давом эттириш</string>
+    <string name="ga_settings_menu">Ўзбегим созламалари бўлимлари (рўйхат)</string>
+    <string name="ga_open_voices">Овозлар созламалари</string>
+    <string name="ga_open_gestures">Ишораларни созлаш</string>
+    <string name="ga_open_details">Тафсилотлар созламалари</string>
+    <string name="ga_open_ai">Сунъий интеллект ва онлайн имкониятлар созламалари</string>
+    <string name="ga_open_backup">Созламаларни экспорт ва импорт</string>
+    <string name="ga_open_health">Тизим текшируви</string>
+    <string name="ga_open_log">Хатолар журнали</string>
+    <string name="ga_open_menu_editor">Ўзбегим менюсини созлаш</string>
+    <string name="ga_next_char">Кейинги ҳарф</string>
+    <string name="ga_prev_char">Олдинги ҳарф</string>
+    <string name="ga_next_word">Кейинги сўз</string>
+    <string name="ga_prev_word">Олдинги сўз</string>
+    <string name="ga_next_line">Кейинги қатор (гап)</string>
+    <string name="ga_prev_line">Олдинги қатор (гап)</string>
+    <string name="ga_next_para">Кейинги хатбоши</string>
+    <string name="ga_prev_para">Олдинги хатбоши</string>
+    <string name="ga_spell_focused">Фокусдаги матнни ҳарфлаб ўқиш</string>
+    <string name="ga_spell_last">Охирги айтилганни ҳарфлаб ўқиш</string>
+    <string name="ga_reading_menu">Ўқиш бошқарувини танлаш менюси</string>
+    <string name="ga_pitch_up">Овоз тонини кўтариш</string>
+    <string name="ga_pitch_down">Овоз тонини пасайтириш</string>
+    <string name="gi_swipe_right">Бир бармоқ: ўнгга суриш</string>
+    <string name="gi_swipe_left">Бир бармоқ: чапга суриш</string>
+    <string name="gi_swipe_up">Бир бармоқ: юқорига суриш</string>
+    <string name="gi_swipe_down">Бир бармоқ: пастга суриш</string>
+    <string name="gi_swipe_up_and_left">Юқорига, сўнг чапга</string>
+    <string name="gi_swipe_up_and_right">Юқорига, сўнг ўнгга</string>
+    <string name="gi_swipe_up_and_down">Юқорига, сўнг пастга</string>
+    <string name="gi_swipe_down_and_left">Пастга, сўнг чапга</string>
+    <string name="gi_swipe_down_and_right">Пастга, сўнг ўнгга</string>
+    <string name="gi_swipe_down_and_up">Пастга, сўнг юқорига</string>
+    <string name="gi_swipe_left_and_up">Чапга, сўнг юқорига</string>
+    <string name="gi_swipe_left_and_down">Чапга, сўнг пастга</string>
+    <string name="gi_swipe_left_and_right">Чапга, сўнг ўнгга</string>
+    <string name="gi_swipe_right_and_up">Ўнгга, сўнг юқорига</string>
+    <string name="gi_swipe_right_and_down">Ўнгга, сўнг пастга</string>
+    <string name="gi_swipe_right_and_left">Ўнгга, сўнг чапга</string>
+    <string name="gi_2_finger_single_tap">Икки бармоқ: бир марта босиш</string>
+    <string name="gi_2_finger_double_tap">Икки бармоқ: икки марта босиш</string>
+    <string name="gi_2_finger_triple_tap">Икки бармоқ: уч марта босиш</string>
+    <string name="gi_2_finger_double_tap_and_hold">Икки бармоқ: икки марта босиб ушлаб туриш</string>
+    <string name="gi_2_finger_swipe_up">Икки бармоқ: юқорига суриш</string>
+    <string name="gi_2_finger_swipe_down">Икки бармоқ: пастга суриш</string>
+    <string name="gi_2_finger_swipe_left">Икки бармоқ: чапга суриш</string>
+    <string name="gi_2_finger_swipe_right">Икки бармоқ: ўнгга суриш</string>
+    <string name="gi_3_finger_single_tap">Уч бармоқ: бир марта босиш</string>
+    <string name="gi_3_finger_double_tap">Уч бармоқ: икки марта босиш</string>
+    <string name="gi_3_finger_triple_tap">Уч бармоқ: уч марта босиш</string>
+    <string name="gi_3_finger_single_tap_and_hold">Уч бармоқ: бир марта босиб ушлаб туриш</string>
+    <string name="gi_3_finger_double_tap_and_hold">Уч бармоқ: икки марта босиб ушлаб туриш</string>
+    <string name="gi_3_finger_swipe_up">Уч бармоқ: юқорига суриш</string>
+    <string name="gi_3_finger_swipe_down">Уч бармоқ: пастга суриш</string>
+    <string name="gi_3_finger_swipe_left">Уч бармоқ: чапга суриш</string>
+    <string name="gi_3_finger_swipe_right">Уч бармоқ: ўнгга суриш</string>
+    <string name="gi_4_finger_single_tap">Тўрт бармоқ: бир марта босиш</string>
+    <string name="gi_4_finger_double_tap">Тўрт бармоқ: икки марта босиш</string>
+    <string name="gi_4_finger_triple_tap">Тўрт бармоқ: уч марта босиш</string>
+    <string name="gi_4_finger_swipe_up">Тўрт бармоқ: юқорига суриш</string>
+    <string name="gi_4_finger_swipe_down">Тўрт бармоқ: пастга суриш</string>
+    <string name="gi_4_finger_swipe_left">Тўрт бармоқ: чапга суриш</string>
+    <string name="gi_4_finger_swipe_right">Тўрт бармоқ: ўнгга суриш</string>
+    <string name="details_time_battery">Вақт ва батарея</string>
+    <string name="details_time_battery_summary">Соатни ҳар 30 ёки 60 дақиқада айтиш ва батарея қуввати эълони</string>
+    <string name="tb_title">Вақт ва батарея</string>
+    <string name="tb_cat_time">Вақт эълони</string>
+    <string name="tb_time_mode">Вақтни автоматик айтиш</string>
+    <string-array name="tb_time_mode_entries">
+        <item>Ўчиқ</item>
+        <item>Ҳар 30 дақиқада</item>
+        <item>Ҳар 60 дақиқада</item>
+    </string-array>
+    <string name="tb_time_format">Вақт формати</string>
+    <string-array name="tb_time_format_entries">
+        <item>24 соатлик</item>
+        <item>12 соатлик</item>
+    </string-array>
+    <string name="tb_time_style">Соатни ўқиш услуби</string>
+    <string-array name="tb_time_style_entries">
+        <item>Биринчи мисол: Соат ўн бир, соат ўн бирдан ўттиз дақиқа ўтди</item>
+        <item>Иккинчи мисол: Соат ўн бир, соат ўн бир ўттиз</item>
+    </string-array>
+    <string name="tb_time_busy">Эълон вақтида матн ўқилаётган бўлса</string>
+    <string-array name="tb_time_busy_entries">
+        <item>Ўқиш тугашини кутиб, кейин айтиш</item>
+        <item>Ўқишни тўхтатиб, дарҳол айтиш</item>
+    </string-array>
+    <string name="tb_exact">Аниқ вақтда айтиш рухсати</string>
+    <string name="tb_exact_on">Берилган: эълон аниқ вақтида айтилади</string>
+    <string name="tb_exact_off">Берилмаган: экран ўчиқ пайтида эълон бироз кечикиши мумкин. Рухсат бериш учун босинг</string>
+    <string name="tb_time_test">Вақтни ҳозир айтиш</string>
+    <string name="tb_cat_battery">Батарея эълони</string>
+    <string name="tb_battery_mode">Батарея қувватини автоматик айтиш</string>
+    <string-array name="tb_battery_mode_entries">
+        <item>Ўчиқ</item>
+        <item>Ҳар 10 фоиз ўзгарганда</item>
+        <item>Ўзим белгилаган фоиз қадамида</item>
+    </string-array>
+    <string name="tb_battery_step">Фоиз қадами (сургич)</string>
+    <string name="tb_battery_step_summary">Қувват шунча фоизга ўзгарганда айтилади. Қадамни белгиласангиз, батарея эълони автоматик ёқилади.</string>
+    <string name="tb_battery_step_exact">Фоиз қадамини аниқ ёзиш</string>
+    <string name="tb_battery_step_exact_summary">Ҳозирги қадам: %1$d фоиз. Аниқ сон ёзиш учун босинг</string>
+    <string name="tb_battery_test">Батарея ҳолатини ҳозир айтиш</string>
+    <string name="tb_say_12">%1$s соат %2$s</string>
+    <string name="tb_say_past">Соат %1$s, соат %2$s %3$s дақиқа ўтди</string>
+    <string name="tb_say_digital">Соат %1$s, соат %2$s</string>
+    <string name="tb_say_part">%1$s, %2$s</string>
+    <string name="tb_battery_custom_on">Батарея эълони ёқилди: ҳар %1$d фоизда</string>
+    <string name="tb_part_night">Тунда</string>
+    <string name="tb_part_dawn">Тонгда</string>
+    <string name="tb_part_morning">Эрталаб</string>
+    <string name="tb_part_day">Кундуз</string>
+    <string name="tb_part_evening">Кечқурун</string>
+    <string name="msg_audio_none">Сақлаш учун ўқилган матн йўқ</string>
+    <string name="msg_audio_sensitive">Махфий иловада ўқилган матн тармоққа чиқмайди, шунинг учун сақланмади</string>
+    <string name="msg_audio_need_online">MP3 га сақлаш фақат Microsoft овозларида ишлайди. Овозлар созламаларида Мадина ёки Сардорни танланг ва онлайн имкониятларни ёқинг</string>
+    <string name="msg_audio_saving">MP3 тайёрланмоқда</string>
+    <string name="msg_audio_saved">MP3 сақланди. Файл номи: %1$s. Папка: %2$s</string>
+    <string name="msg_audio_truncated">Матн узун бўлгани учун фақат бошидаги %1$d белги сақланди.</string>
+    <string name="msg_audio_auth">MP3 сақланмади: Azure калити рад этилди</string>
+    <string name="msg_audio_failed">MP3 сақланмади. Интернетни текширинг ва қайта уриниб кўринг</string>
+    <string name="details_cat_input">Босиш ва навигатсия</string>
+    <string name="pref_double_tap">Икки марта босишни ким бажаради</string>
+    <string-array name="double_tap_entries">
+        <item>Ўзбегим бажаради (тавсия этилади)</item>
+        <item>Android тизими бажаради</item>
+    </string-array>
+    <string name="pref_skip_unlabeled">Хабарлашув иловаларида ёрлиқсиз тугмаларни ўтказиб юбориш</string>
+    <string name="pref_skip_unlabeled_summary">Telegram каби иловаларда матни, тавсифи ва ичида ёрлиғи йўқ кўринмас тугмаларда тўхталмайди</string>
+    <string name="secrets_unavailable">Қурилманинг хавфсиз калит хотираси (Android Keystore) ишламаяпти, шунинг учун калит сақланмади. Калитлар ҳеч қачон очиқ матнда сақланмайди. Қурилмани қайта ишга тушириб қайта уриниб кўринг ёки бошқа қурилмадан фойдаланинг.</string>
+    <string name="health_keystore_ok">Калитлар хотираси (Android Keystore) ишлаяпти</string>
+    <string name="health_keystore_bad">Калитлар хотираси (Android Keystore) ишламаяпти: API калитлари сақланмайди. Қурилмани қайта ишга туширинг ёки бошқа қурилмада уриниб кўринг</string>
+    <string name="details_cat_language">Матн тили</string>
+    <string name="det_lang">Матн тили</string>
+    <string name="det_lang_about">Матн тили ҳақида</string>
+    <string name="det_lang_summary">Рақамлар, сана, пул, фан қисқартмалари ва эмодзи ўзбекча сўзлар билан ўқилиши учун матн тили ўзбекча бўлиши керак. Автоматик: танланган овоз пакетининг тили, овоз танланмаган бўлса тизим тили. Бошқа тилда матнга тегилмайди, овоз двигатели уни ўзи ўқийди.</string>
+    <string-array name="det_lang_entries">
+        <item>Автоматик (овоз пакети ёки тизим тили)</item>
+        <item>Тизим тили</item>
+        <item>Доим ўзбекча</item>
+        <item>Бошқа тил (овоз двигатели ўзи ўқийди)</item>
+    </string-array>
+</resources>

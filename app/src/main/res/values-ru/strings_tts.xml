@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tts_engine_label">O‘zbegim</string>
+    <string name="tts_engine_settings_title">Голосовой движок O‘zbegim</string>
+    <string name="tts_btn_off">Голосовой движок O‘zbegim: не выбран основным. Нажмите, чтобы сделать его основным</string>
+    <string name="tts_btn_on">Голосовой движок O‘zbegim: выбран основным. Нажмите, чтобы вернуть прежний движок</string>
+    <string name="tts_dialog_title">Голосовой движок</string>
+    <string name="tts_need_backend">O‘zbegim сам не синтезирует голос: он использует голос другого движка синтеза речи на телефоне (например, RHVoice) и готовит текст по своим правилам. Сейчас на телефоне другого движка синтеза речи не найдено. Сначала установите RHVoice или другой движок.</string>
+    <string name="tts_msg_already">O‘zbegim уже выбран основным движком.</string>
+    <string name="tts_msg_done">Готово. Теперь O‘zbegim — основной движок синтеза речи.</string>
+    <string name="tts_msg_restored">Прежний движок синтеза речи возвращён.</string>
+    <string name="tts_msg_auto_started">Открываются настройки синтеза речи. O‘zbegim будет выбран основным движком. Пожалуйста, не касайтесь экрана.</string>
+    <string name="tts_msg_failed">Не удалось выбрать автоматически. Настройки открыты: в пункте основного движка («Preferred engine») выберите O‘zbegim и нажмите OK в предупреждении.</string>
+    <string name="tts_msg_need_service">Служба экранного чтения O‘zbegim не включена, поэтому автоматически выбрать нельзя. Откроются настройки синтеза речи: в пункте основного движка выберите O‘zbegim.</string>
+    <string name="tts_msg_open_failed">Не удалось открыть настройки синтеза речи. Откройте раздел синтеза речи в настройках телефона сами.</string>
+    <string name="tts_msg_pick_manually">Прежний движок неизвестен. Откроются настройки синтеза речи: в пункте основного движка выберите нужный.</string>
+    <string name="pref_tts_engine">Голосовой движок O‘zbegim (для системы)</string>
+    <string name="pref_tts_engine_summary">Сделать O‘zbegim основным движком синтеза речи телефона и настроить его</string>
+    <string name="tts_act_intro">Когда O‘zbegim выбран основным движком синтеза речи, все приложения, которые озвучивают текст (TalkBack, читалки, навигация), отправляют текст в O‘zbegim. O‘zbegim готовит текст по своим узбекским правилам (кириллица, латиница и новая латиница, числа, римские цифры, телефонные номера) и передаёт его другому движку, установленному на телефоне, который и создаёт голос. По сети ничего не отправляется.</string>
+    <string name="tts_act_status_on">Состояние: O‘zbegim — основной движок телефона. Движок голоса: %1$s.</string>
+    <string name="tts_act_status_off">Состояние: сейчас основной движок телефона: %1$s. O‘zbegim пока не выбран.</string>
+    <string name="tts_act_unknown">неизвестно</string>
+    <string name="tts_act_backend_title">Движок голоса за O‘zbegim</string>
+    <string name="tts_act_backend_none">Другого движка синтеза речи не найдено. Установите RHVoice или другой движок.</string>
+    <string name="tts_act_backend_none_short">не найден</string>
+    <string name="tts_act_backend_auto">Выбирать движок голоса автоматически</string>
+    <string name="tts_act_backend_choose">Движок голоса: %1$s</string>
+    <string name="tts_act_backend_saved">Сохранено: %1$s</string>
+    <string name="tts_act_current_mark">%1$s (выбрано)</string>
+    <string name="tts_act_rules_on">Правила текста O‘zbegim для других приложений: включены. Нажмите, чтобы выключить</string>
+    <string name="tts_act_rules_off">Правила текста O‘zbegim для других приложений: выключены. Нажмите, чтобы включить</string>
+    <string name="tts_act_sample">Послушать пример через движок O‘zbegim</string>
+    <string name="tts_act_sample_failed">Движок O‘zbegim не запустился или узбекский язык не найден. Проверьте движок голоса.</string>
+    <string name="tts_act_adb_title">Мгновенное включение (необязательно)</string>
+    <string name="tts_act_adb_text">Если один раз выполнить эту команду с компьютера, кнопка будет работать мгновенно, не открывая настройки:</string>
+    <string name="tts_act_adb_granted">Разрешение выдано: кнопка работает мгновенно.</string>
+    <string name="tts_act_adb_copy">Скопировать команду ADB</string>
+    <string name="tts_act_adb_copied">Скопировано</string>
+</resources>

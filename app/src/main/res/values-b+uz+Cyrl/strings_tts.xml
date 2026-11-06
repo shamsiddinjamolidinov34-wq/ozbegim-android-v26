@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tts_engine_label">Ўзбегим</string>
+    <string name="tts_engine_settings_title">Ўзбегим овоз двигатели</string>
+    <string name="tts_btn_off">Ўзбегим овоз двигатели: афзал кўрилган механизм эмас. Афзал кўрилган механизм қилиш учун босинг</string>
+    <string name="tts_btn_on">Ўзбегим овоз двигатели: афзал кўрилган механизм. Олдинги механизмга қайтариш учун босинг</string>
+    <string name="tts_dialog_title">Овоз двигатели</string>
+    <string name="tts_need_backend">Ўзбегим овозни ўзи синтез қилмайди: у телефондаги бошқа нутқ двигатели (масалан, RHVoice) овозидан фойдаланади ва матнни ўз қоидалари бўйича тайёрлаб беради. Ҳозир телефонда бошқа нутқ двигатели топилмади. Аввал RHVoice ёки бошқа нутқ двигателини ўрнатинг.</string>
+    <string name="tts_msg_already">Ўзбегим аллақачон афзал кўрилган механизм.</string>
+    <string name="tts_msg_done">Тайёр. Ўзбегим энди афзал кўрилган механизм.</string>
+    <string name="tts_msg_restored">Олдинги нутқ механизми қайтарилди.</string>
+    <string name="tts_msg_auto_started">Нутқ синтези созламалари очилмоқда. Ўзбегим афзал кўрилган механизм қилиб танланади. Илтимос, экранга тегмай туринг.</string>
+    <string name="tts_msg_failed">Автоматик танлаб бўлмади. Созламалар очиқ турибди: «Афзал кўрилган механизм» бандидан Ўзбегимни танланг ва огоҳлантиришда OK ни босинг.</string>
+    <string name="tts_msg_need_service">Ўзбегим экран ўқувчи хизмати ёқилмаган, шунинг учун автоматик танлаб бўлмайди. Нутқ синтези созламалари очилади: «Афзал кўрилган механизм» бандидан Ўзбегимни танланг.</string>
+    <string name="tts_msg_open_failed">Нутқ синтези созламаларини очиб бўлмади. Телефон созламаларидан «Матнни нутққа айлантириш» бўлимини ўзингиз очинг.</string>
+    <string name="tts_msg_pick_manually">Олдинги механизм номаълум. Нутқ синтези созламалари очилади: «Афзал кўрилган механизм» бандидан ўзингизга кераклисини танланг.</string>
+    <string name="pref_tts_engine">Ўзбегим овоз двигатели (тизим учун)</string>
+    <string name="pref_tts_engine_summary">Ўзбегимни телефоннинг афзал кўрилган нутқ механизми қилиш ва созлаш</string>
+    <string name="tts_act_intro">Ўзбегим афзал кўрилган нутқ механизми бўлса, овоз чиқарадиган барча илова (TalkBack, китоб ўқувчилар, навигация) матнни Ўзбегимга беради. Ўзбегим матнни ўзининг ўзбекча қоидалари билан тайёрлайди (кирилл, лотин ва янги лотин ёзувлари, рақамлар, рим рақамлари, телефон рақамлари) ва телефонда ўрнатилган бошқа двигателга беради, овозни шу двигатель чиқаради. Тармоққа ҳеч нарса юборилмайди.</string>
+    <string name="tts_act_status_on">Ҳолат: Ўзбегим телефоннинг афзал кўрилган механизми. Овоз берувчи двигатель: %1$s.</string>
+    <string name="tts_act_status_off">Ҳолат: телефоннинг афзал кўрилган механизми ҳозир: %1$s. Ўзбегим ҳозирча танланмаган.</string>
+    <string name="tts_act_unknown">номаълум</string>
+    <string name="tts_act_backend_title">Ўзбегим ортидаги овоз берувчи двигатель</string>
+    <string name="tts_act_backend_none">Бошқа нутқ двигатели топилмади. RHVoice ёки бошқа двигателни ўрнатинг.</string>
+    <string name="tts_act_backend_none_short">топилмади</string>
+    <string name="tts_act_backend_auto">Овоз берувчи двигателни автоматик танлаш</string>
+    <string name="tts_act_backend_choose">Овоз берувчи двигатель: %1$s</string>
+    <string name="tts_act_backend_saved">Сақланди: %1$s</string>
+    <string name="tts_act_current_mark">%1$s (танланган)</string>
+    <string name="tts_act_rules_on">Бошқа иловалар учун Ўзбегим матн қоидалари: ёқилган. Ўчириш учун босинг</string>
+    <string name="tts_act_rules_off">Бошқа иловалар учун Ўзбегим матн қоидалари: ўчирилган. Ёқиш учун босинг</string>
+    <string name="tts_act_sample">Ўзбегим двигатели орқали намунани эшитиш</string>
+    <string name="tts_act_sample_failed">Ўзбегим двигатели ишга тушмади ёки ўзбек тили топилмади. Овоз берувчи двигателни текширинг.</string>
+    <string name="tts_act_adb_title">Бир зумда ёқиш (ихтиёрий)</string>
+    <string name="tts_act_adb_text">Компьютердан бир марта шу буйруқни бажарсангиз, тугма созламаларни очмасдан, бир зумда ишлайди:</string>
+    <string name="tts_act_adb_granted">Рухсат берилган: тугма бир зумда ишлайди.</string>
+    <string name="tts_act_adb_copy">ADB буйруғини нусхалаш</string>
+    <string name="tts_act_adb_copied">Нусхаланди</string>
+</resources>

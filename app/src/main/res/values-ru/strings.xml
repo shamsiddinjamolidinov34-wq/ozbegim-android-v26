@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">O‘zbegim</string>
+    <string name="service_description">Озвучивает то, что находится на экране. Проведите пальцем, чтобы перейти к следующему элементу, дважды коснитесь, чтобы активировать.</string>
+    <string name="main_status_on">Состояние службы: включена.</string>
+    <string name="main_status_off">Состояние службы: выключена. Первой кнопкой ниже откройте настройки специальных возможностей и включите O‘zbegim.</string>
+    <string name="main_warning">Внимание: если включён TalkBack, оба будут говорить одновременно. Проверяйте на запасном устройстве. Остановка: удерживайте обе кнопки громкости три секунды.</string>
+    <string name="btn_enable">Открыть настройки специальных возможностей</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="btn_test">Проверить голос</string>
+    <string name="btn_health">Проверка системы</string>
+    <string name="btn_log">Журнал ошибок</string>
+    <string name="btn_voices">Голоса</string>
+    <string name="btn_gestures">Жесты</string>
+    <string name="btn_tutorial">Учебные упражнения</string>
+    <string name="test_not_running">Сначала включите службу O‘zbegim.</string>
+    <string name="test_phrase">O‘zbegim работает. Тестовый текст: Settings, WhatsApp, Wi-Fi, Настройки, Сообщения.</string>
+    <string name="role_button">кнопка</string>
+    <string name="role_edit">поле ввода</string>
+    <string name="role_password">поле пароля</string>
+    <string name="role_checkbox">флажок</string>
+    <string name="role_switch">переключатель</string>
+    <string name="role_radio">радиокнопка</string>
+    <string name="role_image">изображение</string>
+    <string name="role_list">список</string>
+    <string name="role_heading">заголовок</string>
+    <string name="role_link">ссылка</string>
+    <string name="role_seekbar">ползунок</string>
+    <string name="role_spinner">выпадающий список</string>
+    <string name="unlabeled">без названия</string>
+    <string name="state_checked">отмечено</string>
+    <string name="state_unchecked">не отмечено</string>
+    <string name="state_on">включено</string>
+    <string name="state_off">выключено</string>
+    <string name="state_disabled">недоступно</string>
+    <string name="state_selected">выбрано</string>
+    <string name="state_not_selected">не выбрано</string>
+    <string name="state_expanded">развёрнуто</string>
+    <string name="state_collapsed">свёрнуто</string>
+    <string name="state_percent">%1$d%%</string>
+    <string name="state_position">%1$d из %2$d</string>
+    <string name="mode_elements">Элементы</string>
+    <string name="mode_headings">Заголовки</string>
+    <string name="mode_controls">Элементы управления</string>
+    <string name="mode_links">Ссылки</string>
+    <string name="mode_characters">Символы</string>
+    <string name="mode_words">Слова</string>
+    <string name="mode_lines">Строки</string>
+    <string name="mode_paragraphs">Абзацы</string>
+    <string name="msg_service_on">O‘zbegim включён</string>
+    <string name="msg_safe_mode">Безопасный режим: дополнительные функции отключены</string>
+    <string name="msg_suspended">O‘zbegim приостановлен</string>
+    <string name="msg_resumed">O‘zbegim продолжает работу</string>
+    <string name="msg_no_window">Окно не найдено</string>
+    <string name="msg_first_item">Первый элемент</string>
+    <string name="msg_last_item">Последний элемент</string>
+    <string name="msg_curtain_on">Шторка экрана включена</string>
+    <string name="msg_curtain_off">Шторка экрана выключена</string>
+    <string name="msg_marked">Проблема отмечена. Последние тридцать секунд записаны в журнал</string>
+    <string name="msg_status_time">Время %1$s</string>
+    <string name="msg_status_battery">Батарея %1$s%%</string>
+    <string name="msg_charging">заряжается</string>
+    <string name="msg_private_notification">Получено конфиденциальное сообщение. Чтобы прочитать, коснитесь тремя разами двумя пальцами</string>
+    <string name="msg_private_none">Конфиденциальных сообщений нет</string>
+    <string name="msg_bridge_none">Адаптированных слов пока нет</string>
+    <string name="msg_bridge_item">Прочитано как %1$s. Исходное слово: %2$s</string>
+    <string name="msg_deleted">удалено %1$s</string>
+    <string name="msg_hidden_char">символ</string>
+    <string name="msg_call_done">Выполнено</string>
+    <string name="msg_call_not_found">Кнопка вызова не найдена</string>
+    <string name="msg_no_view_id">У этого элемента нет идентификатора</string>
+    <string name="msg_nothing_spoken">Пока ничего не было сказано</string>
+    <string name="msg_copied">Скопировано</string>
+    <string name="msg_no_word">Нет слова для добавления в словарь</string>
+    <string name="msg_saved">Сохранено</string>
+    <string name="btn_apply_import">Импортировать</string>
+    <string name="backup_confirm_title">Импортировать настройки?</string>
+    <string name="backup_confirm_message">В файле: настроек — %1$d, строк словаря — %2$d, ярлыков — %3$d, профилей приложений — %4$d. Разделы, которые есть в файле, заменят текущие данные. Импортируйте только файлы, которым доверяете.</string>
+    <string name="msg_too_large">Текст слишком большой: не более 200 000 знаков.</string>
+    <string name="msg_save_failed">Не удалось сохранить.</string>
+    <string name="msg_ai_not_ready">Онлайн-функции выключены или не введён ключ. Откройте настройки.</string>
+    <string name="msg_ai_sensitive">В приватных приложениях это действие отключено.</string>
+    <string name="msg_ai_working">Пожалуйста, подождите.</string>
+    <string name="msg_ai_failed">Ответ не получен. Проверьте интернет и ключ.</string>
+    <string name="msg_ai_busy">Предыдущий запрос ещё не завершён.</string>
+    <string name="msg_ai_needs_api30">Это действие работает на Android 11 и новее.</string>
+    <string name="msg_ai_screenshot_failed">Не удалось сделать снимок экрана.</string>
+    <string name="msg_nothing_to_translate">Нечего переводить.</string>
+    <string name="msg_azure_key_bad">Ключ голоса Microsoft отклонён. Включён локальный голос.</string>
+
+    <string name="mode_fields">Поля ввода</string>
+    <string name="mode_rate">Скорость речи</string>
+    <string name="msg_rate_set">Скорость речи: %1$d процентов</string>
+    <string name="msg_no_focus">Нет элемента в фокусе</string>
+    <string name="msg_action_failed">Действие не выполнено</string>
+    <string name="msg_no_actions">У этого элемента нет дополнительных действий</string>
+    <string name="msg_menu_failed">Не удалось открыть меню</string>
+    <string name="msg_no_edit">Поле ввода не найдено</string>
+    <string name="msg_selected_all">Всё выделено</string>
+    <string name="msg_cut_done">Вырезано</string>
+    <string name="msg_pasted">Вставлено</string>
+    <string name="msg_one_window">Других окон нет</string>
+    <string name="msg_search_not_found">«%1$s» не найдено</string>
+    <string name="menu_global_title">Меню O‘zbegim</string>
+    <string name="menu_actions_title">Действия элемента</string>
+    <string name="btn_close">Закрыть</string>
+    <string name="search_title">Поиск на экране</string>
+    <string name="search_hint">Искомый текст</string>
+    <string name="search_go">Искать</string>
+
+    <string name="pref_cat_contact">Связь</string>
+    <string name="btn_contact">Связь и обращения</string>
+    <string name="contact_title">Связь и обращения</string>
+    <string name="contact_intro">Напишите вопрос, предложение или сообщение об ошибке. Кнопка «Написать об ошибке» сама добавит в письмо версию приложения и телефона. Перед отправкой вы увидите письмо.</string>
+    <string name="contact_email_line">Электронная почта: %1$s</string>
+    <string name="contact_telegram_line">Telegram: @%1$s</string>
+    <string name="contact_btn_mail">Написать письмо</string>
+    <string name="contact_btn_bug">Написать об ошибке (с данными о версии)</string>
+    <string name="contact_btn_copy_mail">Скопировать адрес электронной почты</string>
+    <string name="contact_btn_telegram">Написать в Telegram</string>
+    <string name="contact_btn_copy_telegram">Скопировать имя в Telegram</string>
+    <string name="contact_btn_log">Открыть журнал ошибок</string>
+    <string name="contact_mail_subject">O‘zbegim %1$s: обращение</string>
+    <string name="contact_bug_subject">O‘zbegim %1$s: об ошибке</string>
+    <string name="contact_bug_body">Опишите ошибку: что вы делали, что произошло, что ожидали.\n\n---\nПриложение: %1$s\nAndroid: %2$s\nУстройство: %3$s\nЯзык: %4$s\nСлужба: %5$s</string>
+    <string name="contact_on">включена</string>
+    <string name="contact_off">выключена</string>
+    <string name="contact_no_mail">Почтовое приложение не найдено. Адрес скопирован.</string>
+    <string name="contact_no_telegram">Не удалось открыть Telegram. Имя скопировано.</string>
+    <string name="log_mail_subject">O‘zbegim: журнал ошибок</string>
+
+    <!-- 0.6.0: tafsilotlar, tezlashtirish, avtomatik tarjima, ikki barmoq, Rim raqamlari -->
+    <string name="mode_verbosity">Подробность</string>
+    <string name="menu_details_title">Подробность</string>
+    <string name="menu_details_item">Подробность: %1$s</string>
+    <string name="details_level_row">Уровень подробности: %1$s (сменить)</string>
+    <string name="details_open_settings">Открыть настройки подробности</string>
+    <string name="details_low">низкая</string>
+    <string name="details_medium">средняя</string>
+    <string name="details_high">высокая</string>
+    <string name="details_custom">своя</string>
+    <string name="msg_details_level">Подробность: %1$s</string>
+    <string name="msg_detail_state">%1$s: %2$s</string>
+    <string name="menu_system_title">Системные действия</string>
+    <string name="menu_links_title">Доступные ссылки</string>
+    <string name="msg_no_links">Ссылки не найдены.</string>
+    <string name="menu_auto_tr">Автоперевод: %1$s</string>
+    <string name="msg_auto_tr_on">Автоперевод включён. Тексты на других языках будут переводиться на узбекский и читаться.</string>
+    <string name="msg_auto_tr_on_not_uz">Автоперевод включён. Он работает, когда язык текста узбекский.</string>
+    <string name="msg_auto_tr_off">Автоперевод выключен.</string>
+    <string name="msg_auto_tr_need_key">Для автоперевода нужен ключ ИИ. Открываю экран ввода ключа.</string>
+    <string name="msg_auto_tr_failed">Служба перевода не ответила. Пока читается исходный текст.</string>
+    <string name="auto_tr_consent_title">Автоперевод отправляет текст с экрана (кроме приватных приложений, паролей и кодов подтверждения) в выбранную вами службу ИИ. Включить онлайн-функции?</string>
+    <string name="auto_tr_consent_yes">Да, включить</string>
+    <string name="auto_tr_consent_no">Нет</string>
+    <string name="hint_activate">дважды коснитесь для активации</string>
+    <string name="hint_edit">дважды коснитесь для редактирования</string>
+    <string name="hint_long_press">дважды коснитесь и удерживайте для долгого нажатия</string>
+    <string name="speed_normal">обычная</string>
+    <string name="speed_fast">быстрая</string>
+    <string name="speed_turbo">максимальная</string>
+    <string name="msg_speed_set">Скорость отклика: %1$s</string>
+    <string name="details_title">Подробность</string>
+    <string name="details_cat_preset">Уровень</string>
+    <string name="details_cat_speak">Что произносится</string>
+    <string name="details_cat_volume">Громкость</string>
+    <string name="pref_details_open">Подробность</string>
+    <string name="pref_details_open_summary">Тип кнопки и изображения, позиция в списке, подсказки, речь при изменении громкости</string>
+    <string name="det_type_btn">Произносить тип кнопки и изображения</string>
+    <string name="det_type_btn_summary">Если выключено, кнопки и изображения читаются только по названию.</string>
+    <string name="det_type">Произносить другие типы элементов</string>
+    <string name="det_type_summary">Списки, заголовки, ссылки, ползунки и т. д. Поля ввода, пароли и переключатели произносятся всегда.</string>
+    <string name="det_position">Произносить позицию в списке и таблице</string>
+    <string name="det_position_summary">Например: «3 из 10».</string>
+    <string name="det_hints">Произносить подсказки по использованию</string>
+    <string name="det_hints_summary">Например: «дважды коснитесь для активации».</string>
+    <string name="det_order">Порядок описания</string>
+    <string name="det_window_titles">Произносить заголовки окон</string>
+    <string name="det_window_titles_summary">При открытии нового окна или экрана произносится его название.</string>
+    <string name="det_screen_off">Говорить при выключенном экране</string>
+    <string name="det_screen_off_summary">Если выключено, при выключенном экране уведомления и автоматические сообщения не читаются.</string>
+    <string name="det_volume_keep">Не прерывать чтение при изменении громкости</string>
+    <string name="det_volume_keep_summary">Нажатие клавиш громкости не прерывает речь и не переносит фокус на панель громкости.</string>
+    <string name="pref_cat_speed">Ускорение</string>
+    <string name="pref_speed">Скорость отклика</string>
+    <string name="pref_speed_summary">Уменьшает замедления при перемещении и отклике. «Быстрая» — по умолчанию. «Максимальная» ещё сокращает ожидание, но некоторые строки без подписи читаются менее полно.</string>
+    <string name="pref_auto_translate">Автоперевод (на узбекский)</string>
+    <string name="pref_auto_translate_summary">Если язык текста узбекский (голосовой пакет или язык телефона узбекский), тексты на других языках определяются, переводятся на узбекский и читаются. Нужны онлайн-функции и ключ ИИ.</string>
+    <string name="pref_translate_script">Письменность перевода</string>
+    <string name="pref_two_finger">Передавать приложению свайпы двумя пальцами</string>
+    <string name="pref_two_finger_summary">Нужно для разблокировки экрана двумя пальцами. При значении «Всегда» случайное сведение пальцев может уменьшить экран в некоторых приложениях (например, Telegram).</string>
+    <string name="btn_details">Подробность</string>
+    <string name="auto_tr_btn_on">Автоперевод: включён. Нажмите, чтобы выключить</string>
+    <string name="auto_tr_btn_off">Автоперевод: выключен. Нажмите, чтобы включить</string>
+    <string name="auto_tr_dialog_title">Автоперевод</string>
+    <string name="auto_tr_need_key">Для автоперевода нужен ключ ИИ (Gemini, ChatGPT, Claude или другой). Открыть экран ввода ключа?</string>
+    <string name="auto_tr_open_ai">Открыть</string>
+    <string name="auto_tr_consent_message">При включённом автопереводе текст с экрана (кроме приватных приложений, полей паролей и кодов подтверждения) отправляется в выбранную вами службу ИИ. Онлайн-функции тоже включатся. Продолжить?</string>
+    <string name="pref_value_summary">Сейчас: %1$d процентов. Нажмите, чтобы ввести точное число или изменить на 1 процент</string>
+    <string name="pref_rate_step">Шаг скорости и высоты голоса для жестов</string>
+    <string name="number_dialog_hint">Значение от %1$d до %2$d процентов. Введите точное число или меняйте кнопками на 1 или 10 процентов.</string>
+    <string name="number_dialog_value">%1$d процентов</string>
+    <string name="number_dialog_minus">Уменьшить на %1$d процентов</string>
+    <string name="number_dialog_plus">Увеличить на %1$d процентов</string>
+    <string name="number_dialog_test">Прослушать</string>
+    <string name="number_dialog_default">Значение по умолчанию: %1$d процентов</string>
+    <string name="number_dialog_save">Сохранить</string>
+    <string name="number_dialog_cancel">Отмена</string>
+    <string name="msg_pitch_set">Высота голоса: %1$d процентов</string>
+    <string name="msg_no_text">Нет текста</string>
+    <string name="msg_text_start">Начало текста</string>
+    <string name="msg_text_end">Конец текста</string>
+    <string name="menu_reading_title">Выберите режим чтения</string>
+    <string name="menu_reading_current">%1$s, текущий</string>
+    <string-array name="rate_step_entries">
+        <item>1 процент</item>
+        <item>2 процента</item>
+        <item>5 процентов</item>
+        <item>10 процентов (по умолчанию)</item>
+        <item>20 процентов</item>
+    </string-array>
+
+    <!-- Слайдеры, эмодзи и стикеры, настройка меню -->
+    <string name="hint_adjust">проведите вверх или вниз, чтобы изменить значение</string>
+    <string name="details_cat_emoji">Эмодзи и стикеры</string>
+    <string name="det_emoji">Читать эмодзи</string>
+    <string name="det_emoji_summary">Если включено, эмодзи читаются по-узбекски. Если выключено, эмодзи не озвучиваются.</string>
+    <string name="det_stickers">Читать стикеры</string>
+    <string name="det_stickers_summary">Если включено, читается описание стикера. Если выключено, произносится только слово «стикер».</string>
+    <string name="sticker_word">стикер</string>
+    <string name="emoji_word">эмодзи</string>
+    <string name="pref_menu_editor">Настроить меню O\'zbegim</string>
+    <string name="pref_menu_editor_summary">Добавить или убрать пункты меню</string>
+    <string name="menu_editor_title">Настроить меню O\'zbegim</string>
+    <string name="menu_editor_intro">Выберите пункты, которые показываются в меню O\'zbegim (свайп вниз, затем вправо). Отмеченные пункты появляются в меню, неотмеченные — нет.</string>
+    <string name="menu_editor_reset">Вернуть список по умолчанию</string>
+    <string name="menu_settings_title">Разделы настроек O\'zbegim</string>
+
+    <!-- 0.9.4: телефонные номера и согласование с другим экранным диктором -->
+    <string name="details_cat_numbers">Числа</string>
+    <string name="det_phone">Читать телефонные номера по группам</string>
+    <string name="det_phone_summary">Если включено, узбекский номер читается как «+998. 94. 773. 99. 10.»: пауза после каждой группы, группы читаются как числа. Если выключено, номер читается обычным образом.</string>
+
+    <!-- 0.9.10 (v25): fan qisqartmalarini o'qish yoki o'qimaslik -->
+    <string name="details_cat_science">Сокращения наук</string>
+    <string name="det_sci_units">Читать единицы измерения</string>
+    <string name="det_sci_units_summary">Если включено, сокращения длины, массы, объёма, времени и температуры читаются словами по-узбекски: «5 kg» читается «besh kilogramm», «20 °C» читается «yigirma daraja». Если выключено, сокращение не произносится, читается только число.</string>
+    <string name="det_sci_physics">Читать сокращения физики</string>
+    <string name="det_sci_physics_summary">Если включено, физические единицы читаются словами: «220 V» читается «ikki yuz yigirma volt», «50 Hz» читается «ellik gers», а также N, J, W, A, Pa. Если выключено, сокращение не произносится.</string>
+    <string name="det_sci_math">Читать математические знаки</string>
+    <string name="det_sci_math_summary">Если включено, знаки читаются словами: «2+3=5» читается «ikki plyus uch teng besh», а также ×, ÷, √, π, ≤, ≥, x², sin, cos и греческие буквы. Если выключено, знаки не произносятся.</string>
+    <string name="det_sci_info">Читать сокращения информатики</string>
+    <string name="det_sci_info_summary">Если включено, сокращения вроде «250 MB», «100 Mbit/s» и «1080 px» читаются словами по-узбекски («ikki yuz ellik megabayt»). Если выключено, сокращение не произносится.</string>
+    <string name="pref_cat_other_reader">Другие экранные дикторы</string>
+    <string name="pref_yield_other">Уступать, когда включается другой экранный диктор</string>
+    <string name="pref_yield_other_summary">Если включено, когда запускается другой экранный диктор (например, TalkBack), O\'zbegim переходит в режим ожидания (не читает и не перехватывает жесты) и сообщает об этом. Когда другой диктор выключается, O\'zbegim сам начинает работу снова.</string>
+    <string name="msg_other_reader_started">Другой экранный диктор начал работу, я прекратил чтение экрана</string>
+    <string name="msg_other_reader_stopped">Я начал читать экран, потому что другой экранный диктор выключен</string>
+
+    <!-- 0.9.6 (v20): interfeysning qolgan qismi va yangi matnlar -->
+    <string name="btn_tts_settings">Открыть настройки синтеза речи</string>
+    <string name="btn_battery">Открыть настройки батареи</string>
+    <string name="btn_install_voice">Установить голосовые данные</string>
+    <string name="btn_share_log">Поделиться журналом</string>
+    <string name="btn_clear_log">Очистить журнал</string>
+    <string name="pref_cat_speech">Речь</string>
+    <string name="pref_cat_scripts">Язык и письмо</string>
+    <string name="pref_cat_privacy">Конфиденциальность</string>
+    <string name="pref_rate">Скорость речи (проценты)</string>
+    <string name="pref_pitch">Высота голоса (проценты)</string>
+    <string name="pref_script">Кириллица</string>
+    <string name="pref_new_latin">Обновлённая латиница: буквы Ş Ç Ö Ğ (читаются как sh, ch, o‘, g‘)</string>
+    <string name="pref_apostrophe">Вид апострофа (передаётся движку речи)</string>
+    <string name="pref_bridge">Языковой мост: читать английские и русские слова по-узбекски</string>
+    <string name="pref_private">Не читать конфиденциальные уведомления без наушников</string>
+    <string name="pref_private_summary">Сообщения с кодами подтверждения не читаются вслух через динамик.</string>
+    <string-array name="bridge_entries">
+        <item>Адаптация (чтение по-узбекски)</item>
+        <item>Выключено</item>
+    </string-array>
+    <string-array name="script_entries">
+        <item>Автоматически: переводит в латиницу, если движок не читает кириллицу</item>
+        <item>Всегда переводить в латиницу</item>
+        <item>Не изменять</item>
+    </string-array>
+    <string-array name="newlatin_entries">
+        <item>Автоматически: турецкий текст не трогает</item>
+        <item>Всегда читать по-узбекски</item>
+        <item>Не изменять</item>
+    </string-array>
+    <string-array name="apostrophe_entries">
+        <item>Обычный апостроф</item>
+        <item>Повёрнутая запятая</item>
+    </string-array>
+    <string name="msg_apps_failed">Не удалось открыть меню приложений</string>
+    <string name="health_ok">Хорошо</string>
+    <string name="health_problem">Проблема</string>
+    <string name="health_service_on">Служба O‘zbegim включена.</string>
+    <string name="health_service_off">Служба O‘zbegim не включена.</string>
+    <string name="health_no_net_ok">Приложение не запрашивает доступ к сети: данные не покидают устройство.</string>
+    <string name="health_no_net_bad">Приложение запрашивает доступ к сети. Это противоречит требованию 11.2 монографии.</string>
+    <string name="health_battery_ok">Ограничения экономии заряда батареи сняты.</string>
+    <string name="health_battery_bad">Режим экономии заряда может остановить службу. Откройте настройки кнопкой ниже.</string>
+    <string name="health_tts_engine">Речевой движок: %1$s.</string>
+    <string name="health_tts_lang_ok">Голос для узбекского языка доступен.</string>
+    <string name="health_tts_lang_missing">Нет голосовых данных для узбекского языка. Установите голосовые данные или выберите другой движок, например RHVoice.</string>
+    <string name="health_tts_lang_unsupported">Выбранный движок не поддерживает узбекский язык. Выберите другой движок, например RHVoice.</string>
+    <string name="health_tts_failed">Речевой движок не запустился.</string>
+    <string name="health_rhvoice_yes">RHVoice установлен.</string>
+    <string name="health_rhvoice_no">RHVoice не установлен. Он даёт офлайн-голос для узбекского языка; его можно установить из F-Droid или Google Play.</string>
+    <string name="health_latency_none">Задержка ещё не измерена. Пройдите по нескольким элементам и проверьте снова.</string>
+    <string name="health_latency">Задержка: в среднем %1$d, p95 — %2$d миллисекунд, измерений: %3$d. Цель: p95 не выше 150.</string>
+    <string name="health_crashes">Сбоев за последние десять минут: %1$d.</string>
+    <string name="log_title">Журнал ошибок</string>
+    <string name="log_empty">Журнал пуст.</string>
+    <string name="log_privacy">Отчёт не содержит текста с экрана: только типы событий и время.</string>
+    <string name="log_latency_header">Задержка: p50 — %1$d, p95 — %2$d миллисекунд, измерений: %3$d.</string>
+    <string name="log_silence_no_audio">тишина: речевой движок не ответил</string>
+    <string name="log_silence_recovered">речь восстановилась автоматически</string>
+    <string name="log_tts_init_failed">речевой движок не запустился</string>
+    <string name="log_tts_lang_missing">для выбранного языка не найден голос</string>
+    <string name="log_tts_engine_switched">речевой движок перезапущен или заменён</string>
+    <string name="log_tts_fallback_signal">вместо речи подан запасной сигнал</string>
+    <string name="log_tts_engine_error">речевой движок вернул ошибку</string>
+    <string name="log_latency_budget">превышен бюджет задержки: %1$s миллисекунд</string>
+    <string name="log_focus_node_failed">ошибка при описании элемента</string>
+    <string name="log_bridge_failed">языковой мост дал сбой, прочитан исходный текст</string>
+    <string name="log_crash_uncaught">приложение неожиданно остановилось</string>
+    <string name="log_user_marked">пользователь отметил проблему</string>
+    <string name="log_safe_mode">включён безопасный режим</string>
+    <string name="log_audio_focus_lost">потерян аудиофокус</string>
+    <string name="log_unknown">неизвестное событие</string>
+    <string name="btn_dictionary">Словарь произношения</string>
+    <string name="btn_labels">Свои подписи</string>
+    <string name="btn_profiles">Профили приложений</string>
+    <string name="btn_backup">Экспорт и импорт настроек</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_install_rhvoice">Установить RHVoice</string>
+    <string name="btn_open_rhvoice">Открыть приложение RHVoice</string>
+    <string name="btn_default_voice">Вернуться к голосу по умолчанию</string>
+    <string name="btn_reset_gestures">Вернуть жесты к исходным</string>
+    <string name="btn_export">Экспортировать (поделиться)</string>
+    <string name="btn_import">Импортировать (выбрать файл)</string>
+    <string name="btn_understood">Понятно</string>
+    <string name="btn_practice">Кнопка для упражнения</string>
+    <string name="help_dictionary">В каждой строке: слово=произношение (например: settings=setings). Для приложения: пакет|слово=произношение. Строка, начинающаяся с #, — комментарий. Неправильно прочитанное слово можно добавить и через меню: откройте меню (одно касание тремя пальцами или свайп вниз, затем вправо) и выберите «Добавить слово в словарь произношения».</string>
+    <string name="help_labels">В каждой строке: полный_id=подпись (например: com.app:id/send=Отправить). Если поставить фокус на элемент без подписи и сделать свайп влево, затем вниз, его идентификатор добавится сюда.</string>
+    <string name="help_profiles">В каждой строке: пакет=verbosity:short;echo:off;bridge:off;notify:off;chat:on;sensitive:on. verbosity: short, normal или full. Остальное: on или off. sensitive:on — для конфиденциальных приложений (банк, платежи): чёрный ящик не записывается, режим чата и копирование отключаются.</string>
+    <string name="voices_intro">Узбекские голоса устанавливаются через RHVoice: Islom, Dilnavoz и Sevinch. Сначала установите RHVoice, загрузите в нём узбекский голос, затем вернитесь сюда и выберите голос. Можно использовать и голосовые пакеты других речевых движков, установленных в телефоне: выберите движок ниже. Список составляется из голосов, которые даёт движок.</string>
+    <string name="voices_license">Лицензия: три голоса RHVoice распространяются на условиях CC BY-NC-SA 4.0, то есть только для некоммерческого использования. Поэтому они не включены в приложение.</string>
+    <string name="voices_none">Голос не найден. Установите RHVoice или голосовой пакет другого движка либо проверьте настройки синтеза речи.</string>
+    <string name="voice_listen">Прослушать: %1$s</string>
+    <string name="voice_choose">Выбрать: %1$s</string>
+    <string name="voice_saved">Голос сохранён</string>
+    <string name="voice_sample">Salom! Bu ovoz namunasi: shahar, choy, Ўзбекистон, Özbekiston, 2026-yil.</string>
+    <string name="rhvoice_missing">RHVoice не установлен.</string>
+    <string name="gestures_intro">Выберите действие для каждого жеста. При смене профиля личные изменения сбрасываются.</string>
+    <string name="gesture_profile">Профиль жестов</string>
+    <string name="profile_talkback">Как в TalkBack</string>
+    <string name="profile_voiceover">Как в VoiceOver</string>
+    <string name="pref_engine">Речевой движок</string>
+    <string name="pref_voices">Выбор голоса (Islom, Dilnavoz, Sevinch и загруженные голосовые пакеты)</string>
+    <string name="pref_verbosity">Уровень подробности</string>
+    <string name="pref_echo_mode">Озвучивание вводимого текста</string>
+    <string name="pref_mic">Речь при включённом микрофоне</string>
+    <string name="pref_earcons">Звуковые сигналы (тик, граница, окно)</string>
+    <string name="pref_gestures">Настроить жесты</string>
+    <string name="pref_cat_gestures">Управление</string>
+    <string name="lesson_exit">Сначала узнайте, как выйти. Нажмите и удерживайте обе кнопки громкости три секунды: O‘zbegim остановится. Сделайте так снова — он продолжит. Найдите кнопку «Понятно» и дважды коснитесь её.</string>
+    <string name="lesson_1">Упражнение 1. Проведите одним пальцем по экрану вправо.</string>
+    <string name="lesson_2">Упражнение 2. Проведите влево.</string>
+    <string name="lesson_3">Упражнение 3. Одним движением проведите вверх, затем вниз: режим чтения сменится.</string>
+    <string name="lesson_4">Упражнение 4. Коснитесь один раз двумя пальцами: речь остановится.</string>
+    <string name="lesson_5">Упражнение 5. Коснитесь один раз тремя пальцами: откроется меню O‘zbegim. Чтобы закрыть его, найдите кнопку «Закрыть» и дважды коснитесь её.</string>
+    <string name="lesson_6">Упражнение 6. Найдите кнопку для упражнения и дважды коснитесь её.</string>
+    <string name="lesson_ok">Верно.</string>
+    <string name="lesson_done">Молодец! Упражнения закончены.</string>
+    <string name="backup_intro">Настройки, жесты, словарь произношения, свои подписи и профили приложений сохраняются в один файл. Чтобы перенести их на другое устройство, импортируйте этот файл.</string>
+    <string name="backup_imported">Импортировано</string>
+    <string name="backup_failed">Файл не прочитан или его версия не подходит</string>
+    <string name="health_device">Устройство: Android %1$s, API %2$d, %3$s.</string>
+    <string name="health_return_talkback">Если возникла проблема: нажмите и удерживайте обе кнопки громкости три секунды или включите TalkBack в настройках специальных возможностей.</string>
+    <string-array name="engine_entries">
+        <item>Автоматически: системный движок, RHVoice, если нет узбекского</item>
+        <item>RHVoice</item>
+        <item>Только системный движок</item>
+        <item>Microsoft Azure: Madina, Sardor (онлайн, нужны интернет и ключ)</item>
+        <item>Выбранный мной движок (на экране «Голоса»: загруженный голосовой пакет)</item>
+    </string-array>
+    <string-array name="verbosity_entries">
+        <item>Низкая</item>
+        <item>Средняя</item>
+        <item>Высокая</item>
+        <item>Своя</item>
+    </string-array>
+    <string-array name="echo_entries">
+        <item>Буквы</item>
+        <item>Слова</item>
+        <item>Буквы и слова</item>
+        <item>Выключено</item>
+    </string-array>
+    <string-array name="mic_entries">
+        <item>Автоматические сообщения замолкают, нажатые вами читаются тихо</item>
+        <item>Всё читается тихо</item>
+        <item>Без изменений</item>
+    </string-array>
+    <string name="log_slow_handler">Медленная обработка: %1$s (%2$s), %3$s мс</string>
+    <string name="pref_cat_online">Онлайн-функции (необязательно)</string>
+    <string name="pref_online">Включить онлайн-функции</string>
+    <string name="pref_online_summary">Для голосов Microsoft, перевода и описаний с помощью ИИ. По умолчанию выключено: пока вы не включите, в сеть ничего не отправляется.</string>
+    <string name="pref_azure_key">Ключ Microsoft Azure Speech</string>
+    <string name="pref_azure_region">Регион Azure Speech (например, westeurope)</string>
+    <string name="pref_azure_voice">Голос Microsoft</string>
+    <string name="pref_azure_quality">Качество голоса Microsoft</string>
+    <string name="pref_ai_key">Ключ API Claude (Anthropic)</string>
+    <string name="pref_ai_model">Модель Claude (для перевода и описаний)</string>
+    <string name="pref_translate_to">Язык перевода</string>
+    <string name="pref_secret_empty">Ключ не введён</string>
+    <string name="pref_secret_saved">Ключ сохранён (в зашифрованном виде)</string>
+    <string name="online_consent_title">Включить онлайн-функции?</string>
+    <string name="online_consent_message">Если включить: при выборе голоса Microsoft произносимый текст отправляется на сервер Microsoft Azure. При выполнении жеста перевода или описания экрана текст в фокусе или снимок экрана отправляется на сервер выбранной службы ИИ (Gemini, ChatGPT, Claude или другой указанной вами службы). В банковских и других конфиденциальных приложениях, а также для паролей и кодов ничего не отправляется. Ключи хранятся на устройстве в зашифрованном виде. При обрыве сети голос возвращается к локальному движку.</string>
+    <string name="btn_online_accept">Согласен, включить</string>
+    <string name="azure_voices_intro">Голоса Microsoft (онлайн): нужны интернет и ключ Azure Speech (Настройки, Онлайн-функции). Качество: 48 кГц. При обрыве сети голос автоматически переключается на локальный движок.</string>
+    <string name="azure_voice_saved">Выбран голос Microsoft: %1$s</string>
+    <string name="btn_back_to_local">Вернуться к локальному голосу</string>
+    <string name="local_voice_restored">Выбран локальный голос</string>
+    <string name="health_online_off">Онлайн-функции выключены: данные не покидают устройство.</string>
+    <string name="health_online_on">Онлайн-функции включены: текст или изображение отправляется во внешнюю службу только по вашему выбору.</string>
+    <string name="health_azure_key_yes">Ключ Microsoft Azure введён.</string>
+    <string name="health_azure_key_no">Ключ Microsoft Azure не введён.</string>
+    <string name="health_ai_key_yes">Ключ ИИ введён.</string>
+    <string name="health_ai_key_no">Ключ ИИ не введён.</string>
+    <string name="log_online_failed">Онлайн-голос Microsoft не смог произнести текст (%1$s); переключено на локальный голос.</string>
+    <string name="log_ai_failed">Онлайн-запрос не выполнен (%1$s).</string>
+    <string-array name="azure_voice_entries">
+        <item>Madina (узбекский, женский)</item>
+        <item>Sardor (узбекский, мужской)</item>
+        <item>Светлана (русский, женский)</item>
+        <item>Дмитрий (русский, мужской)</item>
+        <item>Jenny (английский, женский)</item>
+        <item>Guy (английский, мужской)</item>
+    </string-array>
+    <string-array name="azure_quality_entries">
+        <item>48 кГц, 192 кбит/с (высокое качество, рекомендуется)</item>
+        <item>48 кГц, 96 кбит/с (меньше трафика)</item>
+    </string-array>
+    <string-array name="translate_from_entries">
+        <item>Автоматически</item>
+        <item>Узбекский</item>
+        <item>Русский</item>
+        <item>Английский</item>
+        <item>Турецкий</item>
+        <item>Арабский</item>
+        <item>Персидский</item>
+        <item>Таджикский</item>
+        <item>Казахский</item>
+        <item>Киргизский</item>
+        <item>Туркменский</item>
+        <item>Китайский</item>
+        <item>Корейский</item>
+        <item>Японский</item>
+        <item>Немецкий</item>
+        <item>Французский</item>
+        <item>Испанский</item>
+        <item>Итальянский</item>
+    </string-array>
+    <string-array name="translate_entries">
+        <item>Узбекский</item>
+        <item>Узбекский (кириллица)</item>
+        <item>Русский</item>
+        <item>Английский</item>
+        <item>Турецкий</item>
+        <item>Арабский</item>
+        <item>Персидский</item>
+        <item>Таджикский</item>
+        <item>Казахский</item>
+        <item>Киргизский</item>
+        <item>Туркменский</item>
+        <item>Китайский</item>
+        <item>Корейский</item>
+        <item>Японский</item>
+        <item>Немецкий</item>
+        <item>Французский</item>
+        <item>Испанский</item>
+        <item>Итальянский</item>
+    </string-array>
+    <string-array name="typing_entries">
+        <item>Стандартный: буква вводится двойным касанием</item>
+        <item>Ввод касанием: буква вводится, когда палец поднят</item>
+    </string-array>
+    <string name="btn_ai">ИИ и онлайн-функции</string>
+    <string name="ai_settings_title">ИИ и онлайн-функции</string>
+    <string name="pref_ai_open">ИИ и онлайн-функции (Gemini, ChatGPT, Claude, голос Microsoft)</string>
+    <string name="pref_ai_open_summary">Введите ключи и включите онлайн-функции</string>
+    <string name="pref_ai_provider">Служба ИИ</string>
+    <string name="pref_cat_ai_keys">Ключи ИИ</string>
+    <string name="pref_cat_azure">Голос Microsoft (Azure Speech)</string>
+    <string name="pref_gemini_key">Ключ Gemini (Google)</string>
+    <string name="pref_gemini_model">Модель Gemini</string>
+    <string name="pref_openai_key">Ключ ChatGPT (OpenAI)</string>
+    <string name="pref_openai_model">Модель ChatGPT</string>
+    <string name="pref_custom_url">Адрес другой службы (https, например: https://openrouter.ai/api/v1)</string>
+    <string name="pref_custom_key">Ключ другой службы</string>
+    <string name="pref_custom_model">Модель другой службы</string>
+    <string-array name="ai_provider_entries">
+        <item>Автоматически (первая, для которой введён ключ)</item>
+        <item>Claude (Anthropic)</item>
+        <item>Gemini (Google)</item>
+        <item>ChatGPT (OpenAI)</item>
+        <item>Другая (служба, совместимая с OpenAI)</item>
+    </string-array>
+    <string name="pref_cat_translate">Перевод</string>
+    <string name="pref_translate_from">Исходный язык</string>
+    <string name="pref_translate_info_title">О переводе</string>
+    <string name="pref_translate_info">Если исходный язык «Автоматически», служба сама определяет язык текста. Язык перевода по умолчанию — узбекский. Перевод выполняется через онлайн-службу: включите онлайн-функции и введите ключ ИИ. Жест: двойное касание двумя пальцами с удержанием или «Перевести» в меню O‘zbegim.</string>
+    <string name="pref_typing">Режим клавиатуры</string>
+    <string name="health_multifinger_ok">Жесты двумя, тремя и четырьмя пальцами поддерживаются.</string>
+    <string name="health_multifinger_no">В этой версии Android нет жестов двумя, тремя и четырьмя пальцами (нужен Android 10 или новее). Жесты одним пальцем работают.</string>
+    <string-array name="det_order_entries">
+        <item>Название, тип, состояние</item>
+        <item>Тип, название, состояние</item>
+        <item>Состояние, название, тип</item>
+    </string-array>
+    <string-array name="speed_entries">
+        <item>Обычная</item>
+        <item>Быстрая</item>
+        <item>Самая быстрая</item>
+    </string-array>
+    <string-array name="translate_script_entries">
+        <item>Узбекская латиница (текущая)</item>
+        <item>Узбекская кириллица</item>
+        <item>Новый алфавит (Ş Ç Ö Ğ)</item>
+    </string-array>
+    <string-array name="two_finger_entries">
+        <item>Только на экране блокировки (рекомендуется)</item>
+        <item>Всегда</item>
+        <item>Выключено</item>
+    </string-array>
+    <string name="menu_reorder_item">Изменить порядок меню</string>
+    <string name="menu_reorder_pick_title">Порядок меню. Выберите пункт для перемещения</string>
+    <string name="menu_reorder_row">%1$d. %2$s</string>
+    <string name="menu_reorder_current">%1$s (текущее место)</string>
+    <string name="menu_reorder_add">Добавить пункт в меню</string>
+    <string name="menu_reorder_remove">Убрать пункт из меню</string>
+    <string name="menu_reorder_drop_title">«%1$s» сейчас на месте %2$d. Выберите новое место</string>
+    <string name="menu_reorder_moved">«%1$s» перемещён на место %2$d</string>
+    <string name="menu_reorder_removed">«%1$s» убран из меню</string>
+    <string name="menu_reorder_last_item">В меню должен остаться хотя бы один пункт</string>
+    <string name="menu_add_title">Выберите пункт для добавления в меню</string>
+    <string name="menu_add_done">«%1$s» добавлен в меню на место %2$d</string>
+    <string name="menu_add_none">Не осталось пунктов для добавления</string>
+    <string name="menu_editor_order_hint">Чтобы изменить порядок: откройте меню O‘zbegim (свайп вниз, затем вправо) и выберите последний пункт либо долго нажмите на любой пункт. Пункты можно убирать и добавлять там же.</string>
+    <string name="voices_engine_now">Движок списка голосов: %1$s</string>
+    <string name="voices_engines_intro">Другие речевые движки, установленные в телефоне (загруженные голосовые пакеты). Если выбрать один из них, его голоса появятся ниже; выбрав голос, вы заставите O‘zbegim говорить этим пакетом. Текст по-прежнему готовится по собственным правилам O‘zbegim.</string>
+    <string name="engine_choose">Выбрать движок: %1$s</string>
+    <string name="voices_show_all">Показать голоса на всех языках</string>
+    <string name="voices_show_uz">Показать только узбекские голоса</string>
+    <string name="voice_reads_intro">Какое письмо умеет читать выбранный голосовой пакет? Если пакет одинаково читает кириллицу и латиницу, кириллический текст не меняется; если только латиницу, кириллица переводится в латиницу. В обоих случаях числа, римские цифры, телефонные номера и буквы новой латиницы читаются по собственным правилам O‘zbegim. Для проверки сначала нажмите «Прослушать».</string>
+    <string name="voice_reads_auto">Письмо голоса: автоматически (по движку)</string>
+    <string name="voice_reads_latin">Письмо голоса: читает только латиницу</string>
+    <string name="voice_reads_both">Письмо голоса: читает латиницу и кириллицу</string>
+    <string name="pref_voice_reads">Письмо, которое читает голосовой пакет</string>
+    <string-array name="voice_reads_entries">
+        <item>Автоматически: по движку (RHVoice читает оба письма, остальные — латиницу)</item>
+        <item>Только латиница: кириллица переводится в латиницу</item>
+        <item>Латиница и кириллица: кириллица не меняется</item>
+    </string-array>
+    <string name="det_sticker_short">Читать стикеры кратко</string>
+    <string name="det_sticker_short_summary">Если включено, произносится только слово «стикер» и первое эмодзи, а не полное описание. Работает, когда включено «Читать стикеры».</string>
+    <string name="act_click">Нажать</string>
+    <string name="act_long_click">Долгое нажатие</string>
+    <string name="act_scroll_forward">Прокрутить вперёд</string>
+    <string name="act_scroll_backward">Прокрутить назад</string>
+    <string name="act_value_up">Увеличить значение</string>
+    <string name="act_value_down">Уменьшить значение</string>
+    <string name="act_expand">Развернуть</string>
+    <string name="act_collapse">Свернуть</string>
+    <string name="act_dismiss">Закрыть</string>
+    <string name="act_copy">Копировать</string>
+    <string name="act_cut">Вырезать</string>
+    <string name="act_paste">Вставить</string>
+    <string name="act_context_click">Контекстное меню</string>
+    <string name="act_show_on_screen">Показать на экране</string>
+    <string name="act_scroll_up">Прокрутить вверх</string>
+    <string name="act_scroll_down">Прокрутить вниз</string>
+    <string name="act_scroll_left">Прокрутить влево</string>
+    <string name="act_scroll_right">Прокрутить вправо</string>
+    <string name="quirk_xiaomi">Xiaomi, Redmi, POCO: установите для приложения режим батареи «Без ограничений» и разрешите автозапуск, иначе система может остановить службу.</string>
+    <string name="quirk_huawei">Huawei и Honor: переведите приложение на ручное управление (автозапуск и работа в фоне включены). Если нет служб Google, установите RHVoice для узбекского голоса.</string>
+    <string name="quirk_oppo">OPPO, Realme, OnePlus: отключите оптимизацию батареи и разрешите автозапуск.</string>
+    <string name="quirk_vivo">vivo, iQOO: разрешите работу в фоне и отключите ограничение высокого энергопотребления.</string>
+    <string name="quirk_samsung">Samsung: в настройках батареи не добавляйте O‘zbegim в список спящих приложений. Собственный экранный диктор Samsung называется Voice Assistant.</string>
+    <string name="quirk_tecno">Tecno, Infinix, itel: разрешите автозапуск в диспетчере телефона и отключите ограничение батареи.</string>
+    <string name="ga_none">Ничего</string>
+    <string name="ga_next">Следующий элемент (по выбранному режиму чтения)</string>
+    <string name="ga_prev">Предыдущий элемент (по выбранному режиму чтения)</string>
+    <string name="ga_next_item">Следующий элемент (независимо от режима)</string>
+    <string name="ga_prev_item">Предыдущий элемент (независимо от режима)</string>
+    <string name="ga_mode_next">Следующий режим</string>
+    <string name="ga_mode_prev">Предыдущий режим</string>
+    <string name="ga_first_item">Перейти к первому элементу</string>
+    <string name="ga_jump_last">Перейти к последнему элементу</string>
+    <string name="ga_next_window">Перейти к следующему окну</string>
+    <string name="ga_prev_window">Перейти к предыдущему окну</string>
+    <string name="ga_activate">Активировать (нажать)</string>
+    <string name="ga_long_press">Долгое нажатие</string>
+    <string name="ga_value_up">Увеличить значение ползунка</string>
+    <string name="ga_value_down">Уменьшить значение ползунка</string>
+    <string name="ga_back">Назад</string>
+    <string name="ga_home">Главный экран</string>
+    <string name="ga_recents">Недавние приложения</string>
+    <string name="ga_open_apps">Открыть меню приложений</string>
+    <string name="ga_notifications">Уведомления</string>
+    <string name="ga_quick_settings">Быстрые настройки</string>
+    <string name="ga_lock_screen">Заблокировать экран</string>
+    <string name="ga_screenshot">Сделать снимок экрана</string>
+    <string name="ga_power_dialog">Меню выключения</string>
+    <string name="ga_split_screen">Разделить экран</string>
+    <string name="ga_media_play_pause">Медиа: воспроизвести или приостановить</string>
+    <string name="ga_scroll_fwd">Прокрутить вниз</string>
+    <string name="ga_scroll_back">Прокрутить вверх</string>
+    <string name="ga_scroll_left">Прокрутить влево</string>
+    <string name="ga_scroll_right">Прокрутить вправо</string>
+    <string name="ga_screen_swipe_up">Провести по экрану вверх (разблокировка)</string>
+    <string name="ga_screen_swipe_down">Провести по экрану вниз</string>
+    <string name="ga_screen_swipe_left">Провести по экрану влево</string>
+    <string name="ga_screen_swipe_right">Провести по экрану вправо</string>
+    <string name="ga_select_all">Выбрать всё</string>
+    <string name="ga_copy_text">Копировать текст</string>
+    <string name="ga_cut_text">Вырезать текст</string>
+    <string name="ga_paste_text">Вставить текст</string>
+    <string name="ga_stop_speech">Остановить речь</string>
+    <string name="ga_speed_up">Ускорить речь</string>
+    <string name="ga_speed_down">Замедлить речь</string>
+    <string name="ga_read_from_top">Непрерывное чтение с начала</string>
+    <string name="ga_read_from_next">Непрерывное чтение со следующего элемента</string>
+    <string name="ga_repeat_last">Повторить последнее произнесённое</string>
+    <string name="ga_copy_last">Копировать последнее произнесённое</string>
+    <string name="ga_save_audio">Сохранить последний прочитанный текст в MP3</string>
+    <string name="ga_status">Время и батарея</string>
+    <string name="ga_curtain">Шторка экрана</string>
+    <string name="ga_global_menu">Меню O‘zbegim</string>
+    <string name="ga_actions_menu">Меню действий элемента</string>
+    <string name="ga_screen_search">Поиск на экране</string>
+    <string name="ga_translate">Перевести (текст в фокусе)</string>
+    <string name="ga_auto_translate">Включить или выключить автоперевод</string>
+    <string name="ga_describe_screen">Описать экран с помощью ИИ</string>
+    <string name="ga_describe_image">Описать изображение</string>
+    <string name="ga_links_menu">Перейти к доступным ссылкам</string>
+    <string name="ga_explain_bridge">Как слово было на самом деле</string>
+    <string name="ga_add_word">Добавить слово в словарь произношения</string>
+    <string name="ga_add_label">Добавить подпись элементу</string>
+    <string name="ga_call_answer">Ответить на звонок</string>
+    <string name="ga_call_end">Завершить звонок</string>
+    <string name="ga_call_speaker">Включить или выключить громкую связь</string>
+    <string name="ga_read_private">Прочитать конфиденциальное сообщение</string>
+    <string name="ga_mark_problem">Отметить проблему</string>
+    <string name="ga_practice">Упражнения с жестами</string>
+    <string name="ga_open_settings">Настройки O‘zbegim</string>
+    <string name="ga_tts_settings">Настройки преобразования текста в речь</string>
+    <string name="ga_system_actions">Системные действия</string>
+    <string name="ga_details_menu">Меню подробности</string>
+    <string name="ga_speed_mode">Переключить режим скорости отклика</string>
+    <string name="ga_suspend">Приостановить или продолжить</string>
+    <string name="ga_settings_menu">Разделы настроек O‘zbegim (список)</string>
+    <string name="ga_open_voices">Настройки голосов</string>
+    <string name="ga_open_gestures">Настроить жесты</string>
+    <string name="ga_open_details">Настройки подробности</string>
+    <string name="ga_open_ai">Настройки ИИ и онлайн-функций</string>
+    <string name="ga_open_backup">Экспорт и импорт настроек</string>
+    <string name="ga_open_health">Проверка системы</string>
+    <string name="ga_open_log">Журнал ошибок</string>
+    <string name="ga_open_menu_editor">Настроить меню O‘zbegim</string>
+    <string name="ga_next_char">Следующий символ</string>
+    <string name="ga_prev_char">Предыдущий символ</string>
+    <string name="ga_next_word">Следующее слово</string>
+    <string name="ga_prev_word">Предыдущее слово</string>
+    <string name="ga_next_line">Следующая строка (предложение)</string>
+    <string name="ga_prev_line">Предыдущая строка (предложение)</string>
+    <string name="ga_next_para">Следующий абзац</string>
+    <string name="ga_prev_para">Предыдущий абзац</string>
+    <string name="ga_spell_focused">Прочитать по буквам текст в фокусе</string>
+    <string name="ga_spell_last">Прочитать по буквам последнее произнесённое</string>
+    <string name="ga_reading_menu">Меню выбора режима чтения</string>
+    <string name="ga_pitch_up">Повысить высоту голоса</string>
+    <string name="ga_pitch_down">Понизить высоту голоса</string>
+    <string name="gi_swipe_right">Один палец: свайп вправо</string>
+    <string name="gi_swipe_left">Один палец: свайп влево</string>
+    <string name="gi_swipe_up">Один палец: свайп вверх</string>
+    <string name="gi_swipe_down">Один палец: свайп вниз</string>
+    <string name="gi_swipe_up_and_left">Вверх, затем влево</string>
+    <string name="gi_swipe_up_and_right">Вверх, затем вправо</string>
+    <string name="gi_swipe_up_and_down">Вверх, затем вниз</string>
+    <string name="gi_swipe_down_and_left">Вниз, затем влево</string>
+    <string name="gi_swipe_down_and_right">Вниз, затем вправо</string>
+    <string name="gi_swipe_down_and_up">Вниз, затем вверх</string>
+    <string name="gi_swipe_left_and_up">Влево, затем вверх</string>
+    <string name="gi_swipe_left_and_down">Влево, затем вниз</string>
+    <string name="gi_swipe_left_and_right">Влево, затем вправо</string>
+    <string name="gi_swipe_right_and_up">Вправо, затем вверх</string>
+    <string name="gi_swipe_right_and_down">Вправо, затем вниз</string>
+    <string name="gi_swipe_right_and_left">Вправо, затем влево</string>
+    <string name="gi_2_finger_single_tap">Два пальца: одно касание</string>
+    <string name="gi_2_finger_double_tap">Два пальца: двойное касание</string>
+    <string name="gi_2_finger_triple_tap">Два пальца: тройное касание</string>
+    <string name="gi_2_finger_double_tap_and_hold">Два пальца: двойное касание с удержанием</string>
+    <string name="gi_2_finger_swipe_up">Два пальца: свайп вверх</string>
+    <string name="gi_2_finger_swipe_down">Два пальца: свайп вниз</string>
+    <string name="gi_2_finger_swipe_left">Два пальца: свайп влево</string>
+    <string name="gi_2_finger_swipe_right">Два пальца: свайп вправо</string>
+    <string name="gi_3_finger_single_tap">Три пальца: одно касание</string>
+    <string name="gi_3_finger_double_tap">Три пальца: двойное касание</string>
+    <string name="gi_3_finger_triple_tap">Три пальца: тройное касание</string>
+    <string name="gi_3_finger_single_tap_and_hold">Три пальца: одно касание с удержанием</string>
+    <string name="gi_3_finger_double_tap_and_hold">Три пальца: двойное касание с удержанием</string>
+    <string name="gi_3_finger_swipe_up">Три пальца: свайп вверх</string>
+    <string name="gi_3_finger_swipe_down">Три пальца: свайп вниз</string>
+    <string name="gi_3_finger_swipe_left">Три пальца: свайп влево</string>
+    <string name="gi_3_finger_swipe_right">Три пальца: свайп вправо</string>
+    <string name="gi_4_finger_single_tap">Четыре пальца: одно касание</string>
+    <string name="gi_4_finger_double_tap">Четыре пальца: двойное касание</string>
+    <string name="gi_4_finger_triple_tap">Четыре пальца: тройное касание</string>
+    <string name="gi_4_finger_swipe_up">Четыре пальца: свайп вверх</string>
+    <string name="gi_4_finger_swipe_down">Четыре пальца: свайп вниз</string>
+    <string name="gi_4_finger_swipe_left">Четыре пальца: свайп влево</string>
+    <string name="gi_4_finger_swipe_right">Четыре пальца: свайп вправо</string>
+    <string name="details_time_battery">Время и батарея</string>
+    <string name="details_time_battery_summary">Объявление времени каждые 30 или 60 минут и уровня заряда батареи</string>
+    <string name="tb_title">Время и батарея</string>
+    <string name="tb_cat_time">Объявление времени</string>
+    <string name="tb_time_mode">Объявлять время автоматически</string>
+    <string-array name="tb_time_mode_entries">
+        <item>Выключено</item>
+        <item>Каждые 30 минут</item>
+        <item>Каждые 60 минут</item>
+    </string-array>
+    <string name="tb_time_format">Формат времени</string>
+    <string-array name="tb_time_format_entries">
+        <item>24-часовой</item>
+        <item>12-часовой</item>
+    </string-array>
+    <string name="tb_time_style">Стиль чтения времени</string>
+    <string-array name="tb_time_style_entries">
+        <item>Первый пример: «Время одиннадцать, после одиннадцати прошло тридцать минут»</item>
+        <item>Второй пример: «Время одиннадцать, одиннадцать тридцать»</item>
+    </string-array>
+    <string name="tb_time_busy">Если во время объявления читается текст</string>
+    <string-array name="tb_time_busy_entries">
+        <item>Дождаться конца чтения, затем объявить</item>
+        <item>Прервать чтение и объявить сразу</item>
+    </string-array>
+    <string name="tb_exact">Разрешение объявлять в точное время</string>
+    <string name="tb_exact_on">Разрешено: объявление звучит в точное время</string>
+    <string name="tb_exact_off">Не разрешено: при выключенном экране объявление может немного запоздать. Нажмите, чтобы дать разрешение</string>
+    <string name="tb_time_test">Объявить время сейчас</string>
+    <string name="tb_cat_battery">Объявление заряда батареи</string>
+    <string name="tb_battery_mode">Объявлять заряд батареи автоматически</string>
+    <string-array name="tb_battery_mode_entries">
+        <item>Выключено</item>
+        <item>При каждом изменении на 10 процентов</item>
+        <item>С заданным мной шагом в процентах</item>
+    </string-array>
+    <string name="tb_battery_step">Шаг в процентах (ползунок)</string>
+    <string name="tb_battery_step_summary">Объявляется, когда заряд меняется на столько процентов. Если задать шаг, объявление заряда включится автоматически.</string>
+    <string name="tb_battery_step_exact">Ввести точный шаг в процентах</string>
+    <string name="tb_battery_step_exact_summary">Текущий шаг (проценты): %1$d. Нажмите, чтобы ввести точное число</string>
+    <string name="tb_battery_test">Объявить состояние батареи сейчас</string>
+    <string name="tb_say_12">%1$s, %2$s</string>
+    <string name="tb_say_past">Время %1$s, %3$s минут после %2$s</string>
+    <string name="tb_say_digital">Время %1$s, %2$s</string>
+    <string name="tb_say_part">%1$s, %2$s</string>
+    <string name="tb_battery_custom_on">Объявление заряда включено: каждые %1$d процентов</string>
+    <string name="tb_part_night">Ночью</string>
+    <string name="tb_part_dawn">На рассвете</string>
+    <string name="tb_part_morning">Утром</string>
+    <string name="tb_part_day">Днём</string>
+    <string name="tb_part_evening">Вечером</string>
+    <string name="msg_audio_none">Нет прочитанного текста для сохранения</string>
+    <string name="msg_audio_sensitive">Текст, прочитанный в конфиденциальном приложении, не уходит в сеть, поэтому не сохранён</string>
+    <string name="msg_audio_need_online">Сохранение в MP3 работает только с голосами Microsoft. В настройках голосов выберите Madina или Sardor и включите онлайн-функции</string>
+    <string name="msg_audio_saving">MP3 готовится</string>
+    <string name="msg_audio_saved">MP3 сохранён. Имя файла: %1$s. Папка: %2$s</string>
+    <string name="msg_audio_truncated">Текст длинный, поэтому сохранены только первые %1$d символов.</string>
+    <string name="msg_audio_auth">MP3 не сохранён: ключ Azure отклонён</string>
+    <string name="msg_audio_failed">MP3 не сохранён. Проверьте интернет и попробуйте снова</string>
+    <string name="details_cat_input">Нажатия и навигация</string>
+    <string name="pref_double_tap">Кто выполняет двойное касание</string>
+    <string-array name="double_tap_entries">
+        <item>O‘zbegim выполняет (рекомендуется)</item>
+        <item>Выполняет система Android</item>
+    </string-array>
+    <string name="pref_skip_unlabeled">Пропускать кнопки без подписи в мессенджерах</string>
+    <string name="pref_skip_unlabeled_summary">В приложениях вроде Telegram не останавливается на невидимых кнопках без текста, описания и подписи внутри</string>
+    <string name="secrets_unavailable">Защищённое хранилище ключей устройства (Android Keystore) не работает, поэтому ключ не сохранён. Ключи никогда не хранятся открытым текстом. Перезагрузите устройство и повторите попытку или воспользуйтесь другим устройством.</string>
+    <string name="health_keystore_ok">Хранилище ключей (Android Keystore) работает</string>
+    <string name="health_keystore_bad">Хранилище ключей (Android Keystore) не работает: ключи API не сохранятся. Перезагрузите устройство или попробуйте на другом</string>
+    <string name="details_cat_language">Язык текста</string>
+    <string name="det_lang">Язык текста</string>
+    <string name="det_lang_about">О языке текста</string>
+    <string name="det_lang_summary">Чтобы числа, даты, суммы, научные сокращения и эмодзи читались по-узбекски, язык текста должен быть узбекским. Автоматически: язык выбранного голосового пакета, а если голос не выбран, язык системы. Текст на другом языке не изменяется: его читает сам голосовой движок.</string>
+    <string-array name="det_lang_entries">
+        <item>Автоматически (голосовой пакет или язык системы)</item>
+        <item>Язык системы</item>
+        <item>Всегда узбекский</item>
+        <item>Другой язык (читает голосовой движок)</item>
+    </string-array>
+</resources>
